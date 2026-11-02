@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Kotoba &amp; Kanji</string>
+    <string name="widget_description">Kanji atau kotoba baru setiap 4 jam</string>
+    <string name="widget_refresh">Tampilkan yang lain</string>
+    <string name="widget_loading">Memuat data…</string>
 </resources>
