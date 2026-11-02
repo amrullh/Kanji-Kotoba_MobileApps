@@ -1,6 +1,7 @@
 package com.amr.kanjikotoba.ui
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -249,10 +250,19 @@ private fun RowScope.RatingButton(
 ) {
     Button(
         onClick = onClick,
-        modifier = Modifier.weight(1f),
-        shape = RoundedCornerShape(10.dp),
-        colors = ButtonDefaults.buttonColors(containerColor = color)
+        modifier = Modifier
+            .weight(1f)
+            .height(46.dp),
+        shape = RoundedCornerShape(12.dp),
+        colors = ButtonDefaults.buttonColors(containerColor = color),
+        contentPadding = PaddingValues(horizontal = 2.dp, vertical = 0.dp)
     ) {
-        Text(label, fontSize = 13.sp, fontWeight = FontWeight.Medium)
+        Text(
+            text = label,
+            fontSize = 12.sp,
+            fontWeight = FontWeight.Medium,
+            maxLines = 1,
+            textAlign = TextAlign.Center
+        )
     }
 }

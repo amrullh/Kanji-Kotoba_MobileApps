@@ -2,16 +2,19 @@ package com.amr.kanjikotoba.ui
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
@@ -29,6 +32,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.amr.kanjikotoba.data.KanjiEntry
@@ -53,8 +57,15 @@ fun KanjiListScreen(onSpeak: (String) -> Unit, onOpen: (KanjiEntry) -> Unit) {
             LevelChip("N5", levelFilter == "N5") { levelFilter = "N5" }
             LevelChip("N4", levelFilter == "N4") { levelFilter = "N4" }
         }
-        LazyColumn(modifier = Modifier.fillMaxSize()) {
-            items(visible, key = { it.kanji }) { entry ->
+        LazyVerticalGrid(
+            columns = GridCells.Fixed(3),
+            modifier = Modifier.fillMaxSize(),
+            contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp),
+            horizontalArrangement = Arrangement.spacedBy(10.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp)
+        ) {
+            items(visible.size, key = { visible[it].kanji }) { index ->
+                val entry = visible[index]
                 KanjiCard(entry = entry, onSpeak = onSpeak, onOpen = onOpen)
             }
         }
@@ -71,8 +82,25 @@ fun KotobaListScreen(onSpeak: (String) -> Unit, onOpen: (Word) -> Unit) {
             item(key = "header_${theme.title}") {
                 SectionHeader(theme.title, theme.words.size)
             }
-            items(theme.words, key = { it.surface }) { word ->
-                WordCard(word = word, onSpeak = onSpeak, onOpen = onOpen)
+            item(key = "grid_${theme.title}") {
+                LazyVerticalGrid(
+                    columns = GridCells.Fixed(3),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(((theme.words.size + 2) / 3 * 108).dp),
+                    contentPadding = PaddingValues(horizontal = 16.dp),
+                    horizontalArrangement = Arrangement.spacedBy(10.dp),
+                    verticalArrangement = Arrangement.spacedBy(10.dp),
+                    userScrollEnabled = false
+                ) {
+                    items(theme.words.size, key = { theme.words[it].surface }) { index ->
+                        val word = theme.words[index]
+                        WordCard(word = word, onSpeak = onSpeak, onOpen = onOpen)
+                    }
+                }
+            }
+            item(key = "space_${theme.title}") {
+                Spacer(modifier = Modifier.height(10.dp))
             }
         }
     }
@@ -100,37 +128,24 @@ fun WordCard(word: Word, onSpeak: (String) -> Unit, onOpen: (Word) -> Unit) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 16.dp, vertical = 5.dp)
+            .aspectRatio(0.85f)
             .clickable { onOpen(word) },
-        shape = RoundedCornerShape(18.dp),
+        shape = RoundedCornerShape(16.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
     ) {
-        Row(
-            modifier = Modifier.padding(16.dp),
-            verticalAlignment = Alignment.CenterVertically
+        Box(
+            modifier = Modifier.fillMaxSize(),
+            contentAlignment = Alignment.Center
         ) {
-            Column(modifier = Modifier.weight(1f)) {
-                Text(
-                    text = word.surface,
-                    fontSize = 22.sp,
-                    fontWeight = FontWeight.SemiBold,
-                    color = MaterialTheme.colorScheme.onSurface
-                )
-                Spacer(modifier = Modifier.height(2.dp))
-                Text(
-                    text = word.reading,
-                    fontSize = 13.sp,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
-                Spacer(modifier = Modifier.height(6.dp))
-                Text(
-                    text = word.meaning,
-                    fontSize = 14.sp,
-                    color = MaterialTheme.colorScheme.primary
-                )
-            }
-            Spacer(modifier = Modifier.width(8.dp))
-            SpeakButton(word.surface, onSpeak)
+            Text(
+                text = word.surface,
+                fontSize = 18.sp,
+                fontWeight = FontWeight.SemiBold,
+                color = MaterialTheme.colorScheme.onSurface,
+                textAlign = TextAlign.Center,
+                modifier = Modifier.padding(horizontal = 6.dp),
+                maxLines = 2
+            )
         }
     }
 }
@@ -140,46 +155,22 @@ fun KanjiCard(entry: KanjiEntry, onSpeak: (String) -> Unit, onOpen: (KanjiEntry)
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 16.dp, vertical = 5.dp)
+            .aspectRatio(0.85f)
             .clickable { onOpen(entry) },
-        shape = RoundedCornerShape(18.dp),
+        shape = RoundedCornerShape(16.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
     ) {
-        Row(
-            modifier = Modifier.padding(16.dp),
-            verticalAlignment = Alignment.CenterVertically
+        Box(
+            modifier = Modifier.fillMaxSize(),
+            contentAlignment = Alignment.Center
         ) {
             Text(
                 text = entry.kanji,
-                fontSize = 40.sp,
+                fontSize = 34.sp,
                 fontWeight = FontWeight.Bold,
                 color = MaterialTheme.colorScheme.onSurface,
-                modifier = Modifier.width(60.dp)
+                textAlign = TextAlign.Center
             )
-            Spacer(modifier = Modifier.width(12.dp))
-            Column(modifier = Modifier.weight(1f)) {
-                Text(
-                    text = entry.meaning,
-                    fontSize = 15.sp,
-                    fontWeight = FontWeight.Medium,
-                    color = MaterialTheme.colorScheme.onSurface
-                )
-                Spacer(modifier = Modifier.height(2.dp))
-                val readings = (entry.on.map { "On: $it" } + entry.kun.map { "Kun: $it" })
-                    .joinToString("  ")
-                Text(
-                    text = readings,
-                    fontSize = 12.sp,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
-            }
-            Spacer(modifier = Modifier.width(8.dp))
-            Text(
-                text = entry.level,
-                fontSize = 11.sp,
-                color = MaterialTheme.colorScheme.secondary
-            )
-            SpeakButton(entry.kanji, onSpeak)
         }
     }
 }
