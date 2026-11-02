@@ -109,7 +109,7 @@ fun AnkiScreen(onSpeak: (String) -> Unit) {
             Text(
                 text = "Sesi: $sessionReviewed",
                 fontSize = 13.sp,
-                color = Accent,
+                color = MaterialTheme.colorScheme.primary,
                 fontWeight = FontWeight.Medium
             )
         }
@@ -119,7 +119,8 @@ fun AnkiScreen(onSpeak: (String) -> Unit) {
             modifier = Modifier
                 .fillMaxWidth()
                 .height(4.dp),
-            color = Navy
+            color = MaterialTheme.colorScheme.primary,
+            trackColor = MaterialTheme.colorScheme.outlineVariant
         )
 
         Spacer(modifier = Modifier.height(16.dp))
@@ -129,7 +130,7 @@ fun AnkiScreen(onSpeak: (String) -> Unit) {
                 .fillMaxWidth()
                 .weight(1f),
             shape = RoundedCornerShape(16.dp),
-            colors = CardDefaults.cardColors(containerColor = SoftBlue)
+            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
         ) {
             Column(
                 modifier = Modifier
@@ -142,7 +143,7 @@ fun AnkiScreen(onSpeak: (String) -> Unit) {
                     text = title,
                     fontSize = 56.sp,
                     fontWeight = FontWeight.Bold,
-                    color = Navy,
+                    color = MaterialTheme.colorScheme.onSurface,
                     textAlign = TextAlign.Center
                 )
                 if (revealed) {
@@ -152,7 +153,7 @@ fun AnkiScreen(onSpeak: (String) -> Unit) {
                     Text(
                         meaning,
                         fontSize = 16.sp,
-                        color = Accent,
+                        color = MaterialTheme.colorScheme.primary,
                         textAlign = TextAlign.Center,
                         fontWeight = FontWeight.Medium
                     )
