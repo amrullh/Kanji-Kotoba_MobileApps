@@ -1,1344 +1,4897 @@
 {
-  "themes": [
+ "themes": [
+  {
+   "title": "Perkenalan, Keluarga & Kehidupan Sehari-hari",
+   "words": [
     {
-      "title": "Perkenalan, Keluarga & Kehidupan Sehari-hari",
-      "words": [
-        {
-          "surface": "名前",
-          "reading": "なまえ",
-          "meaning": "nama",
-          "sentence": "お名前は 何ですか。",
-          "sentence_reading": "おなまえわなんですか。"
-        },
-        {
-          "surface": "国",
-          "reading": "くに",
-          "meaning": "negara",
-          "sentence": "わたしの 国は インドネシアです。",
-          "sentence_reading": "わたしのくにわいんどねしあです。"
-        },
-        {
-          "surface": "仕事",
-          "reading": "しごと",
-          "meaning": "pekerjaan",
-          "sentence": "毎日 仕事を して います。",
-          "sentence_reading": "まいにちしごとおしています。"
-        },
-        {
-          "surface": "家族",
-          "reading": "かぞく",
-          "meaning": "keluarga",
-          "sentence": "家族は 四人です。",
-          "sentence_reading": "かぞくわよにんです。"
-        },
-        {
-          "surface": "友達",
-          "reading": "ともだち",
-          "meaning": "teman",
-          "sentence": "友達と 食事を します。",
-          "sentence_reading": "ともだちとしょくじおします。"
-        },
-        {
-          "surface": "住所",
-          "reading": "じゅうしょ",
-          "meaning": "alamat",
-          "sentence": "ここに 住所を 書いて ください。",
-          "sentence_reading": "ここにじゅ゜しょおかいてください。"
-        },
-        {
-          "surface": "電話",
-          "reading": "でんわ",
-          "meaning": "telepon",
-          "sentence": "後で 電話します。",
-          "sentence_reading": "あとででんわします。"
-        },
-        {
-          "surface": "誕生日",
-          "reading": "たんじょうび",
-          "meaning": "hari ulang tahun",
-          "sentence": "来週は 友達の 誕生日です。",
-          "sentence_reading": "らいしゅ゜わともだちのたんじょ゜ひです。"
-        },
-        {
-          "surface": "結婚",
-          "reading": "けっこん",
-          "meaning": "menikah",
-          "sentence": "兄は 去年 結婚しました。",
-          "sentence_reading": "あにわきょねんけっこんしました。"
-        },
-        {
-          "surface": "朝",
-          "reading": "あさ",
-          "meaning": "pagi",
-          "sentence": "朝 六時に 起きます。",
-          "sentence_reading": "あさろくじにおきます。"
-        },
-        {
-          "surface": "毎日",
-          "reading": "まいにち",
-          "meaning": "setiap hari",
-          "sentence": "毎日 日本語を 勉強します。",
-          "sentence_reading": "まいにちにほんごおべんきょ゜します。"
-        },
-        {
-          "surface": "今日",
-          "reading": "きょう",
-          "meaning": "hari ini",
-          "sentence": "今日は 休みです。",
-          "sentence_reading": "きょ゜わやすみです。"
-        },
-        {
-          "surface": "明日",
-          "reading": "あした",
-          "meaning": "besok",
-          "sentence": "明日 病院へ 行きます。",
-          "sentence_reading": "あすびょ゜いんえいきます。"
-        },
-        {
-          "surface": "昨日",
-          "reading": "きのう",
-          "meaning": "kemarin",
-          "sentence": "昨日は 雨でした。",
-          "sentence_reading": "きの゜わあめでした。"
-        },
-        {
-          "surface": "休み",
-          "reading": "やすみ",
-          "meaning": "libur / istirahat",
-          "sentence": "日曜日は 休みです。",
-          "sentence_reading": "にちよ゜ひわやすみです。"
-        },
-        {
-          "surface": "趣味",
-          "reading": "しゅみ",
-          "meaning": "hobi",
-          "sentence": "趣味は 料理です。",
-          "sentence_reading": "しゅみわりょ゜りです。"
-        },
-        {
-          "surface": "洗濯",
-          "reading": "せんたく",
-          "meaning": "mencuci pakaian",
-          "sentence": "日曜日に 洗濯します。",
-          "sentence_reading": "にちよ゜ひにせんたくします。"
-        },
-        {
-          "surface": "掃除",
-          "reading": "そうじ",
-          "meaning": "membersihkan",
-          "sentence": "毎朝 部屋を 掃除します。",
-          "sentence_reading": "まいあさへやおそ゜じします。"
-        },
-        {
-          "surface": "料理",
-          "reading": "りょうり",
-          "meaning": "masakan /",
-          "sentence": "母の 料理は おいしいです。",
-          "sentence_reading": "ははのりょ゜りわおいし゜です。"
-        },
-        {
-          "surface": "買い物",
-          "reading": "かいもの",
-          "meaning": "belanja",
-          "sentence": "スーパーで 買い物を します。",
-          "sentence_reading": "す゜ぱ゜でかいものおします。"
-        }
-      ]
+     "surface": "名前",
+     "reading": "なまえ",
+     "meaning": "nama",
+     "sentence": "お名前は 何ですか。",
+     "sentence_reading": "おなまえは なんですか。",
+     "sentences": [
+      {
+       "jp": "お名前は 何ですか。",
+       "reading": "おなまえは なんですか。",
+       "id": "Siapa nama Anda?"
+      },
+      {
+       "jp": "名前を 呼ばれたら 来て ください。",
+       "reading": "なまえを よばれたら きて ください。",
+       "id": "Kalau nama Anda dipanggil, tolong datang."
+      },
+      {
+       "jp": "この 名前は どう 読みますか。",
+       "reading": "この なまえは どう よみますか。",
+       "id": "Nama ini dibaca bagaimana?"
+      }
+     ]
     },
     {
-      "title": "Pekerjaan & Tempat Kerja",
-      "words": [
-        {
-          "surface": "会社",
-          "reading": "かいしゃ",
-          "meaning": "perusahaan",
-          "sentence": "会社は 駅の 近くに あります。",
-          "sentence_reading": "かいしゃわえきのちかくにあります。"
-        },
-        {
-          "surface": "工場",
-          "reading": "こうじょう",
-          "meaning": "pabrik",
-          "sentence": "工場で 働いて います。",
-          "sentence_reading": "こ゜じょ゜ではたらいています。"
-        },
-        {
-          "surface": "働く",
-          "reading": "はたらく",
-          "meaning": "bekerja",
-          "sentence": "一日 八時間 働きます。",
-          "sentence_reading": "いちにちはちじかんはたらきます。"
-        },
-        {
-          "surface": "残業",
-          "reading": "ざんぎょう",
-          "meaning": "lembur",
-          "sentence": "今日は 残業が あります。",
-          "sentence_reading": "きょ゜わざんぎょ゜があります。"
-        },
-        {
-          "surface": "給料",
-          "reading": "きゅうりょう",
-          "meaning": "gaji",
-          "sentence": "給料は 月末に もらいます。",
-          "sentence_reading": "きゅ゜りょ゜わげつまつにもらいます。"
-        },
-        {
-          "surface": "休憩",
-          "reading": "きゅうけい",
-          "meaning": "istirahat (saat kerja)",
-          "sentence": "十二時から 休憩です。",
-          "sentence_reading": "じゅ゜にじからきゅ゜け゜です。"
-        },
-        {
-          "surface": "会議",
-          "reading": "かいぎ",
-          "meaning": "rapat",
-          "sentence": "三時から 会議が あります。",
-          "sentence_reading": "さんじからかいぎがあります。"
-        },
-        {
-          "surface": "上司",
-          "reading": "じょうし",
-          "meaning": "atasan",
-          "sentence": "上司に 相談します。",
-          "sentence_reading": "じょ゜しにそ゜だんします。"
-        },
-        {
-          "surface": "同僚",
-          "reading": "どうりょう",
-          "meaning": "rekan kerja",
-          "sentence": "同僚は みんな 親切です。",
-          "sentence_reading": "ど゜りょ゜わみんなしんせつです。"
-        },
-        {
-          "surface": "社長",
-          "reading": "しゃちょう",
-          "meaning": "direktur utama",
-          "sentence": "社長は 今 出張中です。",
-          "sentence_reading": "しゃちょ゜わいましゅっちょ゜ちゅ゜です。"
-        },
-        {
-          "surface": "制服",
-          "reading": "せいふく",
-          "meaning": "seragam",
-          "sentence": "会社では 制服を 着ます。",
-          "sentence_reading": "かいしゃでわせ゜ふくおきます。"
-        },
-        {
-          "surface": "遅刻",
-          "reading": "ちこく",
-          "meaning": "terlambat (datang)",
-          "sentence": "電車が 遅れて 遅刻しました。",
-          "sentence_reading": "でんしゃがおくれてちこくしました。"
-        },
-        {
-          "surface": "休む",
-          "reading": "やすむ",
-          "meaning": "tidak masuk /",
-          "sentence": "熱が あるので 会社を 休みます。",
-          "sentence_reading": "ねつがあるのでかいしゃおやすみます。"
-        },
-        {
-          "surface": "手伝う",
-          "reading": "てつだう",
-          "meaning": "membantu",
-          "sentence": "仕事を 手伝って ください。",
-          "sentence_reading": "しごとおてつだってください。"
-        },
-        {
-          "surface": "説明",
-          "reading": "せつめい",
-          "meaning": "penjelasan",
-          "sentence": "使い方を 説明します。",
-          "sentence_reading": "つかいかたおせつめ゜します。"
-        },
-        {
-          "surface": "連絡",
-          "reading": "れんらく",
-          "meaning": "menghubungi /",
-          "sentence": "遅れる ときは 連絡して ください。",
-          "sentence_reading": "おくれるときわれんらくしてください。"
-        },
-        {
-          "surface": "報告",
-          "reading": "ほうこく",
-          "meaning": "melapor",
-          "sentence": "上司に 報告します。",
-          "sentence_reading": "じょ゜しにほ゜こくします。"
-        },
-        {
-          "surface": "準備",
-          "reading": "じゅんび",
-          "meaning": "persiapan",
-          "sentence": "会議の 準備を します。",
-          "sentence_reading": "かいぎのじゅんびおします。"
-        },
-        {
-          "surface": "予定",
-          "reading": "よてい",
-          "meaning": "rencana / jadwal",
-          "sentence": "来週の 予定を 教えて ください。",
-          "sentence_reading": "らいしゅ゜のよて゜おおしえてください。"
-        },
-        {
-          "surface": "危険",
-          "reading": "きけん",
-          "meaning": "bahaya (berbahaya)",
-          "sentence": "ここは 危険ですから 入らないで ください。",
-          "sentence_reading": "ここわきけんですからはいらないでください。"
-        },
-        {
-          "surface": "安全",
-          "reading": "あんぜん",
-          "meaning": "keselamatan /",
-          "sentence": "安全に 気を つけて ください。",
-          "sentence_reading": "あんぜんにきおつけてください。"
-        },
-        {
-          "surface": "守る",
-          "reading": "まもる",
-          "meaning": "mematuhi /",
-          "sentence": "約束を 守ります。",
-          "sentence_reading": "やくそくおまもります。"
-        },
-        {
-          "surface": "間に合う",
-          "reading": "まにあう",
-          "meaning": "sempat / tepat",
-          "sentence": "電車に 間に合いました。",
-          "sentence_reading": "でんしゃにまにあいました。"
-        }
-      ]
+     "surface": "国",
+     "reading": "くに",
+     "meaning": "negara",
+     "sentence": "わたしの 国は インドネシアです。",
+     "sentence_reading": "わたしの くには いんどねしあです。",
+     "sentences": [
+      {
+       "jp": "わたしの 国は インドネシアです。",
+       "reading": "わたしの くには いんどねしあです。",
+       "id": "Negara saya adalah Indonesia."
+      },
+      {
+       "jp": "どこの 国から 来ましたか。",
+       "reading": "どこの くにから きましたか。",
+       "id": "Anda berasal dari negara mana?"
+      },
+      {
+       "jp": "国の 家族に 電話しました。",
+       "reading": "くにの かぞくに でんわしました。",
+       "id": "Saya menelepon keluarga di negara asal."
+      }
+     ]
     },
     {
-      "title": "Belanja, Makan & Restoran",
-      "words": [
-        {
-          "surface": "店",
-          "reading": "みせ",
-          "meaning": "toko",
-          "sentence": "この 店は 安いです。",
-          "sentence_reading": "このみせわやすいです。"
-        },
-        {
-          "surface": "値段",
-          "reading": "ねだん",
-          "meaning": "harga",
-          "sentence": "この かばんの 値段は いくらですか。",
-          "sentence_reading": "このかばんのねだんわいくらですか。"
-        },
-        {
-          "surface": "安い",
-          "reading": "やすい",
-          "meaning": "murah",
-          "sentence": "あの 店は 安くて おいしいです。",
-          "sentence_reading": "あのみせわやすくておいし゜です。"
-        },
-        {
-          "surface": "高い",
-          "reading": "たかい",
-          "meaning": "mahal / tinggi",
-          "sentence": "この 時計は 高いです。",
-          "sentence_reading": "このとけ゜わたかいです。"
-        },
-        {
-          "surface": "袋",
-          "reading": "ふくろ",
-          "meaning": "kantong / plastik",
-          "sentence": "袋は いりません。",
-          "sentence_reading": "ふくろわいりません。"
-        },
-        {
-          "surface": "お金",
-          "reading": "おかね",
-          "meaning": "uang",
-          "sentence": "お金が 足りません。",
-          "sentence_reading": "おかねがたりません。"
-        },
-        {
-          "surface": "払う",
-          "reading": "はらう",
-          "meaning": "membayar",
-          "sentence": "カードで 払います。",
-          "sentence_reading": "か゜どではらいます。"
-        },
-        {
-          "surface": "割引",
-          "reading": "わりびき",
-          "meaning": "diskon",
-          "sentence": "今日は 割引が あります。",
-          "sentence_reading": "きょ゜わわりびきがあります。"
-        },
-        {
-          "surface": "売る",
-          "reading": "うる",
-          "meaning": "menjual",
-          "sentence": "この 店は 薬も 売って います。",
-          "sentence_reading": "このみせわくすりもうっています。"
-        },
-        {
-          "surface": "買う",
-          "reading": "かう",
-          "meaning": "membeli",
-          "sentence": "パンと 牛乳を 買います。",
-          "sentence_reading": "ぱんとぎゅ゜にゅ゜おかいます。"
-        },
-        {
-          "surface": "品物",
-          "reading": "しなもの",
-          "meaning": "barang",
-          "sentence": "品物は 明日 届きます。",
-          "sentence_reading": "しなものわあすとどきます。"
-        },
-        {
-          "surface": "試す",
-          "reading": "ためす",
-          "meaning": "mencoba",
-          "sentence": "買う 前に 試して みます。",
-          "sentence_reading": "かうまえにためしてみます。"
-        },
-        {
-          "surface": "食べ物",
-          "reading": "たべもの",
-          "meaning": "makanan",
-          "sentence": "好きな 食べ物は 何ですか。",
-          "sentence_reading": "すきなたべものわなんですか。"
-        },
-        {
-          "surface": "飲み物",
-          "reading": "のみもの",
-          "meaning": "minuman",
-          "sentence": "飲み物は 何に しますか。",
-          "sentence_reading": "のみものわなんにしますか。"
-        },
-        {
-          "surface": "肉",
-          "reading": "にく",
-          "meaning": "daging",
-          "sentence": "わたしは 肉が 食べられません。",
-          "sentence_reading": "わたしわにくがたべられません。"
-        },
-        {
-          "surface": "魚",
-          "reading": "さかな",
-          "meaning": "ikan",
-          "sentence": "魚は 好きですが、肉は 食べません。",
-          "sentence_reading": "さかなわすきですが、にくわたべません。"
-        },
-        {
-          "surface": "野菜",
-          "reading": "やさい",
-          "meaning": "sayur",
-          "sentence": "毎日 野菜を 食べます。",
-          "sentence_reading": "まいにちやさいおたべます。"
-        },
-        {
-          "surface": "卵",
-          "reading": "たまご",
-          "meaning": "telur",
-          "sentence": "朝ごはんに 卵を 食べます。",
-          "sentence_reading": "あさごはんにたまごおたべます。"
-        },
-        {
-          "surface": "辛い",
-          "reading": "からい",
-          "meaning": "pedas",
-          "sentence": "この カレーは 少し 辛いです。",
-          "sentence_reading": "このかれ゜わすこしつらいです。"
-        },
-        {
-          "surface": "甘い",
-          "reading": "あまい",
-          "meaning": "manis",
-          "sentence": "この ケーキは とても 甘いです。",
-          "sentence_reading": "このけ゜きわとてもあまいです。"
-        },
-        {
-          "surface": "注文",
-          "reading": "ちゅうもん",
-          "meaning": "pesanan /",
-          "sentence": "ラーメンを 注文しました。",
-          "sentence_reading": "ら゜めんおちゅ゜もんしました。"
-        },
-        {
-          "surface": "予約",
-          "reading": "よやく",
-          "meaning": "reservasi",
-          "sentence": "レストランを 予約しました。",
-          "sentence_reading": "れすとらんおよやくしました。"
-        },
-        {
-          "surface": "お弁当",
-          "reading": "おべんとう",
-          "meaning": "bekal / bento",
-          "sentence": "昼は お弁当を 食べます。",
-          "sentence_reading": "ひるわおべんと゜おたべます。"
-        },
-        {
-          "surface": "賞味期限",
-          "reading": "しょうみきげ",
-          "meaning": "ん",
-          "sentence": "賞味期限を 見て 買います。",
-          "sentence_reading": "しょ゜みきげんおみてかいます。"
-        }
-      ]
+     "surface": "仕事",
+     "reading": "しごと",
+     "meaning": "pekerjaan",
+     "sentence": "毎日 仕事を して います。",
+     "sentence_reading": "まいにち しごとを して います。",
+     "sentences": [
+      {
+       "jp": "毎日 仕事を して います。",
+       "reading": "まいにち しごとを して います。",
+       "id": "Saya bekerja setiap hari."
+      },
+      {
+       "jp": "仕事は 何時に 終わりますか。",
+       "reading": "しごとは なんじに おわりますか。",
+       "id": "Pekerjaan selesai jam berapa?"
+      },
+      {
+       "jp": "今日は 仕事が 忙しかったです。",
+       "reading": "きょうは しごとが いそがしかったです。",
+       "id": "Hari ini pekerjaan saya sibuk."
+      }
+     ]
     },
     {
-      "title": "Transportasi, Jalan & Tempat",
-      "words": [
-        {
-          "surface": "駅",
-          "reading": "えき",
-          "meaning": "stasiun",
-          "sentence": "駅で 友達を 待ちます。",
-          "sentence_reading": "えきでともだちおまちます。"
-        },
-        {
-          "surface": "電車",
-          "reading": "でんしゃ",
-          "meaning": "kereta listrik",
-          "sentence": "電車で 会社へ 行きます。",
-          "sentence_reading": "でんしゃでかいしゃえいきます。"
-        },
-        {
-          "surface": "切符",
-          "reading": "きっぷ",
-          "meaning": "tiket",
-          "sentence": "切符を 買って ください。",
-          "sentence_reading": "きっぷおかってください。"
-        },
-        {
-          "surface": "乗る",
-          "reading": "のる",
-          "meaning": "naik (kendaraan)",
-          "sentence": "次の 電車に 乗ります。",
-          "sentence_reading": "つぎのでんしゃにのります。"
-        },
-        {
-          "surface": "降りる",
-          "reading": "おりる",
-          "meaning": "turun (kendaraan)",
-          "sentence": "次の 駅で 降ります。",
-          "sentence_reading": "つぎのえきでおります。"
-        },
-        {
-          "surface": "乗り換える",
-          "reading": "のりかえる",
-          "meaning": "berpindah / transit",
-          "sentence": "新宿で 乗り換えます。",
-          "sentence_reading": "しんじゅくでのりかえます。"
-        },
-        {
-          "surface": "道",
-          "reading": "みち",
-          "meaning": "jalan",
-          "sentence": "道が わかりません。",
-          "sentence_reading": "みちがわかりません。"
-        },
-        {
-          "surface": "曲がる",
-          "reading": "まがる",
-          "meaning": "berbelok",
-          "sentence": "次の 角を 右に 曲がります。",
-          "sentence_reading": "つぎのかどおみぎにまがります。"
-        },
-        {
-          "surface": "交差点",
-          "reading": "こうさてん",
-          "meaning": "persimpangan",
-          "sentence": "交差点で 止まって ください。",
-          "sentence_reading": "こ゜さてんでとまってください。"
-        },
-        {
-          "surface": "信号",
-          "reading": "しんごう",
-          "meaning": "lampu lalu lintas",
-          "sentence": "信号が 赤の とき、わたっては いけません。",
-          "sentence_reading": "しんご゜があかのとき、わたってわいけません。"
-        },
-        {
-          "surface": "橋",
-          "reading": "はし",
-          "meaning": "jembatan",
-          "sentence": "橋を わたると 銀行が あります。",
-          "sentence_reading": "はしおわたるとぎんこ゜があります。"
-        },
-        {
-          "surface": "近い",
-          "reading": "ちかい",
-          "meaning": "dekat",
-          "sentence": "駅から 家まで 近いです。",
-          "sentence_reading": "えきからいえまでちかいです。"
-        },
-        {
-          "surface": "遠い",
-          "reading": "とおい",
-          "meaning": "jauh",
-          "sentence": "学校は 遠いです。",
-          "sentence_reading": "がっこ゜わと゜いです。"
-        },
-        {
-          "surface": "空港",
-          "reading": "くうこう",
-          "meaning": "bandara",
-          "sentence": "空港まで バスで 行きます。",
-          "sentence_reading": "く゜こ゜までばすでいきます。"
-        },
-        {
-          "surface": "自転車",
-          "reading": "じてんしゃ",
-          "meaning": "sepeda",
-          "sentence": "自転車で 買い物に 行きます。",
-          "sentence_reading": "じてんしゃでかいものにいきます。"
-        },
-        {
-          "surface": "駐車場",
-          "reading": "ちゅうしゃじ",
-          "meaning": "ょう",
-          "sentence": "駐車場は 店の 後ろです。",
-          "sentence_reading": "ちゅ゜しゃじょ゜わみせのうしろです。"
-        },
-        {
-          "surface": "出口",
-          "reading": "でぐち",
-          "meaning": "pintu keluar",
-          "sentence": "出口は あちらです。",
-          "sentence_reading": "でぐちわあちらです。"
-        },
-        {
-          "surface": "入口",
-          "reading": "いりぐち",
-          "meaning": "pintu masuk",
-          "sentence": "入口は どこですか。",
-          "sentence_reading": "いりぐちわどこですか。"
-        },
-        {
-          "surface": "遅れる",
-          "reading": "おくれる",
-          "meaning": "terlambat /",
-          "sentence": "電車が 遅れました。",
-          "sentence_reading": "でんしゃがおくれました。"
-        },
-        {
-          "surface": "急ぐ",
-          "reading": "いそぐ",
-          "meaning": "bergegas",
-          "sentence": "急いで ください。",
-          "sentence_reading": "いそいでください。"
-        },
-        {
-          "surface": "迷う",
-          "reading": "まよう",
-          "meaning": "tersesat / bimbang",
-          "sentence": "道に 迷いました。",
-          "sentence_reading": "みちにまよいました。"
-        },
-        {
-          "surface": "案内",
-          "reading": "あんない",
-          "meaning": "panduan /",
-          "sentence": "駅の 案内を 見ます。",
-          "sentence_reading": "えきのあんないおみます。"
-        }
-      ]
+     "surface": "家族",
+     "reading": "かぞく",
+     "meaning": "keluarga",
+     "sentence": "家族は 四人です。",
+     "sentence_reading": "かぞくは よにんです。",
+     "sentences": [
+      {
+       "jp": "家族は 四人です。",
+       "reading": "かぞくは よにんです。",
+       "id": "Keluarga saya ada empat orang."
+      },
+      {
+       "jp": "家族は 国に います。",
+       "reading": "かぞくは くにに います。",
+       "id": "Keluarga saya ada di negara asal."
+      },
+      {
+       "jp": "家族に 毎週 電話します。",
+       "reading": "かぞくに まいしゅう でんわします。",
+       "id": "Saya menelepon keluarga setiap minggu."
+      }
+     ]
     },
     {
-      "title": "Kesehatan, Rumah Sakit & Tubuh",
-      "words": [
-        {
-          "surface": "病院",
-          "reading": "びょういん",
-          "meaning": "rumah sakit",
-          "sentence": "頭が 痛いので 病院へ 行きます。",
-          "sentence_reading": "あたまがいたいのでびょ゜いんえいきます。"
-        },
-        {
-          "surface": "薬",
-          "reading": "くすり",
-          "meaning": "obat",
-          "sentence": "食事の あとで 薬を 飲みます。",
-          "sentence_reading": "しょくじのあとでくすりおのみます。"
-        },
-        {
-          "surface": "薬局",
-          "reading": "やっきょく",
-          "meaning": "apotek",
-          "sentence": "薬局で 薬を もらいました。",
-          "sentence_reading": "やっきょくでくすりおもらいました。"
-        },
-        {
-          "surface": "熱",
-          "reading": "ねつ",
-          "meaning": "demam",
-          "sentence": "昨日から 熱が あります。",
-          "sentence_reading": "きの゜からねつがあります。"
-        },
-        {
-          "surface": "頭",
-          "reading": "あたま",
-          "meaning": "kepala",
-          "sentence": "頭が 痛いです。",
-          "sentence_reading": "あたまがいたいです。"
-        },
-        {
-          "surface": "歯",
-          "reading": "は",
-          "meaning": "gigi",
-          "sentence": "歯が 痛いので 歯医者に 行きます。",
-          "sentence_reading": "はがいたいのではいしゃにいきます。"
-        },
-        {
-          "surface": "目",
-          "reading": "め",
-          "meaning": "mata",
-          "sentence": "目が 赤いです。",
-          "sentence_reading": "めがあかいです。"
-        },
-        {
-          "surface": "体",
-          "reading": "からだ",
-          "meaning": "tubuh",
-          "sentence": "体に 気を つけて ください。",
-          "sentence_reading": "からだにきおつけてください。"
-        },
-        {
-          "surface": "元気",
-          "reading": "げんき",
-          "meaning": "sehat /",
-          "sentence": "",
-          "sentence_reading": ""
-        },
-        {
-          "surface": "お元気ですか。",
-          "reading": "",
-          "meaning": "Apa kabar?",
-          "sentence": "",
-          "sentence_reading": ""
-        },
-        {
-          "surface": "病気",
-          "reading": "びょうき",
-          "meaning": "sakit (penyakit)",
-          "sentence": "子どもが 病気に なりました。",
-          "sentence_reading": "こどもがびょ゜きになりました。"
-        },
-        {
-          "surface": "風邪",
-          "reading": "かぜ",
-          "meaning": "masuk angin / flu",
-          "sentence": "風邪を ひきました。",
-          "sentence_reading": "かぜおひきました。"
-        },
-        {
-          "surface": "咳",
-          "reading": "せき",
-          "meaning": "batuk",
-          "sentence": "咳が 止まりません。",
-          "sentence_reading": "せきがとまりません。"
-        },
-        {
-          "surface": "痛い",
-          "reading": "いたい",
-          "meaning": "sakit / nyeri",
-          "sentence": "ここが 痛いです。",
-          "sentence_reading": "ここがいたいです。"
-        },
-        {
-          "surface": "診察",
-          "reading": "しんさつ",
-          "meaning": "pemeriksaan dokter",
-          "sentence": "診察は 三時からです。",
-          "sentence_reading": "しんさつわさんじからです。"
-        },
-        {
-          "surface": "保険証",
-          "reading": "ほけんしょう",
-          "meaning": "kartu asuransi",
-          "sentence": "受付で 保険証を 出して ください。",
-          "sentence_reading": "うけつけでほけんしょ゜おだしてください。"
-        },
-        {
-          "surface": "受付",
-          "reading": "うけつけ",
-          "meaning": "resepsionis /",
-          "sentence": "受付は 一階です。",
-          "sentence_reading": "うけつけわいちかいです。"
-        },
-        {
-          "surface": "注射",
-          "reading": "ちゅうしゃ",
-          "meaning": "suntikan",
-          "sentence": "注射は 痛くないです。",
-          "sentence_reading": "ちゅ゜しゃわいたくないです。"
-        },
-        {
-          "surface": "検査",
-          "reading": "けんさ",
-          "meaning": "pemeriksaan / tes",
-          "sentence": "血液の 検査を します。",
-          "sentence_reading": "けつえきのけんさおします。"
-        },
-        {
-          "surface": "治る",
-          "reading": "なおる",
-          "meaning": "sembuh",
-          "sentence": "二、三日で 治ります。",
-          "sentence_reading": "に、みっかでなおります。"
-        },
-        {
-          "surface": "入院",
-          "reading": "にゅういん",
-          "meaning": "dirawat inap",
-          "sentence": "父は 先週から 入院して います。",
-          "sentence_reading": "ちちわせんしゅ゜からにゅ゜いんしています。"
-        },
-        {
-          "surface": "救急車",
-          "reading": "きゅうきゅう",
-          "meaning": "しゃ",
-          "sentence": "救急車を 呼んで ください。",
-          "sentence_reading": "きゅ゜きゅ゜しゃおよんでください。"
-        }
-      ]
+     "surface": "友達",
+     "reading": "ともだち",
+     "meaning": "teman",
+     "sentence": "友達と 食事を します。",
+     "sentence_reading": "ともだちと しょくじを します。",
+     "sentences": [
+      {
+       "jp": "友達と 食事を します。",
+       "reading": "ともだちと しょくじを します。",
+       "id": "Saya makan bersama teman."
+      },
+      {
+       "jp": "友達と 一緒に 昼ごはんを 食べました。",
+       "reading": "ともだちと いっしょに ひるごはんを たべました。",
+       "id": "Saya makan siang bersama teman."
+      },
+      {
+       "jp": "日本で 友達が できました。",
+       "reading": "にほんで ともだちが できました。",
+       "id": "Saya mendapat teman di Jepang."
+      }
+     ]
     },
     {
-      "title": "Rumah, Tempat Tinggal & Fasilitas",
-      "words": [
-        {
-          "surface": "部屋",
-          "reading": "へや",
-          "meaning": "kamar",
-          "sentence": "わたしの 部屋は 二階です。",
-          "sentence_reading": "わたしのへやわにかいです。"
-        },
-        {
-          "surface": "家賃",
-          "reading": "やちん",
-          "meaning": "uang sewa",
-          "sentence": "家賃は 一か月 五万円です。",
-          "sentence_reading": "やちんわいちかげつごまんえんです。"
-        },
-        {
-          "surface": "引っ越し",
-          "reading": "ひっこし",
-          "meaning": "pindahan",
-          "sentence": "来月 引っ越しします。",
-          "sentence_reading": "らいげつひっこしします。"
-        },
-        {
-          "surface": "鍵",
-          "reading": "かぎ",
-          "meaning": "kunci",
-          "sentence": "鍵を かけるのを 忘れました。",
-          "sentence_reading": "かぎおかけるのおわすれました。"
-        },
-        {
-          "surface": "電気",
-          "reading": "でんき",
-          "meaning": "listrik / lampu",
-          "sentence": "電気を 消して ください。",
-          "sentence_reading": "でんきおけしてください。"
-        },
-        {
-          "surface": "水道",
-          "reading": "すいどう",
-          "meaning": "air ledeng",
-          "sentence": "水道が こわれました。",
-          "sentence_reading": "すいど゜がこわれました。"
-        },
-        {
-          "surface": "洗濯機",
-          "reading": "せんたくき",
-          "meaning": "mesin cuci",
-          "sentence": "洗濯機が 動きません。",
-          "sentence_reading": "せんたくきがうごきません。"
-        },
-        {
-          "surface": "冷蔵庫",
-          "reading": "れいぞうこ",
-          "meaning": "kulkas",
-          "sentence": "ジュースは 冷蔵庫に 入れて ください。",
-          "sentence_reading": "じゅ゜すわれ゜ぞ゜こにいれてください。"
-        },
-        {
-          "surface": "燃えるごみ",
-          "reading": "もえるごみ",
-          "meaning": "sampah yang bisa",
-          "sentence": "燃えるごみは 火曜日と 金曜日です。",
-          "sentence_reading": "もえるごみわかよ゜ひときんよ゜ひです。"
-        },
-        {
-          "surface": "管理人",
-          "reading": "かんりにん",
-          "meaning": "pengelola gedung",
-          "sentence": "管理人に 相談します。",
-          "sentence_reading": "かんりにんにそ゜だんします。"
-        },
-        {
-          "surface": "隣",
-          "reading": "となり",
-          "meaning": "sebelah / tetangga",
-          "sentence": "隣の 人に あいさつしました。",
-          "sentence_reading": "となりのひとにあいさつしました。"
-        },
-        {
-          "surface": "静か",
-          "reading": "しずか",
-          "meaning": "sunyi / tenang",
-          "sentence": "この 町は 静かです。",
-          "sentence_reading": "このまちわしずかです。"
-        },
-        {
-          "surface": "汚い",
-          "reading": "きたない",
-          "meaning": "kotor",
-          "sentence": "トイレが 汚いです。",
-          "sentence_reading": "といれがきたないです。"
-        },
-        {
-          "surface": "広い",
-          "reading": "ひろい",
-          "meaning": "luas",
-          "sentence": "この 部屋は 広いです。",
-          "sentence_reading": "このへやわひろいです。"
-        },
-        {
-          "surface": "狭い",
-          "reading": "せまい",
-          "meaning": "sempit",
-          "sentence": "台所が 少し 狭いです。",
-          "sentence_reading": "だいどころがすこしせまいです。"
-        },
-        {
-          "surface": "台所",
-          "reading": "だいどころ",
-          "meaning": "dapur",
-          "sentence": "台所で 料理を します。",
-          "sentence_reading": "だいどころでりょ゜りおします。"
-        },
-        {
-          "surface": "玄関",
-          "reading": "げんかん",
-          "meaning": "pintu depan",
-          "sentence": "玄関で くつを ぬいで ください。",
-          "sentence_reading": "げんかんでくつおぬいでください。"
-        }
-      ]
+     "surface": "住所",
+     "reading": "じゅうしょ",
+     "meaning": "alamat",
+     "sentence": "ここに 住所を 書いて ください。",
+     "sentence_reading": "ここに じゅうしょを かいて ください。",
+     "sentences": [
+      {
+       "jp": "ここに 住所を 書いて ください。",
+       "reading": "ここに じゅうしょを かいて ください。",
+       "id": "Tolong tulis alamat di sini."
+      },
+      {
+       "jp": "住所を 教えて ください。",
+       "reading": "じゅうしょを おしえて ください。",
+       "id": "Tolong beri tahu alamatnya."
+      },
+      {
+       "jp": "新しい 住所は まだ 決まって いません。",
+       "reading": "あたらしい じゅうしょは まだ きまって いません。",
+       "id": "Alamat baru belum ditentukan."
+      }
+     ]
     },
     {
-      "title": "Cuaca, Bencana & Keadaan Darurat",
-      "words": [
-        {
-          "surface": "天気",
-          "reading": "てんき",
-          "meaning": "cuaca",
-          "sentence": "明日の 天気は どうですか。",
-          "sentence_reading": "あすのてんきわど゜ですか。"
-        },
-        {
-          "surface": "雨",
-          "reading": "あめ",
-          "meaning": "hujan",
-          "sentence": "雨が 降って います。",
-          "sentence_reading": "あめがふっています。"
-        },
-        {
-          "surface": "雪",
-          "reading": "ゆき",
-          "meaning": "salju",
-          "sentence": "北海道では 冬に 雪が 降ります。",
-          "sentence_reading": "ほっかいど゜でわふゆにゆきがふります。"
-        },
-        {
-          "surface": "風",
-          "reading": "かぜ",
-          "meaning": "angin",
-          "sentence": "今日は 風が 強いです。",
-          "sentence_reading": "きょ゜わかぜがつよいです。"
-        },
-        {
-          "surface": "台風",
-          "reading": "たいふう",
-          "meaning": "topan",
-          "sentence": "台風が 近づいて います。",
-          "sentence_reading": "たいふ゜がちかずいています。"
-        },
-        {
-          "surface": "地震",
-          "reading": "じしん",
-          "meaning": "gempa bumi",
-          "sentence": "地震の とき、机の 下に 入ります。",
-          "sentence_reading": "じしんのとき、つくえのしたにはいります。"
-        },
-        {
-          "surface": "津波",
-          "reading": "つなみ",
-          "meaning": "tsunami",
-          "sentence": "津波の 心配が あります。",
-          "sentence_reading": "つなみのしんぱいがあります。"
-        },
-        {
-          "surface": "火事",
-          "reading": "かじ",
-          "meaning": "kebakaran",
-          "sentence": "火事の ときは 119番に 電話します。",
-          "sentence_reading": "かじのときわ119ばんにでんわします。"
-        },
-        {
-          "surface": "避難",
-          "reading": "ひなん",
-          "meaning": "evakuasi",
-          "sentence": "高い 所へ 避難して ください。",
-          "sentence_reading": "たかいところえひなんしてください。"
-        },
-        {
-          "surface": "避難所",
-          "reading": "ひなんじょ",
-          "meaning": "tempat",
-          "sentence": "避難所は 学校です。",
-          "sentence_reading": "ひなんしょわがっこ゜です。"
-        },
-        {
-          "surface": "非常口",
-          "reading": "ひじょうぐち",
-          "meaning": "pintu darurat",
-          "sentence": "非常口は あちらです。",
-          "sentence_reading": "ひじょ゜くちわあちらです。"
-        },
-        {
-          "surface": "警察",
-          "reading": "けいさつ",
-          "meaning": "polisi",
-          "sentence": "財布を 落として 警察に 行きました。",
-          "sentence_reading": "さいふおおとしてけ゜さつにいきました。"
-        },
-        {
-          "surface": "事故",
-          "reading": "じこ",
-          "meaning": "kecelakaan",
-          "sentence": "駅の 近くで 事故が ありました。",
-          "sentence_reading": "えきのちかくでじこがありました。"
-        },
-        {
-          "surface": "落とす",
-          "reading": "おとす",
-          "meaning": "menjatuhkan /",
-          "sentence": "さいふを 落としました。",
-          "sentence_reading": "さいふおおとしました。"
-        },
-        {
-          "surface": "盗む",
-          "reading": "ぬすむ",
-          "meaning": "mencuri",
-          "sentence": "自転車を 盗まれました。",
-          "sentence_reading": "じてんしゃおぬすまれました。"
-        },
-        {
-          "surface": "停電",
-          "reading": "ていでん",
-          "meaning": "mati listrik",
-          "sentence": "夜に 停電が ありました。",
-          "sentence_reading": "よるにて゜でんがありました。"
-        },
-        {
-          "surface": "注意",
-          "reading": "ちゅうい",
-          "meaning": "perhatian / hati-hati",
-          "sentence": "足もとに 注意して ください。",
-          "sentence_reading": "あしもとにちゅ゜いしてください。"
-        },
-        {
-          "surface": "禁止",
-          "reading": "きんし",
-          "meaning": "dilarang",
-          "sentence": "ここは 駐車禁止です。",
-          "sentence_reading": "ここわちゅ゜しゃきんしです。"
-        },
-        {
-          "surface": "無料",
-          "reading": "むりょう",
-          "meaning": "gratis",
-          "sentence": "この サービスは 無料です。",
-          "sentence_reading": "このさ゜びすわむりょ゜です。"
-        }
-      ]
+     "surface": "電話",
+     "reading": "でんわ",
+     "meaning": "telepon",
+     "sentence": "後で 電話します。",
+     "sentence_reading": "あとで でんわします。",
+     "sentences": [
+      {
+       "jp": "後で 電話します。",
+       "reading": "あとで でんわします。",
+       "id": "Nanti saya telepon."
+      },
+      {
+       "jp": "今 電話しても いいですか。",
+       "reading": "いま でんわしても いいですか。",
+       "id": "Boleh saya telepon sekarang?"
+      },
+      {
+       "jp": "電話が 鳴って います。",
+       "reading": "でんわが なって います。",
+       "id": "Teleponnya sedang berbunyi."
+      }
+     ]
     },
     {
-      "title": "Urusan Administrasi & Komunikasi",
-      "words": [
-        {
-          "surface": "市役所",
-          "reading": "しやくしょ",
-          "meaning": "kantor pemerintah",
-          "sentence": "市役所で 手続きを します。",
-          "sentence_reading": "しやくしょでてつずきおします。"
-        },
-        {
-          "surface": "手続き",
-          "reading": "てつづき",
-          "meaning": "prosedur /",
-          "sentence": "手続きは 簡単です。",
-          "sentence_reading": "てつずきわかんたんです。"
-        },
-        {
-          "surface": "書類",
-          "reading": "しょるい",
-          "meaning": "dokumen",
-          "sentence": "書類を 出して ください。",
-          "sentence_reading": "しょるいおだしてください。"
-        },
-        {
-          "surface": "在留カード",
-          "reading": "ざいりゅうカ",
-          "meaning": "ード",
-          "sentence": "在留カードを 持って きて ください。",
-          "sentence_reading": "ざいりゅ゜か゜どおもってきてください。"
-        },
-        {
-          "surface": "銀行",
-          "reading": "ぎんこう",
-          "meaning": "bank",
-          "sentence": "銀行で お金を おろします。",
-          "sentence_reading": "ぎんこ゜でおかねおおろします。"
-        },
-        {
-          "surface": "口座",
-          "reading": "こうざ",
-          "meaning": "rekening",
-          "sentence": "銀行口座を 作ります。",
-          "sentence_reading": "ぎんこ゜こ゜ざおつくります。"
-        },
-        {
-          "surface": "郵便局",
-          "reading": "ゆうびんきょ",
-          "meaning": "く",
-          "sentence": "郵便局で 荷物を 送ります。",
-          "sentence_reading": "ゆ゜びんきょくでにもつおおくります。"
-        },
-        {
-          "surface": "荷物",
-          "reading": "にもつ",
-          "meaning": "barang bawaan /",
-          "sentence": "荷物が 届きました。",
-          "sentence_reading": "にもつがとどきました。"
-        },
-        {
-          "surface": "送る",
-          "reading": "おくる",
-          "meaning": "mengirim",
-          "sentence": "国へ お金を 送ります。",
-          "sentence_reading": "くにえおかねおおくります。"
-        },
-        {
-          "surface": "届く",
-          "reading": "とどく",
-          "meaning": "sampai / tiba",
-          "sentence": "メールが 届きました。",
-          "sentence_reading": "め゜るがとどきました。"
-        },
-        {
-          "surface": "申し込む",
-          "reading": "もうしこむ",
-          "meaning": "mendaftar /",
-          "sentence": "インターネットで 申し込みます。",
-          "sentence_reading": "いんた゜ねっとでも゜しこみます。"
-        },
-        {
-          "surface": "書く",
-          "reading": "かく",
-          "meaning": "menulis",
-          "sentence": "ここに 名前を 書いて ください。",
-          "sentence_reading": "ここになまえおかいてください。"
-        },
-        {
-          "surface": "確認",
-          "reading": "かくにん",
-          "meaning": "konfirmasi /",
-          "sentence": "時間を 確認して ください。",
-          "sentence_reading": "じかんおかくにんしてください。"
-        },
-        {
-          "surface": "変更",
-          "reading": "へんこう",
-          "meaning": "perubahan /",
-          "sentence": "予約を 変更したいです。",
-          "sentence_reading": "よやくおへんこ゜したいです。"
-        },
-        {
-          "surface": "取り消す",
-          "reading": "とりけす",
-          "meaning": "membatalkan",
-          "sentence": "予約を 取り消します。",
-          "sentence_reading": "よやくおとりけします。"
-        },
-        {
-          "surface": "質問",
-          "reading": "しつもん",
-          "meaning": "pertanyaan",
-          "sentence": "質問が あります。",
-          "sentence_reading": "しつもんがあります。"
-        },
-        {
-          "surface": "返事",
-          "reading": "へんじ",
-          "meaning": "balasan / jawaban",
-          "sentence": "メールの 返事を 書きます。",
-          "sentence_reading": "め゜るのへんじおかきます。"
-        },
-        {
-          "surface": "約束",
-          "reading": "やくそく",
-          "meaning": "janji",
-          "sentence": "友達と 約束が あります。",
-          "sentence_reading": "ともだちとやくそくがあります。"
-        },
-        {
-          "surface": "相談",
-          "reading": "そうだん",
-          "meaning": "konsultasi /",
-          "sentence": "先生に 相談しました。",
-          "sentence_reading": "せんせ゜にそ゜だんしました。"
-        },
-        {
-          "surface": "教える",
-          "reading": "おしえる",
-          "meaning": "mengajari /",
-          "sentence": "駅への 行き方を 教えて ください。",
-          "sentence_reading": "えきえのいきかたおおしえてください。"
-        },
-        {
-          "surface": "忘れる",
-          "reading": "わすれる",
-          "meaning": "lupa / tertinggal",
-          "sentence": "宿題を 忘れました。",
-          "sentence_reading": "しゅくだいおわすれました。"
-        },
-        {
-          "surface": "思い出す",
-          "reading": "おもいだす",
-          "meaning": "teringat",
-          "sentence": "約束を 思い出しました。",
-          "sentence_reading": "やくそくおおもいだしました。"
-        },
-        {
-          "surface": "必要",
-          "reading": "ひつよう",
-          "meaning": "perlu",
-          "sentence": "ハンコが 必要です。",
-          "sentence_reading": "はんこがひつよ゜です。"
-        },
-        {
-          "surface": "無理",
-          "reading": "むり",
-          "meaning": "tidak mungkin /",
-          "sentence": "今日は 無理です。",
-          "sentence_reading": "きょ゜わむりです。"
-        }
-      ]
+     "surface": "誕生日",
+     "reading": "たんじょうび",
+     "meaning": "hari ulang tahun",
+     "sentence": "来週は 友達の 誕生日です。",
+     "sentence_reading": "らいしゅうは ともだちの たんじょうびです。",
+     "sentences": [
+      {
+       "jp": "来週は 友達の 誕生日です。",
+       "reading": "らいしゅうは ともだちの たんじょうびです。",
+       "id": "Minggu depan ulang tahun teman saya."
+      },
+      {
+       "jp": "誕生日は いつですか。",
+       "reading": "たんじょうびは いつですか。",
+       "id": "Ulang tahunmu kapan?"
+      },
+      {
+       "jp": "誕生日に ケーキを 食べました。",
+       "reading": "たんじょうびに けーきを たべました。",
+       "id": "Di hari ulang tahun saya makan kue."
+      }
+     ]
     },
     {
-      "title": "Kata Sifat, Kata Keterangan & Ungkapan Penting",
-      "words": [
-        {
-          "surface": "大切",
-          "reading": "たいせつ",
-          "meaning": "penting / berharga",
-          "sentence": "家族は 大切です。",
-          "sentence_reading": "かぞくわたいせつです。"
-        },
-        {
-          "surface": "大変",
-          "reading": "たいへん",
-          "meaning": "repot / berat /",
-          "sentence": "毎日 仕事が 大変です。",
-          "sentence_reading": "まいにちしごとがたいへんです。"
-        },
-        {
-          "surface": "簡単",
-          "reading": "かんたん",
-          "meaning": "mudah / sederhana",
-          "sentence": "この 問題は 簡単です。",
-          "sentence_reading": "このもんだいわかんたんです。"
-        },
-        {
-          "surface": "難しい",
-          "reading": "むずかしい",
-          "meaning": "sulit",
-          "sentence": "漢字は 難しいです。",
-          "sentence_reading": "かんじわむずかし゜です。"
-        },
-        {
-          "surface": "便利",
-          "reading": "べんり",
-          "meaning": "praktis / nyaman",
-          "sentence": "コンビニは 便利です。",
-          "sentence_reading": "こんびにわべんりです。"
-        },
-        {
-          "surface": "不便",
-          "reading": "ふべん",
-          "meaning": "tidak praktis",
-          "sentence": "バスが 少なくて 不便です。",
-          "sentence_reading": "ばすがすくなくてふべんです。"
-        },
-        {
-          "surface": "忙しい",
-          "reading": "いそがしい",
-          "meaning": "sibuk",
-          "sentence": "今週は 忙しいです。",
-          "sentence_reading": "こんしゅ゜わいそがし゜です。"
-        },
-        {
-          "surface": "暇",
-          "reading": "ひま",
-          "meaning": "senggang",
-          "sentence": "今日は 暇です。",
-          "sentence_reading": "きょ゜わひまです。"
-        },
-        {
-          "surface": "楽しい",
-          "reading": "たのしい",
-          "meaning": "menyenangkan",
-          "sentence": "旅行は 楽しかったです。",
-          "sentence_reading": "りょこ゜わたのしかったです。"
-        },
-        {
-          "surface": "大丈夫",
-          "reading": "だいじょうぶ",
-          "meaning": "tidak apa-apa /",
-          "sentence": "もう 大丈夫です。",
-          "sentence_reading": "も゜だいじょ゜ぶです。"
-        },
-        {
-          "surface": "特に",
-          "reading": "とくに",
-          "meaning": "terutama /",
-          "sentence": "特に 問題は ありません。",
-          "sentence_reading": "とくにもんだいわありません。"
-        },
-        {
-          "surface": "全部",
-          "reading": "ぜんぶ",
-          "meaning": "semua",
-          "sentence": "全部で 千円です。",
-          "sentence_reading": "ぜんぶでせんえんです。"
-        },
-        {
-          "surface": "一緒に",
-          "reading": "いっしょに",
-          "meaning": "bersama",
-          "sentence": "一緒に 帰りましょう。",
-          "sentence_reading": "いっしょにかえりましょ゜。"
-        },
-        {
-          "surface": "自分で",
-          "reading": "じぶんで",
-          "meaning": "sendiri",
-          "sentence": "自分で 作りました。",
-          "sentence_reading": "じぶんでつくりました。"
-        }
-      ]
+     "surface": "結婚",
+     "reading": "けっこん",
+     "meaning": "menikah",
+     "sentence": "兄は 去年 結婚しました。",
+     "sentence_reading": "あには きょねん けっこんしました。",
+     "sentences": [
+      {
+       "jp": "兄は 去年 結婚しました。",
+       "reading": "あには きょねん けっこんしました。",
+       "id": "Kakak laki-laki saya menikah tahun lalu."
+      },
+      {
+       "jp": "結婚して いますか。",
+       "reading": "けっこんして いますか。",
+       "id": "Apakah Anda sudah menikah?"
+      },
+      {
+       "jp": "友達が 来月 結婚します。",
+       "reading": "ともだちが らいげつ けっこんします。",
+       "id": "Teman saya akan menikah bulan depan."
+      }
+     ]
+    },
+    {
+     "surface": "朝",
+     "reading": "あさ",
+     "meaning": "pagi",
+     "sentence": "朝 六時に 起きます。",
+     "sentence_reading": "あさ ろくじに おきます。",
+     "sentences": [
+      {
+       "jp": "朝 六時に 起きます。",
+       "reading": "あさ ろくじに おきます。",
+       "id": "Saya bangun jam enam pagi."
+      },
+      {
+       "jp": "朝は いつも パンを 食べます。",
+       "reading": "あさは いつも ぱんを たべます。",
+       "id": "Pagi hari saya selalu makan roti."
+      },
+      {
+       "jp": "明日の 朝 八時に 来て ください。",
+       "reading": "あしたの あさ はちじに きて ください。",
+       "id": "Tolong datang besok pagi jam delapan."
+      }
+     ]
+    },
+    {
+     "surface": "毎日",
+     "reading": "まいにち",
+     "meaning": "setiap hari",
+     "sentence": "毎日 日本語を 勉強します。",
+     "sentence_reading": "まいにち にほんごを べんきょうします。",
+     "sentences": [
+      {
+       "jp": "毎日 日本語を 勉強します。",
+       "reading": "まいにち にほんごを べんきょうします。",
+       "id": "Saya belajar bahasa Jepang setiap hari."
+      },
+      {
+       "jp": "毎日 電車で 会社に 行きます。",
+       "reading": "まいにち でんしゃで かいしゃに いきます。",
+       "id": "Setiap hari saya ke kantor naik kereta."
+      },
+      {
+       "jp": "毎日 暑いですね。",
+       "reading": "まいにち あついですね。",
+       "id": "Panas terus setiap hari ya."
+      }
+     ]
+    },
+    {
+     "surface": "今日",
+     "reading": "きょう",
+     "meaning": "hari ini",
+     "sentence": "今日は 休みです。",
+     "sentence_reading": "きょうは やすみです。",
+     "sentences": [
+      {
+       "jp": "今日は 休みです。",
+       "reading": "きょうは やすみです。",
+       "id": "Hari ini libur."
+      },
+      {
+       "jp": "今日は 何を しますか。",
+       "reading": "きょうは なにを しますか。",
+       "id": "Hari ini mau melakukan apa?"
+      },
+      {
+       "jp": "今日は 天気が いいです。",
+       "reading": "きょうは てんきが いいです。",
+       "id": "Hari ini cuacanya bagus."
+      }
+     ]
+    },
+    {
+     "surface": "明日",
+     "reading": "あした",
+     "meaning": "besok",
+     "sentence": "明日 病院へ 行きます。",
+     "sentence_reading": "あした びょういんへ いきます。",
+     "sentences": [
+      {
+       "jp": "明日 病院へ 行きます。",
+       "reading": "あした びょういんへ いきます。",
+       "id": "Besok saya pergi ke rumah sakit."
+      },
+      {
+       "jp": "明日は 仕事が ありません。",
+       "reading": "あしたは しごとが ありません。",
+       "id": "Besok saya tidak ada pekerjaan."
+      },
+      {
+       "jp": "明日 また 来ます。",
+       "reading": "あした また きます。",
+       "id": "Besok saya datang lagi."
+      }
+     ]
+    },
+    {
+     "surface": "昨日",
+     "reading": "きのう",
+     "meaning": "kemarin",
+     "sentence": "昨日は 雨でした。",
+     "sentence_reading": "きのうは あめでした。",
+     "sentences": [
+      {
+       "jp": "昨日は 雨でした。",
+       "reading": "きのうは あめでした。",
+       "id": "Kemarin hujan."
+      },
+      {
+       "jp": "昨日は 何を しましたか。",
+       "reading": "きのうは なにを しましたか。",
+       "id": "Kemarin kamu melakukan apa?"
+      },
+      {
+       "jp": "昨日から 頭が 痛いです。",
+       "reading": "きのうから あたまが いたいです。",
+       "id": "Sejak kemarin kepala saya sakit."
+      }
+     ]
+    },
+    {
+     "surface": "休み",
+     "reading": "やすみ",
+     "meaning": "libur / istirahat",
+     "sentence": "日曜日は 休みです。",
+     "sentence_reading": "にちようびは やすみです。",
+     "sentences": [
+      {
+       "jp": "日曜日は 休みです。",
+       "reading": "にちようびは やすみです。",
+       "id": "Hari Minggu libur."
+      },
+      {
+       "jp": "休みの 日は 何を しますか。",
+       "reading": "やすみの ひは なにを しますか。",
+       "id": "Di hari libur kamu melakukan apa?"
+      },
+      {
+       "jp": "来週 二日 休みを もらいました。",
+       "reading": "らいしゅう ふつか やすみを もらいました。",
+       "id": "Minggu depan saya mendapat libur dua hari."
+      }
+     ]
+    },
+    {
+     "surface": "趣味",
+     "reading": "しゅみ",
+     "meaning": "hobi",
+     "sentence": "趣味は 料理です。",
+     "sentence_reading": "しゅみは りょうりです。",
+     "sentences": [
+      {
+       "jp": "趣味は 料理です。",
+       "reading": "しゅみは りょうりです。",
+       "id": "Hobi saya memasak."
+      },
+      {
+       "jp": "趣味は 何ですか。",
+       "reading": "しゅみは なんですか。",
+       "id": "Apa hobimu?"
+      },
+      {
+       "jp": "趣味は 音楽を 聞く ことです。",
+       "reading": "しゅみは おんがくを きく ことです。",
+       "id": "Hobi saya mendengarkan musik."
+      }
+     ]
+    },
+    {
+     "surface": "洗濯",
+     "reading": "せんたく",
+     "meaning": "mencuci pakaian",
+     "sentence": "日曜日に 洗濯します。",
+     "sentence_reading": "にちようびに せんたくします。",
+     "sentences": [
+      {
+       "jp": "日曜日に 洗濯します。",
+       "reading": "にちようびに せんたくします。",
+       "id": "Saya mencuci pakaian pada hari Minggu."
+      },
+      {
+       "jp": "洗濯して から 出かけます。",
+       "reading": "せんたくして から でかけます。",
+       "id": "Saya mencuci pakaian dulu, baru pergi."
+      },
+      {
+       "jp": "雨なので 洗濯が できません。",
+       "reading": "あめなので せんたくが できません。",
+       "id": "Karena hujan, saya tidak bisa mencuci pakaian."
+      }
+     ]
+    },
+    {
+     "surface": "掃除",
+     "reading": "そうじ",
+     "meaning": "membersihkan",
+     "sentence": "毎朝 部屋を 掃除します。",
+     "sentence_reading": "まいあさ へやを そうじします。",
+     "sentences": [
+      {
+       "jp": "毎朝 部屋を 掃除します。",
+       "reading": "まいあさ へやを そうじします。",
+       "id": "Setiap pagi saya membersihkan kamar."
+      },
+      {
+       "jp": "週末に 部屋を 掃除しました。",
+       "reading": "しゅうまつに へやを そうじしました。",
+       "id": "Akhir pekan saya membersihkan kamar."
+      },
+      {
+       "jp": "トイレの 掃除は 順番です。",
+       "reading": "といれの そうじは じゅんばんです。",
+       "id": "Membersihkan toilet dilakukan bergiliran."
+      }
+     ]
+    },
+    {
+     "surface": "料理",
+     "reading": "りょうり",
+     "meaning": "masakan / memasak",
+     "sentence": "母の 料理は おいしいです。",
+     "sentence_reading": "ははの りょうりは おいしいです。",
+     "sentences": [
+      {
+       "jp": "母の 料理は おいしいです。",
+       "reading": "ははの りょうりは おいしいです。",
+       "id": "Masakan ibu saya enak."
+      },
+      {
+       "jp": "料理は 好きですか。",
+       "reading": "りょうりは すきですか。",
+       "id": "Apakah kamu suka memasak?"
+      },
+      {
+       "jp": "日本の 料理は 少し 甘いです。",
+       "reading": "にほんの りょうりは すこし あまいです。",
+       "id": "Masakan Jepang agak manis."
+      }
+     ]
+    },
+    {
+     "surface": "買い物",
+     "reading": "かいもの",
+     "meaning": "belanja",
+     "sentence": "スーパーで 買い物を します。",
+     "sentence_reading": "すーぱーで かいものを します。",
+     "sentences": [
+      {
+       "jp": "スーパーで 買い物を します。",
+       "reading": "すーぱーで かいものを します。",
+       "id": "Saya berbelanja di supermarket."
+      },
+      {
+       "jp": "買い物に 行って きます。",
+       "reading": "かいものに いって きます。",
+       "id": "Saya pergi belanja dulu ya."
+      },
+      {
+       "jp": "買い物は 駅の 近くの スーパーで します。",
+       "reading": "かいものは えきの ちかくの すーぱーで します。",
+       "id": "Saya belanja di supermarket dekat stasiun."
+      }
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "title": "Pekerjaan & Tempat Kerja",
+   "words": [
+    {
+     "surface": "会社",
+     "reading": "かいしゃ",
+     "meaning": "perusahaan",
+     "sentence": "会社は 駅の 近くに あります。",
+     "sentence_reading": "かいしゃは えきの ちかくに あります。",
+     "sentences": [
+      {
+       "jp": "会社は 駅の 近くに あります。",
+       "reading": "かいしゃは えきの ちかくに あります。",
+       "id": "Perusahaan ada di dekat stasiun."
+      },
+      {
+       "jp": "会社まで 電車で 三十分です。",
+       "reading": "かいしゃまで でんしゃで さんじゅっぷんです。",
+       "id": "Ke kantor naik kereta 30 menit."
+      },
+      {
+       "jp": "会社の 人と 食事に 行きます。",
+       "reading": "かいしゃの ひとと しょくじに いきます。",
+       "id": "Saya makan bersama orang-orang kantor."
+      }
+     ]
+    },
+    {
+     "surface": "工場",
+     "reading": "こうじょう",
+     "meaning": "pabrik",
+     "sentence": "工場で 働いて います。",
+     "sentence_reading": "こうじょうで はたらいて います。",
+     "sentences": [
+      {
+       "jp": "工場で 働いて います。",
+       "reading": "こうじょうで はたらいて います。",
+       "id": "Saya bekerja di pabrik."
+      },
+      {
+       "jp": "この 工場は 朝 七時に 始まります。",
+       "reading": "この こうじょうは あさ しちじに はじまります。",
+       "id": "Pabrik ini mulai jam tujuh pagi."
+      },
+      {
+       "jp": "工場の 中は 少し うるさいです。",
+       "reading": "こうじょうの なかは すこし うるさいです。",
+       "id": "Di dalam pabrik agak berisik."
+      }
+     ]
+    },
+    {
+     "surface": "働く",
+     "reading": "はたらく",
+     "meaning": "bekerja",
+     "sentence": "一日 八時間 働きます。",
+     "sentence_reading": "いちにち はちじかん はたらきます。",
+     "sentences": [
+      {
+       "jp": "一日 八時間 働きます。",
+       "reading": "いちにち はちじかん はたらきます。",
+       "id": "Saya bekerja delapan jam sehari."
+      },
+      {
+       "jp": "どこで 働いて いますか。",
+       "reading": "どこで はたらいて いますか。",
+       "id": "Anda bekerja di mana?"
+      },
+      {
+       "jp": "日本で 三年 働きたいです。",
+       "reading": "にほんで さんねん はたらきたいです。",
+       "id": "Saya ingin bekerja di Jepang selama tiga tahun."
+      }
+     ]
+    },
+    {
+     "surface": "残業",
+     "reading": "ざんぎょう",
+     "meaning": "lembur",
+     "sentence": "今日は 残業が あります。",
+     "sentence_reading": "きょうは ざんぎょうが あります。",
+     "sentences": [
+      {
+       "jp": "今日は 残業が あります。",
+       "reading": "きょうは ざんぎょうが あります。",
+       "id": "Hari ini ada lembur."
+      },
+      {
+       "jp": "残業は 月に 何時間ぐらいですか。",
+       "reading": "ざんぎょうは つきに なんじかんぐらいですか。",
+       "id": "Lembur sekitar berapa jam per bulan?"
+      },
+      {
+       "jp": "今日は 残業しないで 帰ります。",
+       "reading": "きょうは ざんぎょうしないで かえります。",
+       "id": "Hari ini saya pulang tanpa lembur."
+      }
+     ]
+    },
+    {
+     "surface": "給料",
+     "reading": "きゅうりょう",
+     "meaning": "gaji",
+     "sentence": "給料は 月末に もらいます。",
+     "sentence_reading": "きゅうりょうは げつまつに もらいます。",
+     "sentences": [
+      {
+       "jp": "給料は 月末に もらいます。",
+       "reading": "きゅうりょうは げつまつに もらいます。",
+       "id": "Gaji diterima pada akhir bulan."
+      },
+      {
+       "jp": "給料は いつ もらえますか。",
+       "reading": "きゅうりょうは いつ もらえますか。",
+       "id": "Kapan gaji bisa diterima?"
+      },
+      {
+       "jp": "給料が 上がりました。",
+       "reading": "きゅうりょうが あがりました。",
+       "id": "Gaji saya naik."
+      }
+     ]
+    },
+    {
+     "surface": "休憩",
+     "reading": "きゅうけい",
+     "meaning": "istirahat (saat kerja)",
+     "sentence": "十二時から 休憩です。",
+     "sentence_reading": "じゅうにじから きゅうけいです。",
+     "sentences": [
+      {
+       "jp": "十二時から 休憩です。",
+       "reading": "じゅうにじから きゅうけいです。",
+       "id": "Istirahat mulai jam dua belas."
+      },
+      {
+       "jp": "少し 休憩しましょう。",
+       "reading": "すこし きゅうけいしましょう。",
+       "id": "Mari istirahat sebentar."
+      },
+      {
+       "jp": "休憩は 一時間です。",
+       "reading": "きゅうけいは いちじかんです。",
+       "id": "Istirahatnya satu jam."
+      }
+     ]
+    },
+    {
+     "surface": "会議",
+     "reading": "かいぎ",
+     "meaning": "rapat",
+     "sentence": "三時から 会議が あります。",
+     "sentence_reading": "さんじから かいぎが あります。",
+     "sentences": [
+      {
+       "jp": "三時から 会議が あります。",
+       "reading": "さんじから かいぎが あります。",
+       "id": "Ada rapat mulai jam tiga."
+      },
+      {
+       "jp": "会議は 何時からですか。",
+       "reading": "かいぎは なんじからですか。",
+       "id": "Rapat mulai jam berapa?"
+      },
+      {
+       "jp": "会議に 遅れないで ください。",
+       "reading": "かいぎに おくれないで ください。",
+       "id": "Tolong jangan terlambat ke rapat."
+      }
+     ]
+    },
+    {
+     "surface": "上司",
+     "reading": "じょうし",
+     "meaning": "atasan",
+     "sentence": "上司に 相談します。",
+     "sentence_reading": "じょうしに そうだんします。",
+     "sentences": [
+      {
+       "jp": "上司に 相談します。",
+       "reading": "じょうしに そうだんします。",
+       "id": "Saya berkonsultasi dengan atasan."
+      },
+      {
+       "jp": "上司に 聞いて みます。",
+       "reading": "じょうしに きいて みます。",
+       "id": "Saya akan coba bertanya kepada atasan."
+      },
+      {
+       "jp": "上司は とても 親切です。",
+       "reading": "じょうしは とても しんせつです。",
+       "id": "Atasan saya sangat baik."
+      }
+     ]
+    },
+    {
+     "surface": "同僚",
+     "reading": "どうりょう",
+     "meaning": "rekan kerja",
+     "sentence": "同僚は みんな 親切です。",
+     "sentence_reading": "どうりょうは みんな しんせつです。",
+     "sentences": [
+      {
+       "jp": "同僚は みんな 親切です。",
+       "reading": "どうりょうは みんな しんせつです。",
+       "id": "Rekan-rekan kerja saya semuanya baik."
+      },
+      {
+       "jp": "同僚と 昼ごはんを 食べます。",
+       "reading": "どうりょうと ひるごはんを たべます。",
+       "id": "Saya makan siang dengan rekan kerja."
+      },
+      {
+       "jp": "同僚に 仕事を 教えて もらいました。",
+       "reading": "どうりょうに しごとを おしえて もらいました。",
+       "id": "Saya diajari pekerjaan oleh rekan kerja."
+      }
+     ]
+    },
+    {
+     "surface": "社長",
+     "reading": "しゃちょう",
+     "meaning": "direktur utama",
+     "sentence": "社長は 今 出張中です。",
+     "sentence_reading": "しゃちょうは いま しゅっちょうちゅうです。",
+     "sentences": [
+      {
+       "jp": "社長は 今 出張中です。",
+       "reading": "しゃちょうは いま しゅっちょうちゅうです。",
+       "id": "Direktur utama sedang dinas luar."
+      },
+      {
+       "jp": "社長は 今 いません。",
+       "reading": "しゃちょうは いま いません。",
+       "id": "Direktur sedang tidak ada."
+      },
+      {
+       "jp": "社長に あいさつします。",
+       "reading": "しゃちょうに あいさつします。",
+       "id": "Saya memberi salam kepada direktur."
+      }
+     ]
+    },
+    {
+     "surface": "制服",
+     "reading": "せいふく",
+     "meaning": "seragam",
+     "sentence": "会社では 制服を 着ます。",
+     "sentence_reading": "かいしゃでは せいふくを きます。",
+     "sentences": [
+      {
+       "jp": "会社では 制服を 着ます。",
+       "reading": "かいしゃでは せいふくを きます。",
+       "id": "Di perusahaan saya memakai seragam."
+      },
+      {
+       "jp": "制服は 会社で 借ります。",
+       "reading": "せいふくは かいしゃで かります。",
+       "id": "Seragam dipinjam dari perusahaan."
+      },
+      {
+       "jp": "制服を 洗って ください。",
+       "reading": "せいふくを あらって ください。",
+       "id": "Tolong cuci seragamnya."
+      }
+     ]
+    },
+    {
+     "surface": "遅刻",
+     "reading": "ちこく",
+     "meaning": "terlambat (datang)",
+     "sentence": "電車が 遅れて 遅刻しました。",
+     "sentence_reading": "でんしゃが おくれて ちこくしました。",
+     "sentences": [
+      {
+       "jp": "電車が 遅れて 遅刻しました。",
+       "reading": "でんしゃが おくれて ちこくしました。",
+       "id": "Kereta terlambat, jadi saya datang terlambat."
+      },
+      {
+       "jp": "すみません、遅刻しました。",
+       "reading": "すみません、ちこくしました。",
+       "id": "Maaf, saya terlambat."
+      },
+      {
+       "jp": "遅刻しないように 早く 起きます。",
+       "reading": "ちこくしないように はやく おきます。",
+       "id": "Agar tidak terlambat, saya bangun pagi."
+      }
+     ]
+    },
+    {
+     "surface": "休む",
+     "reading": "やすむ",
+     "meaning": "tidak masuk / beristirahat",
+     "sentence": "熱が あるので 会社を 休みます。",
+     "sentence_reading": "ねつが あるので かいしゃを やすみます。",
+     "sentences": [
+      {
+       "jp": "熱が あるので 会社を 休みます。",
+       "reading": "ねつが あるので かいしゃを やすみます。",
+       "id": "Karena demam, saya tidak masuk kerja."
+      },
+      {
+       "jp": "今日は 頭が 痛いので 休みます。",
+       "reading": "きょうは あたまが いたいので やすみます。",
+       "id": "Hari ini kepala saya sakit, jadi saya tidak masuk."
+      },
+      {
+       "jp": "少し 休んで ください。",
+       "reading": "すこし やすんで ください。",
+       "id": "Tolong istirahat sebentar."
+      }
+     ]
+    },
+    {
+     "surface": "手伝う",
+     "reading": "てつだう",
+     "meaning": "membantu",
+     "sentence": "仕事を 手伝って ください。",
+     "sentence_reading": "しごとを てつだって ください。",
+     "sentences": [
+      {
+       "jp": "仕事を 手伝って ください。",
+       "reading": "しごとを てつだって ください。",
+       "id": "Tolong bantu pekerjaan saya."
+      },
+      {
+       "jp": "手伝いましょうか。",
+       "reading": "てつだいましょうか。",
+       "id": "Mau saya bantu?"
+      },
+      {
+       "jp": "引っ越しを 手伝って もらいました。",
+       "reading": "ひっこしを てつだって もらいました。",
+       "id": "Saya dibantu saat pindahan."
+      }
+     ]
+    },
+    {
+     "surface": "説明",
+     "reading": "せつめい",
+     "meaning": "penjelasan",
+     "sentence": "使い方を 説明します。",
+     "sentence_reading": "つかいかたを せつめいします。",
+     "sentences": [
+      {
+       "jp": "使い方を 説明します。",
+       "reading": "つかいかたを せつめいします。",
+       "id": "Saya akan menjelaskan cara memakainya."
+      },
+      {
+       "jp": "もう 一度 説明して ください。",
+       "reading": "もう いちど せつめいして ください。",
+       "id": "Tolong jelaskan sekali lagi."
+      },
+      {
+       "jp": "先生の 説明は わかりやすいです。",
+       "reading": "せんせいの せつめいは わかりやすいです。",
+       "id": "Penjelasan guru mudah dimengerti."
+      }
+     ]
+    },
+    {
+     "surface": "連絡",
+     "reading": "れんらく",
+     "meaning": "menghubungi / kontak",
+     "sentence": "遅れる ときは 連絡して ください。",
+     "sentence_reading": "おくれる ときは れんらくして ください。",
+     "sentences": [
+      {
+       "jp": "遅れる ときは 連絡して ください。",
+       "reading": "おくれる ときは れんらくして ください。",
+       "id": "Kalau akan terlambat, tolong hubungi kami."
+      },
+      {
+       "jp": "あとで 連絡します。",
+       "reading": "あとで れんらくします。",
+       "id": "Nanti saya hubungi."
+      },
+      {
+       "jp": "連絡先を 教えて ください。",
+       "reading": "れんらくさきを おしえて ください。",
+       "id": "Tolong beri tahu kontak Anda."
+      }
+     ]
+    },
+    {
+     "surface": "報告",
+     "reading": "ほうこく",
+     "meaning": "melapor",
+     "sentence": "上司に 報告します。",
+     "sentence_reading": "じょうしに ほうこくします。",
+     "sentences": [
+      {
+       "jp": "上司に 報告します。",
+       "reading": "じょうしに ほうこくします。",
+       "id": "Saya melapor kepada atasan."
+      },
+      {
+       "jp": "問題が あったら すぐ 報告して ください。",
+       "reading": "もんだいが あったら すぐ ほうこくして ください。",
+       "id": "Kalau ada masalah, segera laporkan."
+      },
+      {
+       "jp": "仕事の 報告を 書きます。",
+       "reading": "しごとの ほうこくを かきます。",
+       "id": "Saya menulis laporan pekerjaan."
+      }
+     ]
+    },
+    {
+     "surface": "準備",
+     "reading": "じゅんび",
+     "meaning": "persiapan",
+     "sentence": "会議の 準備を します。",
+     "sentence_reading": "かいぎの じゅんびを します。",
+     "sentences": [
+      {
+       "jp": "会議の 準備を します。",
+       "reading": "かいぎの じゅんびを します。",
+       "id": "Saya menyiapkan rapat."
+      },
+      {
+       "jp": "出かける 準備は できましたか。",
+       "reading": "でかける じゅんびは できましたか。",
+       "id": "Sudah siap untuk berangkat?"
+      },
+      {
+       "jp": "食事の 準備を します。",
+       "reading": "しょくじの じゅんびを します。",
+       "id": "Saya menyiapkan makanan."
+      }
+     ]
+    },
+    {
+     "surface": "予定",
+     "reading": "よてい",
+     "meaning": "rencana / jadwal",
+     "sentence": "来週の 予定を 教えて ください。",
+     "sentence_reading": "らいしゅうの よていを おしえて ください。",
+     "sentences": [
+      {
+       "jp": "来週の 予定を 教えて ください。",
+       "reading": "らいしゅうの よていを おしえて ください。",
+       "id": "Tolong beri tahu jadwal minggu depan."
+      },
+      {
+       "jp": "今週末の 予定は ありますか。",
+       "reading": "こんしゅうまつの よていは ありますか。",
+       "id": "Apakah ada rencana akhir pekan ini?"
+      },
+      {
+       "jp": "予定が 変わりました。",
+       "reading": "よていが かわりました。",
+       "id": "Rencananya berubah."
+      }
+     ]
+    },
+    {
+     "surface": "危険",
+     "reading": "きけん",
+     "meaning": "bahaya (berbahaya)",
+     "sentence": "ここは 危険ですから 入らないで ください。",
+     "sentence_reading": "ここは きけんですから はいらないで ください。",
+     "sentences": [
+      {
+       "jp": "ここは 危険ですから 入らないで ください。",
+       "reading": "ここは きけんですから はいらないで ください。",
+       "id": "Di sini berbahaya, jadi jangan masuk."
+      },
+      {
+       "jp": "ここは 危険です。入らないで ください。",
+       "reading": "ここは きけんです。はいらないで ください。",
+       "id": "Di sini berbahaya. Tolong jangan masuk."
+      },
+      {
+       "jp": "危険な 場所には 行きません。",
+       "reading": "きけんな ばしょには いきません。",
+       "id": "Saya tidak pergi ke tempat berbahaya."
+      }
+     ]
+    },
+    {
+     "surface": "安全",
+     "reading": "あんぜん",
+     "meaning": "keselamatan / aman",
+     "sentence": "安全に 気を つけて ください。",
+     "sentence_reading": "あんぜんに きを つけて ください。",
+     "sentences": [
+      {
+       "jp": "安全に 気を つけて ください。",
+       "reading": "あんぜんに きを つけて ください。",
+       "id": "Harap perhatikan keselamatan."
+      },
+      {
+       "jp": "安全な 道を 歩きましょう。",
+       "reading": "あんぜんな みちを あるきましょう。",
+       "id": "Mari berjalan di jalan yang aman."
+      },
+      {
+       "jp": "安全の ため、ヘルメットを かぶります。",
+       "reading": "あんぜんの ため、へるめっとを かぶります。",
+       "id": "Demi keselamatan, saya memakai helm."
+      }
+     ]
+    },
+    {
+     "surface": "守る",
+     "reading": "まもる",
+     "meaning": "mematuhi / menjaga",
+     "sentence": "約束を 守ります。",
+     "sentence_reading": "やくそくを まもります。",
+     "sentences": [
+      {
+       "jp": "約束を 守ります。",
+       "reading": "やくそくを まもります。",
+       "id": "Saya menepati janji."
+      },
+      {
+       "jp": "時間を 守って ください。",
+       "reading": "じかんを まもって ください。",
+       "id": "Tolong tepat waktu."
+      },
+      {
+       "jp": "約束は 必ず 守ります。",
+       "reading": "やくそくは かならず まもります。",
+       "id": "Saya pasti menepati janji."
+      }
+     ]
+    },
+    {
+     "surface": "間に合う",
+     "reading": "まにあう",
+     "meaning": "sempat / tepat waktu",
+     "sentence": "電車に 間に合いました。",
+     "sentence_reading": "でんしゃに まにあいました。",
+     "sentences": [
+      {
+       "jp": "電車に 間に合いました。",
+       "reading": "でんしゃに まにあいました。",
+       "id": "Saya sempat naik kereta."
+      },
+      {
+       "jp": "走れば 間に合います。",
+       "reading": "はしれば まにあいます。",
+       "id": "Kalau berlari, masih sempat."
+      },
+      {
+       "jp": "バスに 間に合いませんでした。",
+       "reading": "ばすに まにあいませんでした。",
+       "id": "Saya tidak sempat naik bus."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Belanja, Makan & Restoran",
+   "words": [
+    {
+     "surface": "店",
+     "reading": "みせ",
+     "meaning": "toko",
+     "sentence": "この 店は 安いです。",
+     "sentence_reading": "この みせは やすいです。",
+     "sentences": [
+      {
+       "jp": "この 店は 安いです。",
+       "reading": "この みせは やすいです。",
+       "id": "Toko ini murah."
+      },
+      {
+       "jp": "この 店は 何時までですか。",
+       "reading": "この みせは なんじまでですか。",
+       "id": "Toko ini buka sampai jam berapa?"
+      },
+      {
+       "jp": "駅の 前に 新しい 店が できました。",
+       "reading": "えきの まえに あたらしい みせが できました。",
+       "id": "Ada toko baru di depan stasiun."
+      }
+     ]
+    },
+    {
+     "surface": "値段",
+     "reading": "ねだん",
+     "meaning": "harga",
+     "sentence": "この かばんの 値段は いくらですか。",
+     "sentence_reading": "この かばんの ねだんは いくらですか。",
+     "sentences": [
+      {
+       "jp": "この かばんの 値段は いくらですか。",
+       "reading": "この かばんの ねだんは いくらですか。",
+       "id": "Berapa harga tas ini?"
+      },
+      {
+       "jp": "値段を 見て から 決めます。",
+       "reading": "ねだんを みて から きめます。",
+       "id": "Saya putuskan setelah melihat harganya."
+      },
+      {
+       "jp": "この 靴は 値段が 高いです。",
+       "reading": "この くつは ねだんが たかいです。",
+       "id": "Sepatu ini harganya mahal."
+      }
+     ]
+    },
+    {
+     "surface": "安い",
+     "reading": "やすい",
+     "meaning": "murah",
+     "sentence": "あの 店は 安くて おいしいです。",
+     "sentence_reading": "あの みせは やすくて おいしいです。",
+     "sentences": [
+      {
+       "jp": "あの 店は 安くて おいしいです。",
+       "reading": "あの みせは やすくて おいしいです。",
+       "id": "Toko itu murah dan enak."
+      },
+      {
+       "jp": "もっと 安いのは ありますか。",
+       "reading": "もっと やすいのは ありますか。",
+       "id": "Ada yang lebih murah?"
+      },
+      {
+       "jp": "安くて いい 店を 知って います。",
+       "reading": "やすくて いい みせを しって います。",
+       "id": "Saya tahu toko yang murah dan bagus."
+      }
+     ]
+    },
+    {
+     "surface": "高い",
+     "reading": "たかい",
+     "meaning": "mahal / tinggi",
+     "sentence": "この 時計は 高いです。",
+     "sentence_reading": "この とけいは たかいです。",
+     "sentences": [
+      {
+       "jp": "この 時計は 高いです。",
+       "reading": "この とけいは たかいです。",
+       "id": "Jam ini mahal."
+      },
+      {
+       "jp": "この 野菜は 今 高いです。",
+       "reading": "この やさいは いま たかいです。",
+       "id": "Sayur ini sekarang mahal."
+      },
+      {
+       "jp": "あの ビルは とても 高いですね。",
+       "reading": "あの びるは とても たかいですね。",
+       "id": "Gedung itu tinggi sekali ya."
+      }
+     ]
+    },
+    {
+     "surface": "袋",
+     "reading": "ふくろ",
+     "meaning": "kantong / plastik belanja",
+     "sentence": "袋は いりません。",
+     "sentence_reading": "ふくろは いりません。",
+     "sentences": [
+      {
+       "jp": "袋は いりません。",
+       "reading": "ふくろは いりません。",
+       "id": "Saya tidak perlu kantong."
+      },
+      {
+       "jp": "袋は いりますか。",
+       "reading": "ふくろは いりますか。",
+       "id": "Perlu kantong?"
+      },
+      {
+       "jp": "袋に 入れて ください。",
+       "reading": "ふくろに いれて ください。",
+       "id": "Tolong masukkan ke dalam kantong."
+      }
+     ]
+    },
+    {
+     "surface": "お金",
+     "reading": "おかね",
+     "meaning": "uang",
+     "sentence": "お金が 足りません。",
+     "sentence_reading": "おかねが たりません。",
+     "sentences": [
+      {
+       "jp": "お金が 足りません。",
+       "reading": "おかねが たりません。",
+       "id": "Uang saya kurang."
+      },
+      {
+       "jp": "お金を おろして きます。",
+       "reading": "おかねを おろして きます。",
+       "id": "Saya mau menarik uang dulu."
+      },
+      {
+       "jp": "今日は お金を あまり 持って いません。",
+       "reading": "きょうは おかねを あまり もって いません。",
+       "id": "Hari ini saya tidak membawa banyak uang."
+      }
+     ]
+    },
+    {
+     "surface": "払う",
+     "reading": "はらう",
+     "meaning": "membayar",
+     "sentence": "カードで 払います。",
+     "sentence_reading": "かーどで はらいます。",
+     "sentences": [
+      {
+       "jp": "カードで 払います。",
+       "reading": "かーどで はらいます。",
+       "id": "Saya membayar dengan kartu."
+      },
+      {
+       "jp": "現金で 払っても いいですか。",
+       "reading": "げんきんで はらっても いいですか。",
+       "id": "Boleh bayar tunai?"
+      },
+      {
+       "jp": "家賃は 毎月 払います。",
+       "reading": "やちんは まいつき はらいます。",
+       "id": "Saya membayar sewa setiap bulan."
+      }
+     ]
+    },
+    {
+     "surface": "おつり",
+     "reading": "おつり",
+     "meaning": "uang kembalian",
+     "sentence": "おつりを もらいました。",
+     "sentence_reading": "おつりを もらいました。",
+     "sentences": [
+      {
+       "jp": "おつりを もらいました。",
+       "reading": "おつりを もらいました。",
+       "id": "Saya menerima uang kembalian."
+      },
+      {
+       "jp": "おつりは 二百円です。",
+       "reading": "おつりは にひゃくえんです。",
+       "id": "Kembaliannya 200 yen."
+      },
+      {
+       "jp": "おつりが 足りません。",
+       "reading": "おつりが たりません。",
+       "id": "Kembaliannya kurang."
+      }
+     ]
+    },
+    {
+     "surface": "割引",
+     "reading": "わりびき",
+     "meaning": "diskon",
+     "sentence": "今日は 割引が あります。",
+     "sentence_reading": "きょうは わりびきが あります。",
+     "sentences": [
+      {
+       "jp": "今日は 割引が あります。",
+       "reading": "きょうは わりびきが あります。",
+       "id": "Hari ini ada diskon."
+      },
+      {
+       "jp": "学生は 割引が ありますか。",
+       "reading": "がくせいは わりびきが ありますか。",
+       "id": "Apakah ada diskon untuk pelajar?"
+      },
+      {
+       "jp": "夜は 割引に なります。",
+       "reading": "よるは わりびきに なります。",
+       "id": "Pada malam hari ada diskon."
+      }
+     ]
+    },
+    {
+     "surface": "売る",
+     "reading": "うる",
+     "meaning": "menjual",
+     "sentence": "この 店は 薬も 売って います。",
+     "sentence_reading": "この みせは くすりも うって います。",
+     "sentences": [
+      {
+       "jp": "この 店は 薬も 売って います。",
+       "reading": "この みせは くすりも うって います。",
+       "id": "Toko ini juga menjual obat."
+      },
+      {
+       "jp": "ここで 切符を 売って います。",
+       "reading": "ここで きっぷを うって います。",
+       "id": "Tiket dijual di sini."
+      },
+      {
+       "jp": "古い 自転車を 売りました。",
+       "reading": "ふるい じてんしゃを うりました。",
+       "id": "Saya menjual sepeda lama."
+      }
+     ]
+    },
+    {
+     "surface": "買う",
+     "reading": "かう",
+     "meaning": "membeli",
+     "sentence": "パンと 牛乳を 買います。",
+     "sentence_reading": "ぱんと ぎゅうにゅうを かいます。",
+     "sentences": [
+      {
+       "jp": "パンと 牛乳を 買います。",
+       "reading": "ぱんと ぎゅうにゅうを かいます。",
+       "id": "Saya membeli roti dan susu."
+      },
+      {
+       "jp": "何を 買いますか。",
+       "reading": "なにを かいますか。",
+       "id": "Mau beli apa?"
+      },
+      {
+       "jp": "新しい 靴を 買いたいです。",
+       "reading": "あたらしい くつを かいたいです。",
+       "id": "Saya ingin membeli sepatu baru."
+      }
+     ]
+    },
+    {
+     "surface": "品物",
+     "reading": "しなもの",
+     "meaning": "barang",
+     "sentence": "品物は 明日 届きます。",
+     "sentence_reading": "しなものは あした とどきます。",
+     "sentences": [
+      {
+       "jp": "品物は 明日 届きます。",
+       "reading": "しなものは あした とどきます。",
+       "id": "Barangnya tiba besok."
+      },
+      {
+       "jp": "品物は いつ 届きますか。",
+       "reading": "しなものは いつ とどきますか。",
+       "id": "Kapan barangnya sampai?"
+      },
+      {
+       "jp": "品物を 確認して ください。",
+       "reading": "しなものを かくにんして ください。",
+       "id": "Tolong periksa barangnya."
+      }
+     ]
+    },
+    {
+     "surface": "試す",
+     "reading": "ためす",
+     "meaning": "mencoba",
+     "sentence": "買う 前に 試して みます。",
+     "sentence_reading": "かう まえに ためして みます。",
+     "sentences": [
+      {
+       "jp": "買う 前に 試して みます。",
+       "reading": "かう まえに ためして みます。",
+       "id": "Sebelum membeli, saya coba dulu."
+      },
+      {
+       "jp": "買う 前に 試して みても いいですか。",
+       "reading": "かう まえに ためして みても いいですか。",
+       "id": "Boleh saya coba sebelum membeli?"
+      },
+      {
+       "jp": "新しい 方法を 試します。",
+       "reading": "あたらしい ほうほうを ためします。",
+       "id": "Saya mencoba cara baru."
+      }
+     ]
+    },
+    {
+     "surface": "食べ物",
+     "reading": "たべもの",
+     "meaning": "makanan",
+     "sentence": "好きな 食べ物は 何ですか。",
+     "sentence_reading": "すきな たべものは なんですか。",
+     "sentences": [
+      {
+       "jp": "好きな 食べ物は 何ですか。",
+       "reading": "すきな たべものは なんですか。",
+       "id": "Makanan kesukaan Anda apa?"
+      },
+      {
+       "jp": "食べ物を 残さないで ください。",
+       "reading": "たべものを のこさないで ください。",
+       "id": "Tolong jangan menyisakan makanan."
+      },
+      {
+       "jp": "食べ物は 冷蔵庫に 入れます。",
+       "reading": "たべものは れいぞうこに いれます。",
+       "id": "Makanan saya masukkan ke kulkas."
+      }
+     ]
+    },
+    {
+     "surface": "飲み物",
+     "reading": "のみもの",
+     "meaning": "minuman",
+     "sentence": "飲み物は 何に しますか。",
+     "sentence_reading": "のみものは なにに しますか。",
+     "sentences": [
+      {
+       "jp": "飲み物は 何に しますか。",
+       "reading": "のみものは なにに しますか。",
+       "id": "Mau minum apa?"
+      },
+      {
+       "jp": "飲み物は 自分で 持って 来ます。",
+       "reading": "のみものは じぶんで もって きます。",
+       "id": "Minumannya saya bawa sendiri."
+      },
+      {
+       "jp": "冷たい 飲み物を お願いします。",
+       "reading": "つめたい のみものを おねがいします。",
+       "id": "Saya minta minuman dingin."
+      }
+     ]
+    },
+    {
+     "surface": "肉",
+     "reading": "にく",
+     "meaning": "daging",
+     "sentence": "わたしは 肉が 食べられません。",
+     "sentence_reading": "わたしは にくが たべられません。",
+     "sentences": [
+      {
+       "jp": "わたしは 肉が 食べられません。",
+       "reading": "わたしは にくが たべられません。",
+       "id": "Saya tidak bisa makan daging."
+      },
+      {
+       "jp": "今日は 肉が 安いです。",
+       "reading": "きょうは にくが やすいです。",
+       "id": "Hari ini daging murah."
+      },
+      {
+       "jp": "肉は 食べない 日も あります。",
+       "reading": "にくは たべない ひも あります。",
+       "id": "Ada hari ketika saya tidak makan daging."
+      }
+     ]
+    },
+    {
+     "surface": "魚",
+     "reading": "さかな",
+     "meaning": "ikan",
+     "sentence": "魚は 好きですが、肉は 食べません。",
+     "sentence_reading": "さかなは すきですが、にくは たべません。",
+     "sentences": [
+      {
+       "jp": "魚は 好きですが、肉は 食べません。",
+       "reading": "さかなは すきですが、にくは たべません。",
+       "id": "Saya suka ikan, tetapi tidak makan daging."
+      },
+      {
+       "jp": "魚が 好きですか。",
+       "reading": "さかなが すきですか。",
+       "id": "Apakah kamu suka ikan?"
+      },
+      {
+       "jp": "この 魚は 新しいです。",
+       "reading": "この さかなは あたらしいです。",
+       "id": "Ikan ini segar."
+      }
+     ]
+    },
+    {
+     "surface": "野菜",
+     "reading": "やさい",
+     "meaning": "sayur",
+     "sentence": "毎日 野菜を 食べます。",
+     "sentence_reading": "まいにち やさいを たべます。",
+     "sentences": [
+      {
+       "jp": "毎日 野菜を 食べます。",
+       "reading": "まいにち やさいを たべます。",
+       "id": "Saya makan sayur setiap hari."
+      },
+      {
+       "jp": "野菜も たくさん 食べて ください。",
+       "reading": "やさいも たくさん たべて ください。",
+       "id": "Makanlah sayur yang banyak juga."
+      },
+      {
+       "jp": "野菜が 高く なりました。",
+       "reading": "やさいが たかく なりました。",
+       "id": "Harga sayuran jadi mahal."
+      }
+     ]
+    },
+    {
+     "surface": "卵",
+     "reading": "たまご",
+     "meaning": "telur",
+     "sentence": "朝ごはんに 卵を 食べます。",
+     "sentence_reading": "あさごはんに たまごを たべます。",
+     "sentences": [
+      {
+       "jp": "朝ごはんに 卵を 食べます。",
+       "reading": "あさごはんに たまごを たべます。",
+       "id": "Saya makan telur untuk sarapan."
+      },
+      {
+       "jp": "卵を 二つ 買いました。",
+       "reading": "たまごを ふたつ かいました。",
+       "id": "Saya membeli dua butir telur."
+      },
+      {
+       "jp": "卵は 冷蔵庫に あります。",
+       "reading": "たまごは れいぞうこに あります。",
+       "id": "Telurnya ada di kulkas."
+      }
+     ]
+    },
+    {
+     "surface": "辛い",
+     "reading": "からい",
+     "meaning": "pedas",
+     "sentence": "この カレーは 少し 辛いです。",
+     "sentence_reading": "この かれーは すこし からいです。",
+     "sentences": [
+      {
+       "jp": "この カレーは 少し 辛いです。",
+       "reading": "この かれーは すこし からいです。",
+       "id": "Kari ini agak pedas."
+      },
+      {
+       "jp": "辛い 料理は 大丈夫ですか。",
+       "reading": "からい りょうりは だいじょうぶですか。",
+       "id": "Apakah masakan pedas tidak masalah?"
+      },
+      {
+       "jp": "この カレーは 辛すぎます。",
+       "reading": "この かれーは からすぎます。",
+       "id": "Kari ini terlalu pedas."
+      }
+     ]
+    },
+    {
+     "surface": "甘い",
+     "reading": "あまい",
+     "meaning": "manis",
+     "sentence": "この ケーキは とても 甘いです。",
+     "sentence_reading": "この けーきは とても あまいです。",
+     "sentences": [
+      {
+       "jp": "この ケーキは とても 甘いです。",
+       "reading": "この けーきは とても あまいです。",
+       "id": "Kue ini sangat manis."
+      },
+      {
+       "jp": "甘い 物が 好きです。",
+       "reading": "あまい ものが すきです。",
+       "id": "Saya suka makanan manis."
+      },
+      {
+       "jp": "この ジュースは 甘すぎます。",
+       "reading": "この じゅーすは あますぎます。",
+       "id": "Jus ini terlalu manis."
+      }
+     ]
+    },
+    {
+     "surface": "注文",
+     "reading": "ちゅうもん",
+     "meaning": "pesanan / memesan",
+     "sentence": "ラーメンを 注文しました。",
+     "sentence_reading": "らーめんを ちゅうもんしました。",
+     "sentences": [
+      {
+       "jp": "ラーメンを 注文しました。",
+       "reading": "らーめんを ちゅうもんしました。",
+       "id": "Saya memesan ramen."
+      },
+      {
+       "jp": "注文は お決まりですか。",
+       "reading": "ちゅうもんは おきまりですか。",
+       "id": "Sudah memutuskan pesanannya?"
+      },
+      {
+       "jp": "注文を 変えても いいですか。",
+       "reading": "ちゅうもんを かえても いいですか。",
+       "id": "Boleh saya ganti pesanan?"
+      }
+     ]
+    },
+    {
+     "surface": "予約",
+     "reading": "よやく",
+     "meaning": "reservasi",
+     "sentence": "レストランを 予約しました。",
+     "sentence_reading": "れすとらんを よやくしました。",
+     "sentences": [
+      {
+       "jp": "レストランを 予約しました。",
+       "reading": "れすとらんを よやくしました。",
+       "id": "Saya sudah memesan tempat di restoran."
+      },
+      {
+       "jp": "七時に 二人で 予約して います。",
+       "reading": "しちじに ふたりで よやくして います。",
+       "id": "Saya sudah reservasi untuk dua orang jam tujuh."
+      },
+      {
+       "jp": "予約は 必要ですか。",
+       "reading": "よやくは ひつようですか。",
+       "id": "Apakah perlu reservasi?"
+      }
+     ]
+    },
+    {
+     "surface": "お弁当",
+     "reading": "おべんとう",
+     "meaning": "bekal / bento",
+     "sentence": "昼は お弁当を 食べます。",
+     "sentence_reading": "ひるは おべんとうを たべます。",
+     "sentences": [
+      {
+       "jp": "昼は お弁当を 食べます。",
+       "reading": "ひるは おべんとうを たべます。",
+       "id": "Saat siang saya makan bekal."
+      },
+      {
+       "jp": "お弁当は 自分で 作ります。",
+       "reading": "おべんとうは じぶんで つくります。",
+       "id": "Saya membuat bekal sendiri."
+      },
+      {
+       "jp": "お弁当を 一つ ください。",
+       "reading": "おべんとうを ひとつ ください。",
+       "id": "Tolong satu bekal."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Transportasi, Jalan & Tempat",
+   "words": [
+    {
+     "surface": "駅",
+     "reading": "えき",
+     "meaning": "stasiun",
+     "sentence": "駅で 友達を 待ちます。",
+     "sentence_reading": "えきで ともだちを まちます。",
+     "sentences": [
+      {
+       "jp": "駅で 友達を 待ちます。",
+       "reading": "えきで ともだちを まちます。",
+       "id": "Saya menunggu teman di stasiun."
+      },
+      {
+       "jp": "駅は どこですか。",
+       "reading": "えきは どこですか。",
+       "id": "Di mana stasiunnya?"
+      },
+      {
+       "jp": "駅から 歩いて 五分です。",
+       "reading": "えきから あるいて ごふんです。",
+       "id": "Dari stasiun jalan kaki lima menit."
+      }
+     ]
+    },
+    {
+     "surface": "電車",
+     "reading": "でんしゃ",
+     "meaning": "kereta listrik",
+     "sentence": "電車で 会社へ 行きます。",
+     "sentence_reading": "でんしゃで かいしゃへ いきます。",
+     "sentences": [
+      {
+       "jp": "電車で 会社へ 行きます。",
+       "reading": "でんしゃで かいしゃへ いきます。",
+       "id": "Saya pergi ke kantor naik kereta."
+      },
+      {
+       "jp": "電車は 込んで いました。",
+       "reading": "でんしゃは こんで いました。",
+       "id": "Keretanya penuh sesak."
+      },
+      {
+       "jp": "次の 電車は 何時ですか。",
+       "reading": "つぎの でんしゃは なんじですか。",
+       "id": "Kereta berikutnya jam berapa?"
+      }
+     ]
+    },
+    {
+     "surface": "切符",
+     "reading": "きっぷ",
+     "meaning": "tiket",
+     "sentence": "切符を 買って ください。",
+     "sentence_reading": "きっぷを かって ください。",
+     "sentences": [
+      {
+       "jp": "切符を 買って ください。",
+       "reading": "きっぷを かって ください。",
+       "id": "Tolong beli tiket."
+      },
+      {
+       "jp": "切符は どこで 買いますか。",
+       "reading": "きっぷは どこで かいますか。",
+       "id": "Beli tiket di mana?"
+      },
+      {
+       "jp": "切符を なくさないで ください。",
+       "reading": "きっぷを なくさないで ください。",
+       "id": "Tolong jangan menghilangkan tiketnya."
+      }
+     ]
+    },
+    {
+     "surface": "乗る",
+     "reading": "のる",
+     "meaning": "naik (kendaraan)",
+     "sentence": "次の 電車に 乗ります。",
+     "sentence_reading": "つぎの でんしゃに のります。",
+     "sentences": [
+      {
+       "jp": "次の 電車に 乗ります。",
+       "reading": "つぎの でんしゃに のります。",
+       "id": "Saya naik kereta berikutnya."
+      },
+      {
+       "jp": "何番の バスに 乗りますか。",
+       "reading": "なんばんの ばすに のりますか。",
+       "id": "Naik bus nomor berapa?"
+      },
+      {
+       "jp": "電車に 乗る 前に 切符を 買います。",
+       "reading": "でんしゃに のる まえに きっぷを かいます。",
+       "id": "Sebelum naik kereta, saya beli tiket."
+      }
+     ]
+    },
+    {
+     "surface": "降りる",
+     "reading": "おりる",
+     "meaning": "turun (kendaraan)",
+     "sentence": "次の 駅で 降ります。",
+     "sentence_reading": "つぎの えきで おります。",
+     "sentences": [
+      {
+       "jp": "次の 駅で 降ります。",
+       "reading": "つぎの えきで おります。",
+       "id": "Saya turun di stasiun berikutnya."
+      },
+      {
+       "jp": "どこで 降りますか。",
+       "reading": "どこで おりますか。",
+       "id": "Turun di mana?"
+      },
+      {
+       "jp": "次で 降りて ください。",
+       "reading": "つぎで おりて ください。",
+       "id": "Tolong turun di perhentian berikutnya."
+      }
+     ]
+    },
+    {
+     "surface": "乗り換える",
+     "reading": "のりかえる",
+     "meaning": "berpindah / transit",
+     "sentence": "新宿で 乗り換えます。",
+     "sentence_reading": "しんじゅくで のりかえます。",
+     "sentences": [
+      {
+       "jp": "新宿で 乗り換えます。",
+       "reading": "しんじゅくで のりかえます。",
+       "id": "Saya berpindah kereta di Shinjuku."
+      },
+      {
+       "jp": "どこで 乗り換えますか。",
+       "reading": "どこで のりかえますか。",
+       "id": "Berpindah kereta di mana?"
+      },
+      {
+       "jp": "新宿で 乗り換えると 早いです。",
+       "reading": "しんじゅくで のりかえると はやいです。",
+       "id": "Kalau transit di Shinjuku, lebih cepat."
+      }
+     ]
+    },
+    {
+     "surface": "道",
+     "reading": "みち",
+     "meaning": "jalan",
+     "sentence": "道が わかりません。",
+     "sentence_reading": "みちが わかりません。",
+     "sentences": [
+      {
+       "jp": "道が わかりません。",
+       "reading": "みちが わかりません。",
+       "id": "Saya tidak tahu jalannya."
+      },
+      {
+       "jp": "道を 教えて いただけませんか。",
+       "reading": "みちを おしえて いただけませんか。",
+       "id": "Bisakah Anda menunjukkan jalan?"
+      },
+      {
+       "jp": "この 道は 車が 多いです。",
+       "reading": "この みちは くるまが おおいです。",
+       "id": "Jalan ini banyak kendaraan."
+      }
+     ]
+    },
+    {
+     "surface": "まっすぐ",
+     "reading": "まっすぐ",
+     "meaning": "lurus",
+     "sentence": "この 道を まっすぐ 行って ください。",
+     "sentence_reading": "この みちを まっすぐ いって ください。",
+     "sentences": [
+      {
+       "jp": "この 道を まっすぐ 行って ください。",
+       "reading": "この みちを まっすぐ いって ください。",
+       "id": "Silakan lurus terus di jalan ini."
+      },
+      {
+       "jp": "まっすぐ 行って、二つ目の 角を 右です。",
+       "reading": "まっすぐ いって、ふたつめの かどを みぎです。",
+       "id": "Lurus terus, di sudut kedua belok kanan."
+      },
+      {
+       "jp": "家に まっすぐ 帰ります。",
+       "reading": "いえに まっすぐ かえります。",
+       "id": "Saya langsung pulang ke rumah."
+      }
+     ]
+    },
+    {
+     "surface": "曲がる",
+     "reading": "まがる",
+     "meaning": "berbelok",
+     "sentence": "次の 角を 右に 曲がります。",
+     "sentence_reading": "つぎの かどを みぎに まがります。",
+     "sentences": [
+      {
+       "jp": "次の 角を 右に 曲がります。",
+       "reading": "つぎの かどを みぎに まがります。",
+       "id": "Belok kanan di sudut berikutnya."
+      },
+      {
+       "jp": "あの 角を 左に 曲がって ください。",
+       "reading": "あの かどを ひだりに まがって ください。",
+       "id": "Tolong belok kiri di sudut sana."
+      },
+      {
+       "jp": "右に 曲がると 郵便局が あります。",
+       "reading": "みぎに まがると ゆうびんきょくが あります。",
+       "id": "Kalau belok kanan, ada kantor pos."
+      }
+     ]
+    },
+    {
+     "surface": "交差点",
+     "reading": "こうさてん",
+     "meaning": "persimpangan",
+     "sentence": "交差点で 止まって ください。",
+     "sentence_reading": "こうさてんで とまって ください。",
+     "sentences": [
+      {
+       "jp": "交差点で 止まって ください。",
+       "reading": "こうさてんで とまって ください。",
+       "id": "Tolong berhenti di persimpangan."
+      },
+      {
+       "jp": "次の 交差点を 渡ります。",
+       "reading": "つぎの こうさてんを わたります。",
+       "id": "Saya menyeberangi persimpangan berikutnya."
+      },
+      {
+       "jp": "交差点の 近くに コンビニが あります。",
+       "reading": "こうさてんの ちかくに こんびにが あります。",
+       "id": "Ada minimarket dekat persimpangan."
+      }
+     ]
+    },
+    {
+     "surface": "信号",
+     "reading": "しんごう",
+     "meaning": "lampu lalu lintas",
+     "sentence": "信号が 赤の とき、わたっては いけません。",
+     "sentence_reading": "しんごうが あかの とき、わたっては いけません。",
+     "sentences": [
+      {
+       "jp": "信号が 赤の とき、わたっては いけません。",
+       "reading": "しんごうが あかの とき、わたっては いけません。",
+       "id": "Saat lampu merah, tidak boleh menyeberang."
+      },
+      {
+       "jp": "信号が 青に なりました。",
+       "reading": "しんごうが あおに なりました。",
+       "id": "Lampu lalu lintas sudah hijau."
+      },
+      {
+       "jp": "信号を 見て わたって ください。",
+       "reading": "しんごうを みて わたって ください。",
+       "id": "Tolong menyeberang sambil melihat lampu."
+      }
+     ]
+    },
+    {
+     "surface": "橋",
+     "reading": "はし",
+     "meaning": "jembatan",
+     "sentence": "橋を わたると 銀行が あります。",
+     "sentence_reading": "はしを わたると ぎんこうが あります。",
+     "sentences": [
+      {
+       "jp": "橋を わたると 銀行が あります。",
+       "reading": "はしを わたると ぎんこうが あります。",
+       "id": "Kalau menyeberangi jembatan, ada bank."
+      },
+      {
+       "jp": "橋を わたって 右です。",
+       "reading": "はしを わたって みぎです。",
+       "id": "Seberangi jembatan, lalu kanan."
+      },
+      {
+       "jp": "この 橋は 古いです。",
+       "reading": "この はしは ふるいです。",
+       "id": "Jembatan ini tua."
+      }
+     ]
+    },
+    {
+     "surface": "近い",
+     "reading": "ちかい",
+     "meaning": "dekat",
+     "sentence": "駅から 家まで 近いです。",
+     "sentence_reading": "えきから いえまで ちかいです。",
+     "sentences": [
+      {
+       "jp": "駅から 家まで 近いです。",
+       "reading": "えきから いえまで ちかいです。",
+       "id": "Dari stasiun ke rumah dekat."
+      },
+      {
+       "jp": "家から 学校まで 近いです。",
+       "reading": "いえから がっこうまで ちかいです。",
+       "id": "Dari rumah ke sekolah dekat."
+      },
+      {
+       "jp": "この 近くに 病院が ありますか。",
+       "reading": "この ちかくに びょういんが ありますか。",
+       "id": "Apakah ada rumah sakit dekat sini?"
+      }
+     ]
+    },
+    {
+     "surface": "遠い",
+     "reading": "とおい",
+     "meaning": "jauh",
+     "sentence": "学校は 遠いです。",
+     "sentence_reading": "がっこうは とおいです。",
+     "sentences": [
+      {
+       "jp": "学校は 遠いです。",
+       "reading": "がっこうは とおいです。",
+       "id": "Sekolah jauh."
+      },
+      {
+       "jp": "会社は 家から 遠いです。",
+       "reading": "かいしゃは いえから とおいです。",
+       "id": "Kantor jauh dari rumah."
+      },
+      {
+       "jp": "遠いので タクシーで 行きましょう。",
+       "reading": "とおいので たくしーで いきましょう。",
+       "id": "Karena jauh, mari naik taksi."
+      }
+     ]
+    },
+    {
+     "surface": "空港",
+     "reading": "くうこう",
+     "meaning": "bandara",
+     "sentence": "空港まで バスで 行きます。",
+     "sentence_reading": "くうこうまで ばすで いきます。",
+     "sentences": [
+      {
+       "jp": "空港まで バスで 行きます。",
+       "reading": "くうこうまで ばすで いきます。",
+       "id": "Saya pergi ke bandara naik bus."
+      },
+      {
+       "jp": "空港まで どのぐらい かかりますか。",
+       "reading": "くうこうまで どのぐらい かかりますか。",
+       "id": "Ke bandara memakan waktu berapa lama?"
+      },
+      {
+       "jp": "空港で 友達を 迎えます。",
+       "reading": "くうこうで ともだちを むかえます。",
+       "id": "Saya menjemput teman di bandara."
+      }
+     ]
+    },
+    {
+     "surface": "自転車",
+     "reading": "じてんしゃ",
+     "meaning": "sepeda",
+     "sentence": "自転車で 買い物に 行きます。",
+     "sentence_reading": "じてんしゃで かいものに いきます。",
+     "sentences": [
+      {
+       "jp": "自転車で 買い物に 行きます。",
+       "reading": "じてんしゃで かいものに いきます。",
+       "id": "Saya pergi belanja naik sepeda."
+      },
+      {
+       "jp": "自転車を 借りたいです。",
+       "reading": "じてんしゃを かりたいです。",
+       "id": "Saya ingin meminjam sepeda."
+      },
+      {
+       "jp": "自転車で 十分です。",
+       "reading": "じてんしゃで じゅっぷんです。",
+       "id": "Naik sepeda sepuluh menit."
+      }
+     ]
+    },
+    {
+     "surface": "駐車場",
+     "reading": "ちゅうしゃじょう",
+     "meaning": "tempat parkir",
+     "sentence": "駐車場は 店の 後ろです。",
+     "sentence_reading": "ちゅうしゃじょうは みせの うしろです。",
+     "sentences": [
+      {
+       "jp": "駐車場は 店の 後ろです。",
+       "reading": "ちゅうしゃじょうは みせの うしろです。",
+       "id": "Tempat parkir ada di belakang toko."
+      },
+      {
+       "jp": "駐車場は 有料ですか。",
+       "reading": "ちゅうしゃじょうは ゆうりょうですか。",
+       "id": "Apakah tempat parkirnya berbayar?"
+      },
+      {
+       "jp": "駐車場に 車を 止めます。",
+       "reading": "ちゅうしゃじょうに くるまを とめます。",
+       "id": "Saya memarkir mobil di tempat parkir."
+      }
+     ]
+    },
+    {
+     "surface": "出口",
+     "reading": "でぐち",
+     "meaning": "pintu keluar",
+     "sentence": "出口は あちらです。",
+     "sentence_reading": "でぐちは あちらです。",
+     "sentences": [
+      {
+       "jp": "出口は あちらです。",
+       "reading": "でぐちは あちらです。",
+       "id": "Pintu keluarnya di sebelah sana."
+      },
+      {
+       "jp": "出口は 二つ あります。",
+       "reading": "でぐちは ふたつ あります。",
+       "id": "Ada dua pintu keluar."
+      },
+      {
+       "jp": "南の 出口で 待って います。",
+       "reading": "みなみの でぐちで まって います。",
+       "id": "Saya menunggu di pintu keluar selatan."
+      }
+     ]
+    },
+    {
+     "surface": "入口",
+     "reading": "いりぐち",
+     "meaning": "pintu masuk",
+     "sentence": "入口は どこですか。",
+     "sentence_reading": "いりぐちは どこですか。",
+     "sentences": [
+      {
+       "jp": "入口は どこですか。",
+       "reading": "いりぐちは どこですか。",
+       "id": "Di mana pintu masuknya?"
+      },
+      {
+       "jp": "入口が わかりません。",
+       "reading": "いりぐちが わかりません。",
+       "id": "Saya tidak tahu pintu masuknya."
+      },
+      {
+       "jp": "入口で 靴を ぬいで ください。",
+       "reading": "いりぐちで くつを ぬいで ください。",
+       "id": "Tolong lepas sepatu di pintu masuk."
+      }
+     ]
+    },
+    {
+     "surface": "遅れる",
+     "reading": "おくれる",
+     "meaning": "terlambat / tertunda",
+     "sentence": "電車が 遅れました。",
+     "sentence_reading": "でんしゃが おくれました。",
+     "sentences": [
+      {
+       "jp": "電車が 遅れました。",
+       "reading": "でんしゃが おくれました。",
+       "id": "Keretanya terlambat."
+      },
+      {
+       "jp": "バスが 十分 遅れて います。",
+       "reading": "ばすが じゅっぷん おくれて います。",
+       "id": "Busnya terlambat sepuluh menit."
+      },
+      {
+       "jp": "約束に 遅れて すみません。",
+       "reading": "やくそくに おくれて すみません。",
+       "id": "Maaf terlambat untuk janji."
+      }
+     ]
+    },
+    {
+     "surface": "急ぐ",
+     "reading": "いそぐ",
+     "meaning": "bergegas",
+     "sentence": "急いで ください。",
+     "sentence_reading": "いそいで ください。",
+     "sentences": [
+      {
+       "jp": "急いで ください。",
+       "reading": "いそいで ください。",
+       "id": "Tolong cepat."
+      },
+      {
+       "jp": "急いで いるので 先に 行きます。",
+       "reading": "いそいで いるので さきに いきます。",
+       "id": "Karena terburu-buru, saya duluan."
+      },
+      {
+       "jp": "急がなくても 大丈夫です。",
+       "reading": "いそがなくても だいじょうぶです。",
+       "id": "Tidak perlu terburu-buru."
+      }
+     ]
+    },
+    {
+     "surface": "迷う",
+     "reading": "まよう",
+     "meaning": "tersesat / bimbang",
+     "sentence": "道に 迷いました。",
+     "sentence_reading": "みちに まよいました。",
+     "sentences": [
+      {
+       "jp": "道に 迷いました。",
+       "reading": "みちに まよいました。",
+       "id": "Saya tersesat di jalan."
+      },
+      {
+       "jp": "駅で 迷って しまいました。",
+       "reading": "えきで まよって しまいました。",
+       "id": "Saya tersesat di stasiun."
+      },
+      {
+       "jp": "どれに しようか 迷って います。",
+       "reading": "どれに しようか まよって います。",
+       "id": "Saya bingung mau pilih yang mana."
+      }
+     ]
+    },
+    {
+     "surface": "案内",
+     "reading": "あんない",
+     "meaning": "panduan / memandu",
+     "sentence": "駅の 案内を 見ます。",
+     "sentence_reading": "えきの あんないを みます。",
+     "sentences": [
+      {
+       "jp": "駅の 案内を 見ます。",
+       "reading": "えきの あんないを みます。",
+       "id": "Saya melihat petunjuk stasiun."
+      },
+      {
+       "jp": "駅の 案内所は どこですか。",
+       "reading": "えきの あんないしょは どこですか。",
+       "id": "Di mana pusat informasi stasiun?"
+      },
+      {
+       "jp": "町を 案内します。",
+       "reading": "まちを あんないします。",
+       "id": "Saya akan memandu Anda berkeliling kota."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Kesehatan, Rumah Sakit & Tubuh",
+   "words": [
+    {
+     "surface": "病院",
+     "reading": "びょういん",
+     "meaning": "rumah sakit",
+     "sentence": "頭が 痛いので 病院へ 行きます。",
+     "sentence_reading": "あたまが いたいので びょういんへ いきます。",
+     "sentences": [
+      {
+       "jp": "頭が 痛いので 病院へ 行きます。",
+       "reading": "あたまが いたいので びょういんへ いきます。",
+       "id": "Karena kepala sakit, saya pergi ke rumah sakit."
+      },
+      {
+       "jp": "近くに いい 病院が ありますか。",
+       "reading": "ちかくに いい びょういんが ありますか。",
+       "id": "Ada rumah sakit bagus dekat sini?"
+      },
+      {
+       "jp": "明日 病院で 検査を 受けます。",
+       "reading": "あした びょういんで けんさを うけます。",
+       "id": "Besok saya menjalani pemeriksaan di rumah sakit."
+      }
+     ]
+    },
+    {
+     "surface": "薬",
+     "reading": "くすり",
+     "meaning": "obat",
+     "sentence": "食事の あとで 薬を 飲みます。",
+     "sentence_reading": "しょくじの あとで くすりを のみます。",
+     "sentences": [
+      {
+       "jp": "食事の あとで 薬を 飲みます。",
+       "reading": "しょくじの あとで くすりを のみます。",
+       "id": "Saya minum obat setelah makan."
+      },
+      {
+       "jp": "この 薬は 一日 三回 飲みます。",
+       "reading": "この くすりは いちにち さんかい のみます。",
+       "id": "Obat ini diminum tiga kali sehari."
+      },
+      {
+       "jp": "薬を 飲んだら 少し 楽に なりました。",
+       "reading": "くすりを のんだら すこし らくに なりました。",
+       "id": "Setelah minum obat, rasanya agak lega."
+      }
+     ]
+    },
+    {
+     "surface": "薬局",
+     "reading": "やっきょく",
+     "meaning": "apotek",
+     "sentence": "薬局で 薬を もらいました。",
+     "sentence_reading": "やっきょくで くすりを もらいました。",
+     "sentences": [
+      {
+       "jp": "薬局で 薬を もらいました。",
+       "reading": "やっきょくで くすりを もらいました。",
+       "id": "Saya mendapat obat di apotek."
+      },
+      {
+       "jp": "薬局で 風邪薬を 買いました。",
+       "reading": "やっきょくで かぜぐすりを かいました。",
+       "id": "Saya membeli obat flu di apotek."
+      },
+      {
+       "jp": "薬局は 何時までですか。",
+       "reading": "やっきょくは なんじまでですか。",
+       "id": "Apotek buka sampai jam berapa?"
+      }
+     ]
+    },
+    {
+     "surface": "熱",
+     "reading": "ねつ",
+     "meaning": "demam",
+     "sentence": "昨日から 熱が あります。",
+     "sentence_reading": "きのうから ねつが あります。",
+     "sentences": [
+      {
+       "jp": "昨日から 熱が あります。",
+       "reading": "きのうから ねつが あります。",
+       "id": "Sejak kemarin saya demam."
+      },
+      {
+       "jp": "熱は 何度ですか。",
+       "reading": "ねつは なんどですか。",
+       "id": "Demamnya berapa derajat?"
+      },
+      {
+       "jp": "朝から 熱が 下がりません。",
+       "reading": "あさから ねつが さがりません。",
+       "id": "Sejak pagi demamnya tidak turun."
+      }
+     ]
+    },
+    {
+     "surface": "頭",
+     "reading": "あたま",
+     "meaning": "kepala",
+     "sentence": "頭が 痛いです。",
+     "sentence_reading": "あたまが いたいです。",
+     "sentences": [
+      {
+       "jp": "頭が 痛いです。",
+       "reading": "あたまが いたいです。",
+       "id": "Kepala saya sakit."
+      },
+      {
+       "jp": "頭が ぼうっと します。",
+       "reading": "あたまが ぼうっと します。",
+       "id": "Kepala saya terasa pusing."
+      },
+      {
+       "jp": "頭を 洗います。",
+       "reading": "あたまを あらいます。",
+       "id": "Saya mencuci kepala (keramas)."
+      }
+     ]
+    },
+    {
+     "surface": "おなか",
+     "reading": "おなか",
+     "meaning": "perut",
+     "sentence": "おなかが 痛いです。",
+     "sentence_reading": "おなかが いたいです。",
+     "sentences": [
+      {
+       "jp": "おなかが 痛いです。",
+       "reading": "おなかが いたいです。",
+       "id": "Perut saya sakit."
+      },
+      {
+       "jp": "おなかが すきました。",
+       "reading": "おなかが すきました。",
+       "id": "Saya lapar."
+      },
+      {
+       "jp": "冷たい 物を 飲むと おなかが 痛く なります。",
+       "reading": "つめたい ものを のむと おなかが いたく なります。",
+       "id": "Kalau minum yang dingin, perut saya sakit."
+      }
+     ]
+    },
+    {
+     "surface": "のど",
+     "reading": "のど",
+     "meaning": "tenggorokan",
+     "sentence": "のどが 痛くて 話せません。",
+     "sentence_reading": "のどが いたくて はなせません。",
+     "sentences": [
+      {
+       "jp": "のどが 痛くて 話せません。",
+       "reading": "のどが いたくて はなせません。",
+       "id": "Tenggorokan saya sakit, jadi tidak bisa bicara."
+      },
+      {
+       "jp": "のどが かわきました。",
+       "reading": "のどが かわきました。",
+       "id": "Saya haus."
+      },
+      {
+       "jp": "のどが 痛くて 声が 出ません。",
+       "reading": "のどが いたくて こえが でません。",
+       "id": "Tenggorokan sakit, suara tidak keluar."
+      }
+     ]
+    },
+    {
+     "surface": "歯",
+     "reading": "は",
+     "meaning": "gigi",
+     "sentence": "歯が 痛いので 歯医者に 行きます。",
+     "sentence_reading": "はが いたいので はいしゃに いきます。",
+     "sentences": [
+      {
+       "jp": "歯が 痛いので 歯医者に 行きます。",
+       "reading": "はが いたいので はいしゃに いきます。",
+       "id": "Karena gigi sakit, saya pergi ke dokter gigi."
+      },
+      {
+       "jp": "毎晩 寝る 前に 歯を みがきます。",
+       "reading": "まいばん ねる まえに はを みがきます。",
+       "id": "Setiap malam sebelum tidur saya menyikat gigi."
+      },
+      {
+       "jp": "歯が 一本 痛いです。",
+       "reading": "はが いっぽん いたいです。",
+       "id": "Satu gigi saya sakit."
+      }
+     ]
+    },
+    {
+     "surface": "目",
+     "reading": "め",
+     "meaning": "mata",
+     "sentence": "目が 赤いです。",
+     "sentence_reading": "めが あかいです。",
+     "sentences": [
+      {
+       "jp": "目が 赤いです。",
+       "reading": "めが あかいです。",
+       "id": "Mata saya merah."
+      },
+      {
+       "jp": "目が かゆいです。",
+       "reading": "めが かゆいです。",
+       "id": "Mata saya gatal."
+      },
+      {
+       "jp": "目を 閉じて ください。",
+       "reading": "めを とじて ください。",
+       "id": "Tolong pejamkan mata."
+      }
+     ]
+    },
+    {
+     "surface": "体",
+     "reading": "からだ",
+     "meaning": "tubuh",
+     "sentence": "体に 気を つけて ください。",
+     "sentence_reading": "からだに きを つけて ください。",
+     "sentences": [
+      {
+       "jp": "体に 気を つけて ください。",
+       "reading": "からだに きを つけて ください。",
+       "id": "Jagalah kesehatan Anda."
+      },
+      {
+       "jp": "体は 大丈夫ですか。",
+       "reading": "からだは だいじょうぶですか。",
+       "id": "Apakah badanmu baik-baik saja?"
+      },
+      {
+       "jp": "体が だるいです。",
+       "reading": "からだが だるいです。",
+       "id": "Badan saya lemas."
+      }
+     ]
+    },
+    {
+     "surface": "元気",
+     "reading": "げんき",
+     "meaning": "sehat / bersemangat",
+     "sentence": "お元気ですか。",
+     "sentence_reading": "おげんきですか。",
+     "sentences": [
+      {
+       "jp": "お元気ですか。",
+       "reading": "おげんきですか。",
+       "id": "Apa kabar?"
+      },
+      {
+       "jp": "最近 元気が ありませんね。",
+       "reading": "さいきん げんきが ありませんね。",
+       "id": "Belakangan ini kamu kurang bersemangat ya."
+      },
+      {
+       "jp": "おかげさまで 元気です。",
+       "reading": "おかげさまで げんきです。",
+       "id": "Berkat Anda, saya sehat."
+      }
+     ]
+    },
+    {
+     "surface": "病気",
+     "reading": "びょうき",
+     "meaning": "sakit (penyakit)",
+     "sentence": "子どもが 病気に なりました。",
+     "sentence_reading": "こどもが びょうきに なりました。",
+     "sentences": [
+      {
+       "jp": "子どもが 病気に なりました。",
+       "reading": "こどもが びょうきに なりました。",
+       "id": "Anak saya jatuh sakit."
+      },
+      {
+       "jp": "病気で 会社を 休みました。",
+       "reading": "びょうきで かいしゃを やすみました。",
+       "id": "Saya tidak masuk kerja karena sakit."
+      },
+      {
+       "jp": "早く 病気が 治ると いいですね。",
+       "reading": "はやく びょうきが なおると いいですね。",
+       "id": "Semoga cepat sembuh ya."
+      }
+     ]
+    },
+    {
+     "surface": "けが",
+     "reading": "けが",
+     "meaning": "luka / cedera",
+     "sentence": "仕事中に けがを しました。",
+     "sentence_reading": "しごとちゅうに けがを しました。",
+     "sentences": [
+      {
+       "jp": "仕事中に けがを しました。",
+       "reading": "しごとちゅうに けがを しました。",
+       "id": "Saya terluka saat bekerja."
+      },
+      {
+       "jp": "けがは 大丈夫ですか。",
+       "reading": "けがは だいじょうぶですか。",
+       "id": "Lukanya tidak apa-apa?"
+      },
+      {
+       "jp": "自転車で ころんで けがを しました。",
+       "reading": "じてんしゃで ころんで けがを しました。",
+       "id": "Saya jatuh dari sepeda dan terluka."
+      }
+     ]
+    },
+    {
+     "surface": "風邪",
+     "reading": "かぜ",
+     "meaning": "masuk angin / flu",
+     "sentence": "風邪を ひきました。",
+     "sentence_reading": "かぜを ひきました。",
+     "sentences": [
+      {
+       "jp": "風邪を ひきました。",
+       "reading": "かぜを ひきました。",
+       "id": "Saya terkena flu."
+      },
+      {
+       "jp": "風邪を ひいた ようです。",
+       "reading": "かぜを ひいた ようです。",
+       "id": "Sepertinya saya masuk angin."
+      },
+      {
+       "jp": "風邪が 治りました。",
+       "reading": "かぜが なおりました。",
+       "id": "Flu saya sudah sembuh."
+      }
+     ]
+    },
+    {
+     "surface": "咳",
+     "reading": "せき",
+     "meaning": "batuk",
+     "sentence": "咳が 止まりません。",
+     "sentence_reading": "せきが とまりません。",
+     "sentences": [
+      {
+       "jp": "咳が 止まりません。",
+       "reading": "せきが とまりません。",
+       "id": "Batuk saya tidak berhenti."
+      },
+      {
+       "jp": "咳が 出ます。",
+       "reading": "せきが でます。",
+       "id": "Saya batuk."
+      },
+      {
+       "jp": "夜に なると 咳が ひどく なります。",
+       "reading": "よるに なると せきが ひどく なります。",
+       "id": "Kalau malam, batuknya jadi parah."
+      }
+     ]
+    },
+    {
+     "surface": "痛い",
+     "reading": "いたい",
+     "meaning": "sakit / nyeri",
+     "sentence": "ここが 痛いです。",
+     "sentence_reading": "ここが いたいです。",
+     "sentences": [
+      {
+       "jp": "ここが 痛いです。",
+       "reading": "ここが いたいです。",
+       "id": "Bagian ini sakit."
+      },
+      {
+       "jp": "どこが 痛いですか。",
+       "reading": "どこが いたいですか。",
+       "id": "Bagian mana yang sakit?"
+      },
+      {
+       "jp": "歯が 痛くて 食べられません。",
+       "reading": "はが いたくて たべられません。",
+       "id": "Gigi saya sakit, jadi tidak bisa makan."
+      }
+     ]
+    },
+    {
+     "surface": "診察",
+     "reading": "しんさつ",
+     "meaning": "pemeriksaan dokter",
+     "sentence": "診察は 三時からです。",
+     "sentence_reading": "しんさつは さんじからです。",
+     "sentences": [
+      {
+       "jp": "診察は 三時からです。",
+       "reading": "しんさつは さんじからです。",
+       "id": "Pemeriksaan mulai jam tiga."
+      },
+      {
+       "jp": "診察は 何時からですか。",
+       "reading": "しんさつは なんじからですか。",
+       "id": "Pemeriksaan mulai jam berapa?"
+      },
+      {
+       "jp": "診察の 前に 熱を はかります。",
+       "reading": "しんさつの まえに ねつを はかります。",
+       "id": "Sebelum diperiksa dokter, suhu badan diukur."
+      }
+     ]
+    },
+    {
+     "surface": "保険証",
+     "reading": "ほけんしょう",
+     "meaning": "kartu asuransi kesehatan",
+     "sentence": "受付で 保険証を 出して ください。",
+     "sentence_reading": "うけつけで ほけんしょうを だして ください。",
+     "sentences": [
+      {
+       "jp": "受付で 保険証を 出して ください。",
+       "reading": "うけつけで ほけんしょうを だして ください。",
+       "id": "Tolong tunjukkan kartu asuransi di resepsi."
+      },
+      {
+       "jp": "保険証を お持ちですか。",
+       "reading": "ほけんしょうを おもちですか。",
+       "id": "Apakah Anda membawa kartu asuransi?"
+      },
+      {
+       "jp": "保険証を 忘れました。",
+       "reading": "ほけんしょうを わすれました。",
+       "id": "Saya lupa membawa kartu asuransi."
+      }
+     ]
+    },
+    {
+     "surface": "受付",
+     "reading": "うけつけ",
+     "meaning": "resepsionis / pendaftaran",
+     "sentence": "受付は 一階です。",
+     "sentence_reading": "うけつけは いっかいです。",
+     "sentences": [
+      {
+       "jp": "受付は 一階です。",
+       "reading": "うけつけは いっかいです。",
+       "id": "Pendaftaran ada di lantai satu."
+      },
+      {
+       "jp": "受付で 名前を 言って ください。",
+       "reading": "うけつけで なまえを いって ください。",
+       "id": "Sebutkan nama Anda di resepsi."
+      },
+      {
+       "jp": "受付の 人に 聞いて ください。",
+       "reading": "うけつけの ひとに きいて ください。",
+       "id": "Tolong tanyakan pada petugas resepsi."
+      }
+     ]
+    },
+    {
+     "surface": "注射",
+     "reading": "ちゅうしゃ",
+     "meaning": "suntikan",
+     "sentence": "注射は 痛くないです。",
+     "sentence_reading": "ちゅうしゃは いたくないです。",
+     "sentences": [
+      {
+       "jp": "注射は 痛くないです。",
+       "reading": "ちゅうしゃは いたくないです。",
+       "id": "Suntikannya tidak sakit."
+      },
+      {
+       "jp": "注射は 痛いですか。",
+       "reading": "ちゅうしゃは いたいですか。",
+       "id": "Apakah suntikannya sakit?"
+      },
+      {
+       "jp": "子どもは 注射が きらいです。",
+       "reading": "こどもは ちゅうしゃが きらいです。",
+       "id": "Anak-anak tidak suka suntikan."
+      }
+     ]
+    },
+    {
+     "surface": "検査",
+     "reading": "けんさ",
+     "meaning": "pemeriksaan / tes",
+     "sentence": "血液の 検査を します。",
+     "sentence_reading": "けつえきの けんさを します。",
+     "sentences": [
+      {
+       "jp": "血液の 検査を します。",
+       "reading": "けつえきの けんさを します。",
+       "id": "Dilakukan pemeriksaan darah."
+      },
+      {
+       "jp": "検査の 結果は 来週 わかります。",
+       "reading": "けんさの けっかは らいしゅう わかります。",
+       "id": "Hasil pemeriksaan diketahui minggu depan."
+      },
+      {
+       "jp": "朝ごはんを 食べないで 検査に 来て ください。",
+       "reading": "あさごはんを たべないで けんさに きて ください。",
+       "id": "Datanglah untuk pemeriksaan tanpa sarapan."
+      }
+     ]
+    },
+    {
+     "surface": "治る",
+     "reading": "なおる",
+     "meaning": "sembuh",
+     "sentence": "二、三日で 治ります。",
+     "sentence_reading": "にさんにちで なおります。",
+     "sentences": [
+      {
+       "jp": "二、三日で 治ります。",
+       "reading": "にさんにちで なおります。",
+       "id": "Akan sembuh dalam dua-tiga hari."
+      },
+      {
+       "jp": "薬を 飲めば 治ります。",
+       "reading": "くすりを のめば なおります。",
+       "id": "Kalau minum obat akan sembuh."
+      },
+      {
+       "jp": "けがが まだ 治りません。",
+       "reading": "けがが まだ なおりません。",
+       "id": "Lukanya belum sembuh."
+      }
+     ]
+    },
+    {
+     "surface": "入院",
+     "reading": "にゅういん",
+     "meaning": "dirawat inap",
+     "sentence": "父は 先週から 入院して います。",
+     "sentence_reading": "ちちは せんしゅうから にゅういんして います。",
+     "sentences": [
+      {
+       "jp": "父は 先週から 入院して います。",
+       "reading": "ちちは せんしゅうから にゅういんして います。",
+       "id": "Ayah saya dirawat inap sejak minggu lalu."
+      },
+      {
+       "jp": "友達が 入院しました。",
+       "reading": "ともだちが にゅういんしました。",
+       "id": "Teman saya dirawat inap."
+      },
+      {
+       "jp": "入院は 三日間の 予定です。",
+       "reading": "にゅういんは みっかかんの よていです。",
+       "id": "Rencana rawat inap tiga hari."
+      }
+     ]
+    },
+    {
+     "surface": "救急車",
+     "reading": "きゅうきゅうしゃ",
+     "meaning": "ambulans",
+     "sentence": "救急車を 呼んで ください。",
+     "sentence_reading": "きゅうきゅうしゃを よんで ください。",
+     "sentences": [
+      {
+       "jp": "救急車を 呼んで ください。",
+       "reading": "きゅうきゅうしゃを よんで ください。",
+       "id": "Tolong panggil ambulans."
+      },
+      {
+       "jp": "救急車が 来ました。",
+       "reading": "きゅうきゅうしゃが きました。",
+       "id": "Ambulansnya datang."
+      },
+      {
+       "jp": "救急車が 来る まで 待って ください。",
+       "reading": "きゅうきゅうしゃが くる まで まって ください。",
+       "id": "Tolong tunggu sampai ambulans datang."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Rumah, Tempat Tinggal & Fasilitas",
+   "words": [
+    {
+     "surface": "部屋",
+     "reading": "へや",
+     "meaning": "kamar",
+     "sentence": "わたしの 部屋は 二階です。",
+     "sentence_reading": "わたしの へやは にかいです。",
+     "sentences": [
+      {
+       "jp": "わたしの 部屋は 二階です。",
+       "reading": "わたしの へやは にかいです。",
+       "id": "Kamar saya ada di lantai dua."
+      },
+      {
+       "jp": "部屋は 何階ですか。",
+       "reading": "へやは なんかいですか。",
+       "id": "Kamarnya di lantai berapa?"
+      },
+      {
+       "jp": "部屋が 暑いので 窓を 開けます。",
+       "reading": "へやが あついので まどを あけます。",
+       "id": "Karena kamar panas, saya membuka jendela."
+      }
+     ]
+    },
+    {
+     "surface": "家賃",
+     "reading": "やちん",
+     "meaning": "uang sewa",
+     "sentence": "家賃は 一か月 五万円です。",
+     "sentence_reading": "やちんは いっかげつ ごまんえんです。",
+     "sentences": [
+      {
+       "jp": "家賃は 一か月 五万円です。",
+       "reading": "やちんは いっかげつ ごまんえんです。",
+       "id": "Uang sewa lima puluh ribu yen per bulan."
+      },
+      {
+       "jp": "家賃は 高いですか。",
+       "reading": "やちんは たかいですか。",
+       "id": "Apakah uang sewanya mahal?"
+      },
+      {
+       "jp": "家賃を 銀行で 払います。",
+       "reading": "やちんを ぎんこうで はらいます。",
+       "id": "Saya membayar sewa lewat bank."
+      }
+     ]
+    },
+    {
+     "surface": "引っ越し",
+     "reading": "ひっこし",
+     "meaning": "pindahan",
+     "sentence": "来月 引っ越しします。",
+     "sentence_reading": "らいげつ ひっこしします。",
+     "sentences": [
+      {
+       "jp": "来月 引っ越しします。",
+       "reading": "らいげつ ひっこしします。",
+       "id": "Bulan depan saya pindah rumah."
+      },
+      {
+       "jp": "引っ越しは いつですか。",
+       "reading": "ひっこしは いつですか。",
+       "id": "Kapan pindahannya?"
+      },
+      {
+       "jp": "引っ越しの 手伝いを お願いします。",
+       "reading": "ひっこしの てつだいを おねがいします。",
+       "id": "Mohon bantuannya untuk pindahan."
+      }
+     ]
+    },
+    {
+     "surface": "鍵",
+     "reading": "かぎ",
+     "meaning": "kunci",
+     "sentence": "鍵を かけるのを 忘れました。",
+     "sentence_reading": "かぎを かけるのを わすれました。",
+     "sentences": [
+      {
+       "jp": "鍵を かけるのを 忘れました。",
+       "reading": "かぎを かけるのを わすれました。",
+       "id": "Saya lupa mengunci pintu."
+      },
+      {
+       "jp": "鍵を かけましたか。",
+       "reading": "かぎを かけましたか。",
+       "id": "Sudah mengunci pintu?"
+      },
+      {
+       "jp": "鍵を 管理人に 返します。",
+       "reading": "かぎを かんりにんに かえします。",
+       "id": "Saya mengembalikan kunci kepada pengelola."
+      }
+     ]
+    },
+    {
+     "surface": "電気",
+     "reading": "でんき",
+     "meaning": "listrik / lampu",
+     "sentence": "電気を 消して ください。",
+     "sentence_reading": "でんきを けして ください。",
+     "sentences": [
+      {
+       "jp": "電気を 消して ください。",
+       "reading": "でんきを けして ください。",
+       "id": "Tolong matikan lampu."
+      },
+      {
+       "jp": "電気を つけて ください。",
+       "reading": "でんきを つけて ください。",
+       "id": "Tolong nyalakan lampu."
+      },
+      {
+       "jp": "電気代が 高く なりました。",
+       "reading": "でんきだいが たかく なりました。",
+       "id": "Tagihan listrik jadi mahal."
+      }
+     ]
+    },
+    {
+     "surface": "水道",
+     "reading": "すいどう",
+     "meaning": "air ledeng",
+     "sentence": "水道が こわれました。",
+     "sentence_reading": "すいどうが こわれました。",
+     "sentences": [
+      {
+       "jp": "水道が こわれました。",
+       "reading": "すいどうが こわれました。",
+       "id": "Ledeng rusak."
+      },
+      {
+       "jp": "水道が 止まって います。",
+       "reading": "すいどうが とまって います。",
+       "id": "Air ledeng mati."
+      },
+      {
+       "jp": "水道代は 毎月 いくらですか。",
+       "reading": "すいどうだいは まいつき いくらですか。",
+       "id": "Tagihan air setiap bulan berapa?"
+      }
+     ]
+    },
+    {
+     "surface": "洗濯機",
+     "reading": "せんたくき",
+     "meaning": "mesin cuci",
+     "sentence": "洗濯機が 動きません。",
+     "sentence_reading": "せんたくきが うごきません。",
+     "sentences": [
+      {
+       "jp": "洗濯機が 動きません。",
+       "reading": "せんたくきが うごきません。",
+       "id": "Mesin cuci tidak jalan."
+      },
+      {
+       "jp": "洗濯機を 使っても いいですか。",
+       "reading": "せんたくきを つかっても いいですか。",
+       "id": "Boleh saya pakai mesin cuci?"
+      },
+      {
+       "jp": "洗濯機の 音が うるさいです。",
+       "reading": "せんたくきの おとが うるさいです。",
+       "id": "Suara mesin cuci berisik."
+      }
+     ]
+    },
+    {
+     "surface": "冷蔵庫",
+     "reading": "れいぞうこ",
+     "meaning": "kulkas",
+     "sentence": "ジュースは 冷蔵庫に 入れて ください。",
+     "sentence_reading": "じゅーすは れいぞうこに いれて ください。",
+     "sentences": [
+      {
+       "jp": "ジュースは 冷蔵庫に 入れて ください。",
+       "reading": "じゅーすは れいぞうこに いれて ください。",
+       "id": "Tolong masukkan jus ke kulkas."
+      },
+      {
+       "jp": "冷蔵庫に 牛乳が あります。",
+       "reading": "れいぞうこに ぎゅうにゅうが あります。",
+       "id": "Ada susu di kulkas."
+      },
+      {
+       "jp": "冷蔵庫が 小さいです。",
+       "reading": "れいぞうこが ちいさいです。",
+       "id": "Kulkasnya kecil."
+      }
+     ]
+    },
+    {
+     "surface": "ごみ",
+     "reading": "ごみ",
+     "meaning": "sampah",
+     "sentence": "ごみは 月曜日に 出します。",
+     "sentence_reading": "ごみは げつようびに だします。",
+     "sentences": [
+      {
+       "jp": "ごみは 月曜日に 出します。",
+       "reading": "ごみは げつようびに だします。",
+       "id": "Sampah dibuang pada hari Senin."
+      },
+      {
+       "jp": "ごみは どこに 出しますか。",
+       "reading": "ごみは どこに だしますか。",
+       "id": "Sampah dibuang di mana?"
+      },
+      {
+       "jp": "ごみの 日を 忘れました。",
+       "reading": "ごみの ひを わすれました。",
+       "id": "Saya lupa hari buang sampah."
+      }
+     ]
+    },
+    {
+     "surface": "燃えるごみ",
+     "reading": "もえるごみ",
+     "meaning": "sampah yang bisa dibakar",
+     "sentence": "燃えるごみは 火曜日と 金曜日です。",
+     "sentence_reading": "もえるごみは かようびと きんようびです。",
+     "sentences": [
+      {
+       "jp": "燃えるごみは 火曜日と 金曜日です。",
+       "reading": "もえるごみは かようびと きんようびです。",
+       "id": "Sampah bakar hari Selasa dan Jumat."
+      },
+      {
+       "jp": "燃えるごみは 朝 八時までに 出します。",
+       "reading": "もえるごみは あさ はちじまでに だします。",
+       "id": "Sampah bakar dikeluarkan sebelum jam delapan pagi."
+      },
+      {
+       "jp": "今日は 燃えるごみの 日です。",
+       "reading": "きょうは もえるごみの ひです。",
+       "id": "Hari ini hari sampah bakar."
+      }
+     ]
+    },
+    {
+     "surface": "管理人",
+     "reading": "かんりにん",
+     "meaning": "pengelola gedung",
+     "sentence": "管理人に 相談します。",
+     "sentence_reading": "かんりにんに そうだんします。",
+     "sentences": [
+      {
+       "jp": "管理人に 相談します。",
+       "reading": "かんりにんに そうだんします。",
+       "id": "Saya berkonsultasi dengan pengelola gedung."
+      },
+      {
+       "jp": "管理人さんは 一階に います。",
+       "reading": "かんりにんさんは いっかいに います。",
+       "id": "Pengelola ada di lantai satu."
+      },
+      {
+       "jp": "管理人に 連絡して ください。",
+       "reading": "かんりにんに れんらくして ください。",
+       "id": "Tolong hubungi pengelola gedung."
+      }
+     ]
+    },
+    {
+     "surface": "隣",
+     "reading": "となり",
+     "meaning": "sebelah / tetangga",
+     "sentence": "隣の 人に あいさつしました。",
+     "sentence_reading": "となりの ひとに あいさつしました。",
+     "sentences": [
+      {
+       "jp": "隣の 人に あいさつしました。",
+       "reading": "となりの ひとに あいさつしました。",
+       "id": "Saya menyapa orang di sebelah."
+      },
+      {
+       "jp": "隣の 部屋は 静かです。",
+       "reading": "となりの へやは しずかです。",
+       "id": "Kamar sebelah tenang."
+      },
+      {
+       "jp": "隣に 新しい 人が 引っ越して 来ました。",
+       "reading": "となりに あたらしい ひとが ひっこして きました。",
+       "id": "Orang baru pindah ke sebelah."
+      }
+     ]
+    },
+    {
+     "surface": "うるさい",
+     "reading": "うるさい",
+     "meaning": "berisik",
+     "sentence": "夜は うるさいので 静かに して ください。",
+     "sentence_reading": "よるは うるさいので しずかに して ください。",
+     "sentences": [
+      {
+       "jp": "夜は うるさいので 静かに して ください。",
+       "reading": "よるは うるさいので しずかに して ください。",
+       "id": "Malam hari berisik, jadi tolong tenang."
+      },
+      {
+       "jp": "隣の 音が うるさいです。",
+       "reading": "となりの おとが うるさいです。",
+       "id": "Suara dari sebelah berisik."
+      },
+      {
+       "jp": "すみません、うるさかったですか。",
+       "reading": "すみません、うるさかったですか。",
+       "id": "Maaf, apakah tadi berisik?"
+      }
+     ]
+    },
+    {
+     "surface": "静か",
+     "reading": "しずか",
+     "meaning": "sunyi / tenang",
+     "sentence": "この 町は 静かです。",
+     "sentence_reading": "この まちは しずかです。",
+     "sentences": [
+      {
+       "jp": "この 町は 静かです。",
+       "reading": "この まちは しずかです。",
+       "id": "Kota ini tenang."
+      },
+      {
+       "jp": "ここは 静かで いいですね。",
+       "reading": "ここは しずかで いいですね。",
+       "id": "Di sini tenang dan enak ya."
+      },
+      {
+       "jp": "夜は 静かに して ください。",
+       "reading": "よるは しずかに して ください。",
+       "id": "Tolong tenang pada malam hari."
+      }
+     ]
+    },
+    {
+     "surface": "きれい",
+     "reading": "きれい",
+     "meaning": "bersih / indah",
+     "sentence": "部屋が きれいです。",
+     "sentence_reading": "へやが きれいです。",
+     "sentences": [
+      {
+       "jp": "部屋が きれいです。",
+       "reading": "へやが きれいです。",
+       "id": "Kamarnya bersih."
+      },
+      {
+       "jp": "きれいな 部屋ですね。",
+       "reading": "きれいな へやですね。",
+       "id": "Kamarnya bersih ya."
+      },
+      {
+       "jp": "手を きれいに 洗って ください。",
+       "reading": "てを きれいに あらって ください。",
+       "id": "Tolong cuci tangan sampai bersih."
+      }
+     ]
+    },
+    {
+     "surface": "汚い",
+     "reading": "きたない",
+     "meaning": "kotor",
+     "sentence": "トイレが 汚いです。",
+     "sentence_reading": "といれが きたないです。",
+     "sentences": [
+      {
+       "jp": "トイレが 汚いです。",
+       "reading": "といれが きたないです。",
+       "id": "Toilet-nya kotor."
+      },
+      {
+       "jp": "汚い ところは 掃除します。",
+       "reading": "きたない ところは そうじします。",
+       "id": "Bagian yang kotor akan saya bersihkan."
+      },
+      {
+       "jp": "くつが 汚く なりました。",
+       "reading": "くつが きたなく なりました。",
+       "id": "Sepatu saya jadi kotor."
+      }
+     ]
+    },
+    {
+     "surface": "広い",
+     "reading": "ひろい",
+     "meaning": "luas",
+     "sentence": "この 部屋は 広いです。",
+     "sentence_reading": "この へやは ひろいです。",
+     "sentences": [
+      {
+       "jp": "この 部屋は 広いです。",
+       "reading": "この へやは ひろいです。",
+       "id": "Kamar ini luas."
+      },
+      {
+       "jp": "広い 部屋に 住みたいです。",
+       "reading": "ひろい へやに すみたいです。",
+       "id": "Saya ingin tinggal di kamar yang luas."
+      },
+      {
+       "jp": "この 公園は 広いです。",
+       "reading": "この こうえんは ひろいです。",
+       "id": "Taman ini luas."
+      }
+     ]
+    },
+    {
+     "surface": "狭い",
+     "reading": "せまい",
+     "meaning": "sempit",
+     "sentence": "台所が 少し 狭いです。",
+     "sentence_reading": "だいどころが すこし せまいです。",
+     "sentences": [
+      {
+       "jp": "台所が 少し 狭いです。",
+       "reading": "だいどころが すこし せまいです。",
+       "id": "Dapurnya agak sempit."
+      },
+      {
+       "jp": "部屋が 狭くて 荷物が 入りません。",
+       "reading": "へやが せまくて にもつが はいりません。",
+       "id": "Kamar sempit, jadi barang tidak muat."
+      },
+      {
+       "jp": "この 道は 狭いので 気を つけて ください。",
+       "reading": "この みちは せまいので きを つけて ください。",
+       "id": "Jalan ini sempit, jadi hati-hati."
+      }
+     ]
+    },
+    {
+     "surface": "台所",
+     "reading": "だいどころ",
+     "meaning": "dapur",
+     "sentence": "台所で 料理を します。",
+     "sentence_reading": "だいどころで りょうりを します。",
+     "sentences": [
+      {
+       "jp": "台所で 料理を します。",
+       "reading": "だいどころで りょうりを します。",
+       "id": "Saya memasak di dapur."
+      },
+      {
+       "jp": "台所の 電気を 消して ください。",
+       "reading": "だいどころの でんきを けして ください。",
+       "id": "Tolong matikan lampu dapur."
+      },
+      {
+       "jp": "台所は 母が 掃除します。",
+       "reading": "だいどころは ははが そうじします。",
+       "id": "Dapur dibersihkan oleh ibu."
+      }
+     ]
+    },
+    {
+     "surface": "玄関",
+     "reading": "げんかん",
+     "meaning": "pintu depan (genkan)",
+     "sentence": "玄関で くつを ぬいで ください。",
+     "sentence_reading": "げんかんで くつを ぬいで ください。",
+     "sentences": [
+      {
+       "jp": "玄関で くつを ぬいで ください。",
+       "reading": "げんかんで くつを ぬいで ください。",
+       "id": "Tolong lepas sepatu di genkan."
+      },
+      {
+       "jp": "玄関で 待って います。",
+       "reading": "げんかんで まって います。",
+       "id": "Saya menunggu di pintu depan."
+      },
+      {
+       "jp": "玄関の 鍵を かけます。",
+       "reading": "げんかんの かぎを かけます。",
+       "id": "Saya mengunci pintu depan."
+      }
+     ]
+    },
+    {
+     "surface": "ふろ",
+     "reading": "ふろ",
+     "meaning": "bak mandi / mandi berendam",
+     "sentence": "毎晩 ふろに 入ります。",
+     "sentence_reading": "まいばん ふろに はいります。",
+     "sentences": [
+      {
+       "jp": "毎晩 ふろに 入ります。",
+       "reading": "まいばん ふろに はいります。",
+       "id": "Saya berendam setiap malam."
+      },
+      {
+       "jp": "ふろに 入って から 寝ます。",
+       "reading": "ふろに はいって から ねます。",
+       "id": "Saya tidur setelah mandi."
+      },
+      {
+       "jp": "ふろが わきました。",
+       "reading": "ふろが わきました。",
+       "id": "Air mandinya sudah panas."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Cuaca, Bencana & Keadaan Darurat",
+   "words": [
+    {
+     "surface": "天気",
+     "reading": "てんき",
+     "meaning": "cuaca",
+     "sentence": "明日の 天気は どうですか。",
+     "sentence_reading": "あしたの てんきは どうですか。",
+     "sentences": [
+      {
+       "jp": "明日の 天気は どうですか。",
+       "reading": "あしたの てんきは どうですか。",
+       "id": "Bagaimana cuaca besok?"
+      },
+      {
+       "jp": "天気が 悪いので 出かけません。",
+       "reading": "てんきが わるいので でかけません。",
+       "id": "Karena cuaca buruk, saya tidak pergi."
+      },
+      {
+       "jp": "天気予報を 見ます。",
+       "reading": "てんきよほうを みます。",
+       "id": "Saya melihat prakiraan cuaca."
+      }
+     ]
+    },
+    {
+     "surface": "雨",
+     "reading": "あめ",
+     "meaning": "hujan",
+     "sentence": "雨が 降って います。",
+     "sentence_reading": "あめが ふって います。",
+     "sentences": [
+      {
+       "jp": "雨が 降って います。",
+       "reading": "あめが ふって います。",
+       "id": "Sedang hujan."
+      },
+      {
+       "jp": "雨が 降りそうです。",
+       "reading": "あめが ふりそうです。",
+       "id": "Sepertinya akan hujan."
+      },
+      {
+       "jp": "雨の 日は 電車が 込みます。",
+       "reading": "あめの ひは でんしゃが こみます。",
+       "id": "Pada hari hujan, kereta penuh."
+      }
+     ]
+    },
+    {
+     "surface": "雪",
+     "reading": "ゆき",
+     "meaning": "salju",
+     "sentence": "北海道では 冬に 雪が 降ります。",
+     "sentence_reading": "ほっかいどうでは ふゆに ゆきが ふります。",
+     "sentences": [
+      {
+       "jp": "北海道では 冬に 雪が 降ります。",
+       "reading": "ほっかいどうでは ふゆに ゆきが ふります。",
+       "id": "Di Hokkaido salju turun saat musim dingin."
+      },
+      {
+       "jp": "今朝は 雪が 降りました。",
+       "reading": "けさは ゆきが ふりました。",
+       "id": "Pagi ini salju turun."
+      },
+      {
+       "jp": "雪で 電車が 止まりました。",
+       "reading": "ゆきで でんしゃが とまりました。",
+       "id": "Karena salju, kereta berhenti."
+      }
+     ]
+    },
+    {
+     "surface": "風",
+     "reading": "かぜ",
+     "meaning": "angin",
+     "sentence": "今日は 風が 強いです。",
+     "sentence_reading": "きょうは かぜが つよいです。",
+     "sentences": [
+      {
+       "jp": "今日は 風が 強いです。",
+       "reading": "きょうは かぜが つよいです。",
+       "id": "Hari ini angin kencang."
+      },
+      {
+       "jp": "風が 冷たいですね。",
+       "reading": "かぜが つめたいですね。",
+       "id": "Anginnya dingin ya."
+      },
+      {
+       "jp": "風で 窓が 閉まりました。",
+       "reading": "かぜで まどが しまりました。",
+       "id": "Jendela tertutup karena angin."
+      }
+     ]
+    },
+    {
+     "surface": "台風",
+     "reading": "たいふう",
+     "meaning": "topan",
+     "sentence": "台風が 近づいて います。",
+     "sentence_reading": "たいふうが ちかづいて います。",
+     "sentences": [
+      {
+       "jp": "台風が 近づいて います。",
+       "reading": "たいふうが ちかづいて います。",
+       "id": "Topan sedang mendekat."
+      },
+      {
+       "jp": "台風で 電車が 止まるかもしれません。",
+       "reading": "たいふうで でんしゃが とまるかもしれません。",
+       "id": "Karena topan, kereta mungkin berhenti."
+      },
+      {
+       "jp": "台風が 来る 前に 買い物を します。",
+       "reading": "たいふうが くる まえに かいものを します。",
+       "id": "Sebelum topan datang, saya belanja."
+      }
+     ]
+    },
+    {
+     "surface": "地震",
+     "reading": "じしん",
+     "meaning": "gempa bumi",
+     "sentence": "地震の とき、机の 下に 入ります。",
+     "sentence_reading": "じしんの とき、つくえの したに はいります。",
+     "sentences": [
+      {
+       "jp": "地震の とき、机の 下に 入ります。",
+       "reading": "じしんの とき、つくえの したに はいります。",
+       "id": "Saat gempa, saya masuk ke bawah meja."
+      },
+      {
+       "jp": "昨日の 夜、地震が ありました。",
+       "reading": "きのうの よる、じしんが ありました。",
+       "id": "Semalam ada gempa."
+      },
+      {
+       "jp": "地震が 起きたら、火を 消して ください。",
+       "reading": "じしんが おきたら、ひを けして ください。",
+       "id": "Kalau terjadi gempa, tolong matikan api."
+      }
+     ]
+    },
+    {
+     "surface": "津波",
+     "reading": "つなみ",
+     "meaning": "tsunami",
+     "sentence": "津波の 心配が あります。",
+     "sentence_reading": "つなみの しんぱいが あります。",
+     "sentences": [
+      {
+       "jp": "津波の 心配が あります。",
+       "reading": "つなみの しんぱいが あります。",
+       "id": "Ada kekhawatiran tsunami."
+      },
+      {
+       "jp": "津波が 来る かもしれません。",
+       "reading": "つなみが くる かもしれません。",
+       "id": "Mungkin tsunami akan datang."
+      },
+      {
+       "jp": "津波の ときは 高い 所へ 逃げます。",
+       "reading": "つなみの ときは たかい ところへ にげます。",
+       "id": "Saat tsunami, saya lari ke tempat tinggi."
+      }
+     ]
+    },
+    {
+     "surface": "火事",
+     "reading": "かじ",
+     "meaning": "kebakaran",
+     "sentence": "火事の ときは 119番に 電話します。",
+     "sentence_reading": "かじの ときは ひゃくじゅうきゅうばんに でんわします。",
+     "sentences": [
+      {
+       "jp": "火事の ときは 119番に 電話します。",
+       "reading": "かじの ときは ひゃくじゅうきゅうばんに でんわします。",
+       "id": "Saat kebakaran, telepon 119."
+      },
+      {
+       "jp": "近くで 火事が ありました。",
+       "reading": "ちかくで かじが ありました。",
+       "id": "Ada kebakaran di dekat sini."
+      },
+      {
+       "jp": "火事の ときは エレベーターを 使わないで ください。",
+       "reading": "かじの ときは えれべーたーを つかわないで ください。",
+       "id": "Saat kebakaran, jangan pakai lift."
+      }
+     ]
+    },
+    {
+     "surface": "避難",
+     "reading": "ひなん",
+     "meaning": "evakuasi",
+     "sentence": "高い 所へ 避難して ください。",
+     "sentence_reading": "たかい ところへ ひなんして ください。",
+     "sentences": [
+      {
+       "jp": "高い 所へ 避難して ください。",
+       "reading": "たかい ところへ ひなんして ください。",
+       "id": "Tolong mengungsi ke tempat yang tinggi."
+      },
+      {
+       "jp": "ここから 避難して ください。",
+       "reading": "ここから ひなんして ください。",
+       "id": "Tolong mengungsi dari sini."
+      },
+      {
+       "jp": "避難の 練習が あります。",
+       "reading": "ひなんの れんしゅうが あります。",
+       "id": "Ada latihan evakuasi."
+      }
+     ]
+    },
+    {
+     "surface": "避難所",
+     "reading": "ひなんじょ",
+     "meaning": "tempat pengungsian",
+     "sentence": "避難所は 学校です。",
+     "sentence_reading": "ひなんじょは がっこうです。",
+     "sentences": [
+      {
+       "jp": "避難所は 学校です。",
+       "reading": "ひなんじょは がっこうです。",
+       "id": "Tempat pengungsiannya adalah sekolah."
+      },
+      {
+       "jp": "避難所は どこですか。",
+       "reading": "ひなんじょは どこですか。",
+       "id": "Di mana tempat pengungsian?"
+      },
+      {
+       "jp": "避難所に 水と 食べ物が あります。",
+       "reading": "ひなんじょに みずと たべものが あります。",
+       "id": "Di tempat pengungsian ada air dan makanan."
+      }
+     ]
+    },
+    {
+     "surface": "非常口",
+     "reading": "ひじょうぐち",
+     "meaning": "pintu darurat",
+     "sentence": "非常口は あちらです。",
+     "sentence_reading": "ひじょうぐちは あちらです。",
+     "sentences": [
+      {
+       "jp": "非常口は あちらです。",
+       "reading": "ひじょうぐちは あちらです。",
+       "id": "Pintu daruratnya di sebelah sana."
+      },
+      {
+       "jp": "非常口の 場所を 確認して ください。",
+       "reading": "ひじょうぐちの ばしょを かくにんして ください。",
+       "id": "Tolong periksa lokasi pintu darurat."
+      },
+      {
+       "jp": "非常口の 前に 物を 置かないで ください。",
+       "reading": "ひじょうぐちの まえに ものを おかないで ください。",
+       "id": "Jangan menaruh barang di depan pintu darurat."
+      }
+     ]
+    },
+    {
+     "surface": "警察",
+     "reading": "けいさつ",
+     "meaning": "polisi",
+     "sentence": "財布を 落として 警察に 行きました。",
+     "sentence_reading": "さいふを おとして けいさつに いきました。",
+     "sentences": [
+      {
+       "jp": "財布を 落として 警察に 行きました。",
+       "reading": "さいふを おとして けいさつに いきました。",
+       "id": "Dompet saya jatuh, jadi saya pergi ke polisi."
+      },
+      {
+       "jp": "警察に 電話します。",
+       "reading": "けいさつに でんわします。",
+       "id": "Saya menelepon polisi."
+      },
+      {
+       "jp": "警察は 駅の 近くに あります。",
+       "reading": "けいさつは えきの ちかくに あります。",
+       "id": "Kantor polisi ada di dekat stasiun."
+      }
+     ]
+    },
+    {
+     "surface": "事故",
+     "reading": "じこ",
+     "meaning": "kecelakaan",
+     "sentence": "駅の 近くで 事故が ありました。",
+     "sentence_reading": "えきの ちかくで じこが ありました。",
+     "sentences": [
+      {
+       "jp": "駅の 近くで 事故が ありました。",
+       "reading": "えきの ちかくで じこが ありました。",
+       "id": "Ada kecelakaan di dekat stasiun."
+      },
+      {
+       "jp": "事故で 電車が 遅れて います。",
+       "reading": "じこで でんしゃが おくれて います。",
+       "id": "Kereta terlambat karena kecelakaan."
+      },
+      {
+       "jp": "事故に 気を つけて ください。",
+       "reading": "じこに きを つけて ください。",
+       "id": "Hati-hati terhadap kecelakaan."
+      }
+     ]
+    },
+    {
+     "surface": "落とす",
+     "reading": "おとす",
+     "meaning": "menjatuhkan / kehilangan",
+     "sentence": "さいふを 落としました。",
+     "sentence_reading": "さいふを おとしました。",
+     "sentences": [
+      {
+       "jp": "さいふを 落としました。",
+       "reading": "さいふを おとしました。",
+       "id": "Saya menjatuhkan dompet saya."
+      },
+      {
+       "jp": "財布を 落とした ようです。",
+       "reading": "さいふを おとした ようです。",
+       "id": "Sepertinya dompet saya jatuh."
+      },
+      {
+       "jp": "コップを 落として 割って しまいました。",
+       "reading": "こっぷを おとして わって しまいました。",
+       "id": "Saya menjatuhkan gelas dan memecahkannya."
+      }
+     ]
+    },
+    {
+     "surface": "なくす",
+     "reading": "なくす",
+     "meaning": "menghilangkan",
+     "sentence": "かぎを なくしました。",
+     "sentence_reading": "かぎを なくしました。",
+     "sentences": [
+      {
+       "jp": "かぎを なくしました。",
+       "reading": "かぎを なくしました。",
+       "id": "Saya menghilangkan kunci saya."
+      },
+      {
+       "jp": "大切な 物を なくさないで ください。",
+       "reading": "たいせつな ものを なくさないで ください。",
+       "id": "Tolong jangan menghilangkan barang penting."
+      },
+      {
+       "jp": "電車の 切符を なくして しまいました。",
+       "reading": "でんしゃの きっぷを なくして しまいました。",
+       "id": "Saya menghilangkan tiket kereta."
+      }
+     ]
+    },
+    {
+     "surface": "盗む",
+     "reading": "ぬすむ",
+     "meaning": "mencuri",
+     "sentence": "自転車を 盗まれました。",
+     "sentence_reading": "じてんしゃを ぬすまれました。",
+     "sentences": [
+      {
+       "jp": "自転車を 盗まれました。",
+       "reading": "じてんしゃを ぬすまれました。",
+       "id": "Sepeda saya dicuri."
+      },
+      {
+       "jp": "かばんを 盗まれました。",
+       "reading": "かばんを ぬすまれました。",
+       "id": "Tas saya dicuri."
+      },
+      {
+       "jp": "自転車が 盗まれないように 鍵を かけます。",
+       "reading": "じてんしゃが ぬすまれないように かぎを かけます。",
+       "id": "Agar sepeda tidak dicuri, saya menguncinya."
+      }
+     ]
+    },
+    {
+     "surface": "停電",
+     "reading": "ていでん",
+     "meaning": "mati listrik",
+     "sentence": "夜に 停電が ありました。",
+     "sentence_reading": "よるに ていでんが ありました。",
+     "sentences": [
+      {
+       "jp": "夜に 停電が ありました。",
+       "reading": "よるに ていでんが ありました。",
+       "id": "Pada malam hari ada mati listrik."
+      },
+      {
+       "jp": "地震で 停電に なりました。",
+       "reading": "じしんで ていでんに なりました。",
+       "id": "Terjadi mati listrik karena gempa."
+      },
+      {
+       "jp": "停電しても あわてないで ください。",
+       "reading": "ていでんしても あわてないで ください。",
+       "id": "Meski listrik mati, jangan panik."
+      }
+     ]
+    },
+    {
+     "surface": "注意",
+     "reading": "ちゅうい",
+     "meaning": "perhatian / hati-hati",
+     "sentence": "足もとに 注意して ください。",
+     "sentence_reading": "あしもとに ちゅういして ください。",
+     "sentences": [
+      {
+       "jp": "足もとに 注意して ください。",
+       "reading": "あしもとに ちゅういして ください。",
+       "id": "Harap hati-hati dengan langkah kaki Anda."
+      },
+      {
+       "jp": "車に 注意して ください。",
+       "reading": "くるまに ちゅういして ください。",
+       "id": "Hati-hati dengan mobil."
+      },
+      {
+       "jp": "足もとに ご注意ください。",
+       "reading": "あしもとに ごちゅういください。",
+       "id": "Harap perhatikan langkah Anda."
+      }
+     ]
+    },
+    {
+     "surface": "禁止",
+     "reading": "きんし",
+     "meaning": "dilarang",
+     "sentence": "ここは 駐車禁止です。",
+     "sentence_reading": "ここは ちゅうしゃきんしです。",
+     "sentences": [
+      {
+       "jp": "ここは 駐車禁止です。",
+       "reading": "ここは ちゅうしゃきんしです。",
+       "id": "Di sini dilarang parkir."
+      },
+      {
+       "jp": "ここで たばこを すうのは 禁止です。",
+       "reading": "ここで たばこを すうのは きんしです。",
+       "id": "Merokok di sini dilarang."
+      },
+      {
+       "jp": "入る ことは 禁止されて います。",
+       "reading": "はいる ことは きんしされて います。",
+       "id": "Dilarang masuk."
+      }
+     ]
+    },
+    {
+     "surface": "無料",
+     "reading": "むりょう",
+     "meaning": "gratis",
+     "sentence": "この サービスは 無料です。",
+     "sentence_reading": "この さーびすは むりょうです。",
+     "sentences": [
+      {
+       "jp": "この サービスは 無料です。",
+       "reading": "この さーびすは むりょうです。",
+       "id": "Layanan ini gratis."
+      },
+      {
+       "jp": "この 駐車場は 一時間 無料です。",
+       "reading": "この ちゅうしゃじょうは いちじかん むりょうです。",
+       "id": "Parkiran ini gratis satu jam."
+      },
+      {
+       "jp": "子どもは 無料です。",
+       "reading": "こどもは むりょうです。",
+       "id": "Anak-anak gratis."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Urusan Administrasi & Komunikasi",
+   "words": [
+    {
+     "surface": "市役所",
+     "reading": "しやくしょ",
+     "meaning": "kantor pemerintah kota",
+     "sentence": "市役所で 手続きを します。",
+     "sentence_reading": "しやくしょで てつづきを します。",
+     "sentences": [
+      {
+       "jp": "市役所で 手続きを します。",
+       "reading": "しやくしょで てつづきを します。",
+       "id": "Saya mengurus prosedur di kantor kota."
+      },
+      {
+       "jp": "市役所は 何時から 何時までですか。",
+       "reading": "しやくしょは なんじから なんじまでですか。",
+       "id": "Kantor kota buka jam berapa sampai jam berapa?"
+      },
+      {
+       "jp": "市役所に 書類を 出しに 行きます。",
+       "reading": "しやくしょに しょるいを だしに いきます。",
+       "id": "Saya pergi menyerahkan dokumen ke kantor kota."
+      }
+     ]
+    },
+    {
+     "surface": "手続き",
+     "reading": "てつづき",
+     "meaning": "prosedur / pengurusan",
+     "sentence": "手続きは 簡単です。",
+     "sentence_reading": "てつづきは かんたんです。",
+     "sentences": [
+      {
+       "jp": "手続きは 簡単です。",
+       "reading": "てつづきは かんたんです。",
+       "id": "Pengurusannya mudah."
+      },
+      {
+       "jp": "引っ越しの 手続きを しました。",
+       "reading": "ひっこしの てつづきを しました。",
+       "id": "Saya sudah mengurus prosedur pindah."
+      },
+      {
+       "jp": "手続きに 何日 かかりますか。",
+       "reading": "てつづきに なんにち かかりますか。",
+       "id": "Pengurusan memerlukan waktu berapa hari?"
+      }
+     ]
+    },
+    {
+     "surface": "書類",
+     "reading": "しょるい",
+     "meaning": "dokumen",
+     "sentence": "書類を 出して ください。",
+     "sentence_reading": "しょるいを だして ください。",
+     "sentences": [
+      {
+       "jp": "書類を 出して ください。",
+       "reading": "しょるいを だして ください。",
+       "id": "Tolong serahkan dokumennya."
+      },
+      {
+       "jp": "書類は 全部 そろいましたか。",
+       "reading": "しょるいは ぜんぶ そろいましたか。",
+       "id": "Apakah semua dokumen sudah lengkap?"
+      },
+      {
+       "jp": "書類に ハンコを 押して ください。",
+       "reading": "しょるいに はんこを おして ください。",
+       "id": "Tolong cap stempel pada dokumen."
+      }
+     ]
+    },
+    {
+     "surface": "在留カード",
+     "reading": "ざいりゅうかーど",
+     "meaning": "kartu izin tinggal",
+     "sentence": "在留カードを 持って きて ください。",
+     "sentence_reading": "ざいりゅうかーどを もって きて ください。",
+     "sentences": [
+      {
+       "jp": "在留カードを 持って きて ください。",
+       "reading": "ざいりゅうかーどを もって きて ください。",
+       "id": "Tolong bawa kartu izin tinggal."
+      },
+      {
+       "jp": "在留カードを 見せて ください。",
+       "reading": "ざいりゅうかーどを みせて ください。",
+       "id": "Tolong tunjukkan kartu izin tinggal."
+      },
+      {
+       "jp": "在留カードの 期限が もうすぐ 切れます。",
+       "reading": "ざいりゅうかーどの きげんが もうすぐ きれます。",
+       "id": "Masa berlaku kartu izin tinggal sebentar lagi habis."
+      }
+     ]
+    },
+    {
+     "surface": "銀行",
+     "reading": "ぎんこう",
+     "meaning": "bank",
+     "sentence": "銀行で お金を おろします。",
+     "sentence_reading": "ぎんこうで おかねを おろします。",
+     "sentences": [
+      {
+       "jp": "銀行で お金を おろします。",
+       "reading": "ぎんこうで おかねを おろします。",
+       "id": "Saya menarik uang di bank."
+      },
+      {
+       "jp": "銀行は 何時に 閉まりますか。",
+       "reading": "ぎんこうは なんじに しまりますか。",
+       "id": "Bank tutup jam berapa?"
+      },
+      {
+       "jp": "銀行で お金を 送ります。",
+       "reading": "ぎんこうで おかねを おくります。",
+       "id": "Saya mengirim uang lewat bank."
+      }
+     ]
+    },
+    {
+     "surface": "口座",
+     "reading": "こうざ",
+     "meaning": "rekening",
+     "sentence": "銀行口座を 作ります。",
+     "sentence_reading": "ぎんこうこうざを つくります。",
+     "sentences": [
+      {
+       "jp": "銀行口座を 作ります。",
+       "reading": "ぎんこうこうざを つくります。",
+       "id": "Saya membuat rekening bank."
+      },
+      {
+       "jp": "口座に お金を 入れます。",
+       "reading": "こうざに おかねを いれます。",
+       "id": "Saya memasukkan uang ke rekening."
+      },
+      {
+       "jp": "口座の 番号を 教えて ください。",
+       "reading": "こうざの ばんごうを おしえて ください。",
+       "id": "Tolong beri tahu nomor rekening."
+      }
+     ]
+    },
+    {
+     "surface": "郵便局",
+     "reading": "ゆうびんきょく",
+     "meaning": "kantor pos",
+     "sentence": "郵便局で 荷物を 送ります。",
+     "sentence_reading": "ゆうびんきょくで にもつを おくります。",
+     "sentences": [
+      {
+       "jp": "郵便局で 荷物を 送ります。",
+       "reading": "ゆうびんきょくで にもつを おくります。",
+       "id": "Saya mengirim paket di kantor pos."
+      },
+      {
+       "jp": "郵便局は どこですか。",
+       "reading": "ゆうびんきょくは どこですか。",
+       "id": "Di mana kantor pos?"
+      },
+      {
+       "jp": "郵便局で 手紙を 出します。",
+       "reading": "ゆうびんきょくで てがみを だします。",
+       "id": "Saya mengirim surat di kantor pos."
+      }
+     ]
+    },
+    {
+     "surface": "荷物",
+     "reading": "にもつ",
+     "meaning": "barang bawaan / paket",
+     "sentence": "荷物が 届きました。",
+     "sentence_reading": "にもつが とどきました。",
+     "sentences": [
+      {
+       "jp": "荷物が 届きました。",
+       "reading": "にもつが とどきました。",
+       "id": "Paketnya sudah tiba."
+      },
+      {
+       "jp": "荷物は 軽いですか。",
+       "reading": "にもつは かるいですか。",
+       "id": "Apakah bawaannya ringan?"
+      },
+      {
+       "jp": "荷物を 持ちましょうか。",
+       "reading": "にもつを もちましょうか。",
+       "id": "Mau saya bawakan barangnya?"
+      }
+     ]
+    },
+    {
+     "surface": "送る",
+     "reading": "おくる",
+     "meaning": "mengirim",
+     "sentence": "国へ お金を 送ります。",
+     "sentence_reading": "くにへ おかねを おくります。",
+     "sentences": [
+      {
+       "jp": "国へ お金を 送ります。",
+       "reading": "くにへ おかねを おくります。",
+       "id": "Saya mengirim uang ke negara asal."
+      },
+      {
+       "jp": "写真を メールで 送ります。",
+       "reading": "しゃしんを めーるで おくります。",
+       "id": "Saya mengirim foto lewat email."
+      },
+      {
+       "jp": "友達に 手紙を 送りました。",
+       "reading": "ともだちに てがみを おくりました。",
+       "id": "Saya mengirim surat kepada teman."
+      }
+     ]
+    },
+    {
+     "surface": "届く",
+     "reading": "とどく",
+     "meaning": "sampai / tiba",
+     "sentence": "メールが 届きました。",
+     "sentence_reading": "めーるが とどきました。",
+     "sentences": [
+      {
+       "jp": "メールが 届きました。",
+       "reading": "めーるが とどきました。",
+       "id": "Email sudah sampai."
+      },
+      {
+       "jp": "荷物は 明日の 午後 届きます。",
+       "reading": "にもつは あしたの ごご とどきます。",
+       "id": "Paket akan sampai besok siang."
+      },
+      {
+       "jp": "まだ 手紙が 届きません。",
+       "reading": "まだ てがみが とどきません。",
+       "id": "Suratnya belum sampai."
+      }
+     ]
+    },
+    {
+     "surface": "申し込む",
+     "reading": "もうしこむ",
+     "meaning": "mendaftar / mengajukan",
+     "sentence": "インターネットで 申し込みます。",
+     "sentence_reading": "いんたーねっとで もうしこみます。",
+     "sentences": [
+      {
+       "jp": "インターネットで 申し込みます。",
+       "reading": "いんたーねっとで もうしこみます。",
+       "id": "Saya mendaftar lewat internet."
+      },
+      {
+       "jp": "ここで 申し込めますか。",
+       "reading": "ここで もうしこめますか。",
+       "id": "Bisakah mendaftar di sini?"
+      },
+      {
+       "jp": "日本語の 教室に 申し込みました。",
+       "reading": "にほんごの きょうしつに もうしこみました。",
+       "id": "Saya mendaftar kelas bahasa Jepang."
+      }
+     ]
+    },
+    {
+     "surface": "書く",
+     "reading": "かく",
+     "meaning": "menulis",
+     "sentence": "ここに 名前を 書いて ください。",
+     "sentence_reading": "ここに なまえを かいて ください。",
+     "sentences": [
+      {
+       "jp": "ここに 名前を 書いて ください。",
+       "reading": "ここに なまえを かいて ください。",
+       "id": "Tolong tulis nama di sini."
+      },
+      {
+       "jp": "ペンで 書いて ください。",
+       "reading": "ぺんで かいて ください。",
+       "id": "Tolong tulis dengan pulpen."
+      },
+      {
+       "jp": "日本語で 手紙を 書きました。",
+       "reading": "にほんごで てがみを かきました。",
+       "id": "Saya menulis surat dalam bahasa Jepang."
+      }
+     ]
+    },
+    {
+     "surface": "確認",
+     "reading": "かくにん",
+     "meaning": "konfirmasi / mengecek",
+     "sentence": "時間を 確認して ください。",
+     "sentence_reading": "じかんを かくにんして ください。",
+     "sentences": [
+      {
+       "jp": "時間を 確認して ください。",
+       "reading": "じかんを かくにんして ください。",
+       "id": "Tolong pastikan waktunya."
+      },
+      {
+       "jp": "もう 一度 確認して ください。",
+       "reading": "もう いちど かくにんして ください。",
+       "id": "Tolong periksa sekali lagi."
+      },
+      {
+       "jp": "予約の 確認を お願いします。",
+       "reading": "よやくの かくにんを おねがいします。",
+       "id": "Mohon konfirmasi reservasinya."
+      }
+     ]
+    },
+    {
+     "surface": "変更",
+     "reading": "へんこう",
+     "meaning": "perubahan / mengubah",
+     "sentence": "予約を 変更したいです。",
+     "sentence_reading": "よやくを へんこうしたいです。",
+     "sentences": [
+      {
+       "jp": "予約を 変更したいです。",
+       "reading": "よやくを へんこうしたいです。",
+       "id": "Saya ingin mengubah reservasi."
+      },
+      {
+       "jp": "予定を 変更しても いいですか。",
+       "reading": "よていを へんこうしても いいですか。",
+       "id": "Boleh saya ubah jadwalnya?"
+      },
+      {
+       "jp": "住所が 変更に なりました。",
+       "reading": "じゅうしょが へんこうに なりました。",
+       "id": "Alamat sudah berubah."
+      }
+     ]
+    },
+    {
+     "surface": "取り消す",
+     "reading": "とりけす",
+     "meaning": "membatalkan",
+     "sentence": "予約を 取り消します。",
+     "sentence_reading": "よやくを とりけします。",
+     "sentences": [
+      {
+       "jp": "予約を 取り消します。",
+       "reading": "よやくを とりけします。",
+       "id": "Saya membatalkan reservasi."
+      },
+      {
+       "jp": "注文を 取り消したいです。",
+       "reading": "ちゅうもんを とりけしたいです。",
+       "id": "Saya ingin membatalkan pesanan."
+      },
+      {
+       "jp": "予約を 取り消すと お金が かかります。",
+       "reading": "よやくを とりけすと おかねが かかります。",
+       "id": "Kalau reservasi dibatalkan, dikenakan biaya."
+      }
+     ]
+    },
+    {
+     "surface": "質問",
+     "reading": "しつもん",
+     "meaning": "pertanyaan",
+     "sentence": "質問が あります。",
+     "sentence_reading": "しつもんが あります。",
+     "sentences": [
+      {
+       "jp": "質問が あります。",
+       "reading": "しつもんが あります。",
+       "id": "Saya punya pertanyaan."
+      },
+      {
+       "jp": "質問が ある 人は いますか。",
+       "reading": "しつもんが ある ひとは いますか。",
+       "id": "Ada yang punya pertanyaan?"
+      },
+      {
+       "jp": "質問は 後で お願いします。",
+       "reading": "しつもんは あとで おねがいします。",
+       "id": "Pertanyaannya nanti saja ya."
+      }
+     ]
+    },
+    {
+     "surface": "返事",
+     "reading": "へんじ",
+     "meaning": "balasan / jawaban",
+     "sentence": "メールの 返事を 書きます。",
+     "sentence_reading": "めーるの へんじを かきます。",
+     "sentences": [
+      {
+       "jp": "メールの 返事を 書きます。",
+       "reading": "めーるの へんじを かきます。",
+       "id": "Saya menulis balasan email."
+      },
+      {
+       "jp": "返事を 待って います。",
+       "reading": "へんじを まって います。",
+       "id": "Saya menunggu balasan."
+      },
+      {
+       "jp": "すぐに 返事を しました。",
+       "reading": "すぐに へんじを しました。",
+       "id": "Saya langsung membalas."
+      }
+     ]
+    },
+    {
+     "surface": "約束",
+     "reading": "やくそく",
+     "meaning": "janji",
+     "sentence": "友達と 約束が あります。",
+     "sentence_reading": "ともだちと やくそくが あります。",
+     "sentences": [
+      {
+       "jp": "友達と 約束が あります。",
+       "reading": "ともだちと やくそくが あります。",
+       "id": "Saya ada janji dengan teman."
+      },
+      {
+       "jp": "明日 友達と 会う 約束を しました。",
+       "reading": "あした ともだちと あう やくそくを しました。",
+       "id": "Saya berjanji bertemu teman besok."
+      },
+      {
+       "jp": "約束の 時間に 遅れました。",
+       "reading": "やくそくの じかんに おくれました。",
+       "id": "Saya terlambat dari waktu yang dijanjikan."
+      }
+     ]
+    },
+    {
+     "surface": "相談",
+     "reading": "そうだん",
+     "meaning": "konsultasi / berunding",
+     "sentence": "先生に 相談しました。",
+     "sentence_reading": "せんせいに そうだんしました。",
+     "sentences": [
+      {
+       "jp": "先生に 相談しました。",
+       "reading": "せんせいに そうだんしました。",
+       "id": "Saya berkonsultasi dengan guru."
+      },
+      {
+       "jp": "ちょっと 相談しても いいですか。",
+       "reading": "ちょっと そうだんしても いいですか。",
+       "id": "Boleh saya berkonsultasi sebentar?"
+      },
+      {
+       "jp": "困った ときは 友達に 相談します。",
+       "reading": "こまった ときは ともだちに そうだんします。",
+       "id": "Saat kesulitan, saya berkonsultasi dengan teman."
+      }
+     ]
+    },
+    {
+     "surface": "教える",
+     "reading": "おしえる",
+     "meaning": "mengajari / memberi tahu",
+     "sentence": "駅への 行き方を 教えて ください。",
+     "sentence_reading": "えきへの いきかたを おしえて ください。",
+     "sentences": [
+      {
+       "jp": "駅への 行き方を 教えて ください。",
+       "reading": "えきへの いきかたを おしえて ください。",
+       "id": "Tolong beri tahu cara ke stasiun."
+      },
+      {
+       "jp": "日本語を 教えて ください。",
+       "reading": "にほんごを おしえて ください。",
+       "id": "Tolong ajari saya bahasa Jepang."
+      },
+      {
+       "jp": "電話番号を 教えて ください。",
+       "reading": "でんわばんごうを おしえて ください。",
+       "id": "Tolong beri tahu nomor telepon."
+      }
+     ]
+    },
+    {
+     "surface": "忘れる",
+     "reading": "わすれる",
+     "meaning": "lupa / tertinggal",
+     "sentence": "宿題を 忘れました。",
+     "sentence_reading": "しゅくだいを わすれました。",
+     "sentences": [
+      {
+       "jp": "宿題を 忘れました。",
+       "reading": "しゅくだいを わすれました。",
+       "id": "Saya lupa PR."
+      },
+      {
+       "jp": "財布を 忘れて しまいました。",
+       "reading": "さいふを わすれて しまいました。",
+       "id": "Dompet saya tertinggal."
+      },
+      {
+       "jp": "約束を 忘れないで ください。",
+       "reading": "やくそくを わすれないで ください。",
+       "id": "Jangan lupakan janji."
+      }
+     ]
+    },
+    {
+     "surface": "思い出す",
+     "reading": "おもいだす",
+     "meaning": "teringat",
+     "sentence": "約束を 思い出しました。",
+     "sentence_reading": "やくそくを おもいだしました。",
+     "sentences": [
+      {
+       "jp": "約束を 思い出しました。",
+       "reading": "やくそくを おもいだしました。",
+       "id": "Saya teringat janji itu."
+      },
+      {
+       "jp": "やっと 名前を 思い出しました。",
+       "reading": "やっと なまえを おもいだしました。",
+       "id": "Akhirnya saya ingat namanya."
+      },
+      {
+       "jp": "国の 家族を 思い出します。",
+       "reading": "くにの かぞくを おもいだします。",
+       "id": "Saya teringat keluarga di negara asal."
+      }
+     ]
+    },
+    {
+     "surface": "必要",
+     "reading": "ひつよう",
+     "meaning": "perlu",
+     "sentence": "ハンコが 必要です。",
+     "sentence_reading": "はんこが ひつようです。",
+     "sentences": [
+      {
+       "jp": "ハンコが 必要です。",
+       "reading": "はんこが ひつようです。",
+       "id": "Diperlukan stempel."
+      },
+      {
+       "jp": "何が 必要ですか。",
+       "reading": "なにが ひつようですか。",
+       "id": "Apa yang diperlukan?"
+      },
+      {
+       "jp": "ハンコは 必要ありません。",
+       "reading": "はんこは ひつようありません。",
+       "id": "Stempel tidak diperlukan."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Kata Sifat, Kata Keterangan & Ungkapan Penting",
+   "words": [
+    {
+     "surface": "大切",
+     "reading": "たいせつ",
+     "meaning": "penting / berharga",
+     "sentence": "家族は 大切です。",
+     "sentence_reading": "かぞくは たいせつです。",
+     "sentences": [
+      {
+       "jp": "家族は 大切です。",
+       "reading": "かぞくは たいせつです。",
+       "id": "Keluarga itu penting."
+      },
+      {
+       "jp": "家族を 大切に して ください。",
+       "reading": "かぞくを たいせつに して ください。",
+       "id": "Hargailah keluargamu."
+      },
+      {
+       "jp": "大切な 書類ですから なくさないで ください。",
+       "reading": "たいせつな しょるいですから なくさないで ください。",
+       "id": "Ini dokumen penting, jadi jangan sampai hilang."
+      }
+     ]
+    },
+    {
+     "surface": "大変",
+     "reading": "たいへん",
+     "meaning": "repot / berat / sangat",
+     "sentence": "毎日 仕事が 大変です。",
+     "sentence_reading": "まいにち しごとが たいへんです。",
+     "sentences": [
+      {
+       "jp": "毎日 仕事が 大変です。",
+       "reading": "まいにち しごとが たいへんです。",
+       "id": "Pekerjaan setiap hari berat."
+      },
+      {
+       "jp": "仕事は 大変ですか。",
+       "reading": "しごとは たいへんですか。",
+       "id": "Apakah pekerjaannya berat?"
+      },
+      {
+       "jp": "毎日 大変ですね。",
+       "reading": "まいにち たいへんですね。",
+       "id": "Setiap hari repot ya."
+      }
+     ]
+    },
+    {
+     "surface": "簡単",
+     "reading": "かんたん",
+     "meaning": "mudah / sederhana",
+     "sentence": "この 問題は 簡単です。",
+     "sentence_reading": "この もんだいは かんたんです。",
+     "sentences": [
+      {
+       "jp": "この 問題は 簡単です。",
+       "reading": "この もんだいは かんたんです。",
+       "id": "Soal ini mudah."
+      },
+      {
+       "jp": "使い方は 簡単です。",
+       "reading": "つかいかたは かんたんです。",
+       "id": "Cara pakainya mudah."
+      },
+      {
+       "jp": "簡単な 日本語で 話して ください。",
+       "reading": "かんたんな にほんごで はなして ください。",
+       "id": "Tolong bicara dengan bahasa Jepang sederhana."
+      }
+     ]
+    },
+    {
+     "surface": "難しい",
+     "reading": "むずかしい",
+     "meaning": "sulit",
+     "sentence": "漢字は 難しいです。",
+     "sentence_reading": "かんじは むずかしいです。",
+     "sentences": [
+      {
+       "jp": "漢字は 難しいです。",
+       "reading": "かんじは むずかしいです。",
+       "id": "Kanji itu sulit."
+      },
+      {
+       "jp": "この 問題は 難しいです。",
+       "reading": "この もんだいは むずかしいです。",
+       "id": "Soal ini sulit."
+      },
+      {
+       "jp": "漢字の 読み方は 難しいです。",
+       "reading": "かんじの よみかたは むずかしいです。",
+       "id": "Cara baca kanji itu sulit."
+      }
+     ]
+    },
+    {
+     "surface": "便利",
+     "reading": "べんり",
+     "meaning": "praktis / nyaman",
+     "sentence": "コンビニは 便利です。",
+     "sentence_reading": "こんびには べんりです。",
+     "sentences": [
+      {
+       "jp": "コンビニは 便利です。",
+       "reading": "こんびには べんりです。",
+       "id": "Minimarket itu praktis."
+      },
+      {
+       "jp": "この アプリは 便利です。",
+       "reading": "この あぷりは べんりです。",
+       "id": "Aplikasi ini praktis."
+      },
+      {
+       "jp": "駅に 近くて 便利です。",
+       "reading": "えきに ちかくて べんりです。",
+       "id": "Dekat stasiun, jadi praktis."
+      }
+     ]
+    },
+    {
+     "surface": "不便",
+     "reading": "ふべん",
+     "meaning": "tidak praktis",
+     "sentence": "バスが 少なくて 不便です。",
+     "sentence_reading": "ばすが すくなくて ふべんです。",
+     "sentences": [
+      {
+       "jp": "バスが 少なくて 不便です。",
+       "reading": "ばすが すくなくて ふべんです。",
+       "id": "Busnya sedikit, jadi kurang praktis."
+      },
+      {
+       "jp": "コンビニが 遠くて 不便です。",
+       "reading": "こんびにが とおくて ふべんです。",
+       "id": "Minimarket jauh, jadi tidak praktis."
+      },
+      {
+       "jp": "ここは 不便な 所です。",
+       "reading": "ここは ふべんな ところです。",
+       "id": "Tempat ini kurang praktis."
+      }
+     ]
+    },
+    {
+     "surface": "忙しい",
+     "reading": "いそがしい",
+     "meaning": "sibuk",
+     "sentence": "今週は 忙しいです。",
+     "sentence_reading": "こんしゅうは いそがしいです。",
+     "sentences": [
+      {
+       "jp": "今週は 忙しいです。",
+       "reading": "こんしゅうは いそがしいです。",
+       "id": "Minggu ini sibuk."
+      },
+      {
+       "jp": "今、忙しいですか。",
+       "reading": "いま、いそがしいですか。",
+       "id": "Apakah Anda sedang sibuk sekarang?"
+      },
+      {
+       "jp": "忙しいので 昼ごはんを 食べる 時間が ありません。",
+       "reading": "いそがしいので ひるごはんを たべる じかんが ありません。",
+       "id": "Karena sibuk, tidak ada waktu makan siang."
+      }
+     ]
+    },
+    {
+     "surface": "暇",
+     "reading": "ひま",
+     "meaning": "senggang",
+     "sentence": "今日は 暇です。",
+     "sentence_reading": "きょうは ひまです。",
+     "sentences": [
+      {
+       "jp": "今日は 暇です。",
+       "reading": "きょうは ひまです。",
+       "id": "Hari ini saya senggang."
+      },
+      {
+       "jp": "今日は 暇ですか。",
+       "reading": "きょうは ひまですか。",
+       "id": "Hari ini kamu senggang?"
+      },
+      {
+       "jp": "暇な 時は 本を 読みます。",
+       "reading": "ひまな ときは ほんを よみます。",
+       "id": "Kalau senggang, saya membaca buku."
+      }
+     ]
+    },
+    {
+     "surface": "楽しい",
+     "reading": "たのしい",
+     "meaning": "menyenangkan",
+     "sentence": "旅行は 楽しかったです。",
+     "sentence_reading": "りょこうは たのしかったです。",
+     "sentences": [
+      {
+       "jp": "旅行は 楽しかったです。",
+       "reading": "りょこうは たのしかったです。",
+       "id": "Perjalanannya menyenangkan."
+      },
+      {
+       "jp": "パーティーは 楽しかったです。",
+       "reading": "ぱーてぃーは たのしかったです。",
+       "id": "Pestanya menyenangkan."
+      },
+      {
+       "jp": "日本の 生活は 楽しいです。",
+       "reading": "にほんの せいかつは たのしいです。",
+       "id": "Hidup di Jepang menyenangkan."
+      }
+     ]
+    },
+    {
+     "surface": "大丈夫",
+     "reading": "だいじょうぶ",
+     "meaning": "tidak apa-apa / baik-baik saja",
+     "sentence": "もう 大丈夫です。",
+     "sentence_reading": "もう だいじょうぶです。",
+     "sentences": [
+      {
+       "jp": "もう 大丈夫です。",
+       "reading": "もう だいじょうぶです。",
+       "id": "Sekarang sudah baik-baik saja."
+      },
+      {
+       "jp": "大丈夫ですか。",
+       "reading": "だいじょうぶですか。",
+       "id": "Kamu baik-baik saja?"
+      },
+      {
+       "jp": "明日でも 大丈夫です。",
+       "reading": "あしたでも だいじょうぶです。",
+       "id": "Besok pun tidak apa-apa."
+      }
+     ]
+    },
+    {
+     "surface": "特に",
+     "reading": "とくに",
+     "meaning": "terutama / khususnya",
+     "sentence": "特に 問題は ありません。",
+     "sentence_reading": "とくに もんだいは ありません。",
+     "sentences": [
+      {
+       "jp": "特に 問題は ありません。",
+       "reading": "とくに もんだいは ありません。",
+       "id": "Tidak ada masalah khusus."
+      },
+      {
+       "jp": "特に 好きな 食べ物は ありません。",
+       "reading": "とくに すきな たべものは ありません。",
+       "id": "Tidak ada makanan favorit yang khusus."
+      },
+      {
+       "jp": "今日は 特に 寒いですね。",
+       "reading": "きょうは とくに さむいですね。",
+       "id": "Hari ini dingin sekali ya."
+      }
+     ]
+    },
+    {
+     "surface": "もうすぐ",
+     "reading": "もうすぐ",
+     "meaning": "sebentar lagi",
+     "sentence": "もうすぐ 電車が 来ます。",
+     "sentence_reading": "もうすぐ でんしゃが きます。",
+     "sentences": [
+      {
+       "jp": "もうすぐ 電車が 来ます。",
+       "reading": "もうすぐ でんしゃが きます。",
+       "id": "Sebentar lagi kereta datang."
+      },
+      {
+       "jp": "もうすぐ 夏休みです。",
+       "reading": "もうすぐ なつやすみです。",
+       "id": "Sebentar lagi liburan musim panas."
+      },
+      {
+       "jp": "もうすぐ 着きます。",
+       "reading": "もうすぐ つきます。",
+       "id": "Sebentar lagi sampai."
+      }
+     ]
+    },
+    {
+     "surface": "すぐ",
+     "reading": "すぐ",
+     "meaning": "segera",
+     "sentence": "すぐ 行きます。",
+     "sentence_reading": "すぐ いきます。",
+     "sentences": [
+      {
+       "jp": "すぐ 行きます。",
+       "reading": "すぐ いきます。",
+       "id": "Saya segera pergi."
+      },
+      {
+       "jp": "すぐ 来て ください。",
+       "reading": "すぐ きて ください。",
+       "id": "Tolong segera datang."
+      },
+      {
+       "jp": "駅は すぐ そこです。",
+       "reading": "えきは すぐ そこです。",
+       "id": "Stasiunnya tepat di situ."
+      }
+     ]
+    },
+    {
+     "surface": "まだ",
+     "reading": "まだ",
+     "meaning": "masih / belum",
+     "sentence": "まだ 食べて いません。",
+     "sentence_reading": "まだ たべて いません。",
+     "sentences": [
+      {
+       "jp": "まだ 食べて いません。",
+       "reading": "まだ たべて いません。",
+       "id": "Saya belum makan."
+      },
+      {
+       "jp": "まだ 時間が あります。",
+       "reading": "まだ じかんが あります。",
+       "id": "Masih ada waktu."
+      },
+      {
+       "jp": "まだ 宿題が 終わって いません。",
+       "reading": "まだ しゅくだいが おわって いません。",
+       "id": "PR saya belum selesai."
+      }
+     ]
+    },
+    {
+     "surface": "もう",
+     "reading": "もう",
+     "meaning": "sudah / lagi",
+     "sentence": "もう 終わりました。",
+     "sentence_reading": "もう おわりました。",
+     "sentences": [
+      {
+       "jp": "もう 終わりました。",
+       "reading": "もう おわりました。",
+       "id": "Sudah selesai."
+      },
+      {
+       "jp": "もう 食べましたか。",
+       "reading": "もう たべましたか。",
+       "id": "Sudah makan?"
+      },
+      {
+       "jp": "もう 少し 待って ください。",
+       "reading": "もう すこし まって ください。",
+       "id": "Tolong tunggu sedikit lagi."
+      }
+     ]
+    },
+    {
+     "surface": "だんだん",
+     "reading": "だんだん",
+     "meaning": "lambat laun",
+     "sentence": "だんだん 日本の 生活に なれて きました。",
+     "sentence_reading": "だんだん にほんの せいかつに なれて きました。",
+     "sentences": [
+      {
+       "jp": "だんだん 日本の 生活に なれて きました。",
+       "reading": "だんだん にほんの せいかつに なれて きました。",
+       "id": "Lambat laun saya terbiasa dengan kehidupan di Jepang."
+      },
+      {
+       "jp": "だんだん 暖かく なりました。",
+       "reading": "だんだん あたたかく なりました。",
+       "id": "Lambat laun jadi hangat."
+      },
+      {
+       "jp": "日本語が だんだん わかる ように なりました。",
+       "reading": "にほんごが だんだん わかる ように なりました。",
+       "id": "Lambat laun saya jadi mengerti bahasa Jepang."
+      }
+     ]
+    },
+    {
+     "surface": "たいてい",
+     "reading": "たいてい",
+     "meaning": "biasanya",
+     "sentence": "たいてい 七時に 起きます。",
+     "sentence_reading": "たいてい しちじに おきます。",
+     "sentences": [
+      {
+       "jp": "たいてい 七時に 起きます。",
+       "reading": "たいてい しちじに おきます。",
+       "id": "Biasanya saya bangun jam tujuh."
+      },
+      {
+       "jp": "たいてい 家で ご飯を 食べます。",
+       "reading": "たいてい いえで ごはんを たべます。",
+       "id": "Biasanya saya makan di rumah."
+      },
+      {
+       "jp": "休みの 日は たいてい 寝て います。",
+       "reading": "やすみの ひは たいてい ねて います。",
+       "id": "Di hari libur biasanya saya tidur."
+      }
+     ]
+    },
+    {
+     "surface": "たぶん",
+     "reading": "たぶん",
+     "meaning": "mungkin / barangkali",
+     "sentence": "たぶん 明日は 雨です。",
+     "sentence_reading": "たぶん あしたは あめです。",
+     "sentences": [
+      {
+       "jp": "たぶん 明日は 雨です。",
+       "reading": "たぶん あしたは あめです。",
+       "id": "Mungkin besok hujan."
+      },
+      {
+       "jp": "たぶん 大丈夫でしょう。",
+       "reading": "たぶん だいじょうぶでしょう。",
+       "id": "Mungkin tidak apa-apa."
+      },
+      {
+       "jp": "たぶん 田中さんは 来ません。",
+       "reading": "たぶん たなかさんは きません。",
+       "id": "Mungkin Tanaka tidak datang."
+      }
+     ]
+    },
+    {
+     "surface": "全部",
+     "reading": "ぜんぶ",
+     "meaning": "semua",
+     "sentence": "全部で 千円です。",
+     "sentence_reading": "ぜんぶで せんえんです。",
+     "sentences": [
+      {
+       "jp": "全部で 千円です。",
+       "reading": "ぜんぶで せんえんです。",
+       "id": "Totalnya seribu yen."
+      },
+      {
+       "jp": "全部 食べました。",
+       "reading": "ぜんぶ たべました。",
+       "id": "Saya menghabiskan semuanya."
+      },
+      {
+       "jp": "全部で 何人ですか。",
+       "reading": "ぜんぶで なんにんですか。",
+       "id": "Totalnya berapa orang?"
+      }
+     ]
+    },
+    {
+     "surface": "ずっと",
+     "reading": "ずっと",
+     "meaning": "terus-menerus / jauh lebih",
+     "sentence": "ずっと 待って います。",
+     "sentence_reading": "ずっと まって います。",
+     "sentences": [
+      {
+       "jp": "ずっと 待って います。",
+       "reading": "ずっと まって います。",
+       "id": "Saya terus menunggu."
+      },
+      {
+       "jp": "ずっと 立って いました。",
+       "reading": "ずっと たって いました。",
+       "id": "Saya terus berdiri."
+      },
+      {
+       "jp": "日本に ずっと 住みたいです。",
+       "reading": "にほんに ずっと すみたいです。",
+       "id": "Saya ingin terus tinggal di Jepang."
+      }
+     ]
+    },
+    {
+     "surface": "やっと",
+     "reading": "やっと",
+     "meaning": "akhirnya (setelah susah payah)",
+     "sentence": "やっと 仕事が 終わりました。",
+     "sentence_reading": "やっと しごとが おわりました。",
+     "sentences": [
+      {
+       "jp": "やっと 仕事が 終わりました。",
+       "reading": "やっと しごとが おわりました。",
+       "id": "Akhirnya pekerjaan selesai."
+      },
+      {
+       "jp": "やっと 金曜日です。",
+       "reading": "やっと きんようびです。",
+       "id": "Akhirnya hari Jumat."
+      },
+      {
+       "jp": "やっと 仕事に なれました。",
+       "reading": "やっと しごとに なれました。",
+       "id": "Akhirnya saya terbiasa dengan pekerjaan."
+      }
+     ]
+    },
+    {
+     "surface": "ゆっくり",
+     "reading": "ゆっくり",
+     "meaning": "pelan-pelan / santai",
+     "sentence": "ゆっくり 話して ください。",
+     "sentence_reading": "ゆっくり はなして ください。",
+     "sentences": [
+      {
+       "jp": "ゆっくり 話して ください。",
+       "reading": "ゆっくり はなして ください。",
+       "id": "Tolong bicara pelan-pelan."
+      },
+      {
+       "jp": "ゆっくり 休んで ください。",
+       "reading": "ゆっくり やすんで ください。",
+       "id": "Silakan istirahat dengan tenang."
+      },
+      {
+       "jp": "もう 少し ゆっくり 話して ください。",
+       "reading": "もう すこし ゆっくり はなして ください。",
+       "id": "Tolong bicara sedikit lebih pelan."
+      }
+     ]
+    },
+    {
+     "surface": "一緒に",
+     "reading": "いっしょに",
+     "meaning": "bersama",
+     "sentence": "一緒に 帰りましょう。",
+     "sentence_reading": "いっしょに かえりましょう。",
+     "sentences": [
+      {
+       "jp": "一緒に 帰りましょう。",
+       "reading": "いっしょに かえりましょう。",
+       "id": "Mari pulang bersama."
+      },
+      {
+       "jp": "一緒に 行きませんか。",
+       "reading": "いっしょに いきませんか。",
+       "id": "Mau pergi bersama?"
+      },
+      {
+       "jp": "一緒に 昼ごはんを 食べませんか。",
+       "reading": "いっしょに ひるごはんを たべませんか。",
+       "id": "Mau makan siang bersama?"
+      }
+     ]
+    },
+    {
+     "surface": "自分で",
+     "reading": "じぶんで",
+     "meaning": "sendiri",
+     "sentence": "自分で 作りました。",
+     "sentence_reading": "じぶんで つくりました。",
+     "sentences": [
+      {
+       "jp": "自分で 作りました。",
+       "reading": "じぶんで つくりました。",
+       "id": "Saya membuatnya sendiri."
+      },
+      {
+       "jp": "自分で できますか。",
+       "reading": "じぶんで できますか。",
+       "id": "Bisa melakukannya sendiri?"
+      },
+      {
+       "jp": "自分で 調べて みます。",
+       "reading": "じぶんで しらべて みます。",
+       "id": "Saya akan coba cari tahu sendiri."
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
