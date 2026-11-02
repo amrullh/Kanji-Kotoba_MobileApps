@@ -14,3 +14,4 @@ captures/
 # Keystores (never commit signing material)
 *.jks
 *.keystore
+__pycache__/
