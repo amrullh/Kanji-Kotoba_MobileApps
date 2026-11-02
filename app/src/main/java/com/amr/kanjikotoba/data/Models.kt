@@ -15,7 +15,15 @@ data class Word(
     val meaning: String,
     val sentence: String,
     @kotlinx.serialization.SerialName("sentence_reading")
-    val sentenceReading: String = ""
+    val sentenceReading: String = "",
+    val sentences: List<Sentence> = emptyList()
+)
+
+@Serializable
+data class Sentence(
+    val jp: String,
+    val reading: String,
+    val id: String
 )
 
 @Serializable
@@ -33,6 +41,7 @@ data class KanjiEntry(
     val sentence: String,
     @kotlinx.serialization.SerialName("sentence_reading")
     val sentenceReading: String = "",
+    val sentences: List<Sentence> = emptyList(),
     val level: String
 )
 
